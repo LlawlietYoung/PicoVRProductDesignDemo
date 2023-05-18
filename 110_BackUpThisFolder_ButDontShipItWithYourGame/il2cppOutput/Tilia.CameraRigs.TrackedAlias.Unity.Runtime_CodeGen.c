@@ -1,0 +1,1591 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::get_Facade()
+extern void TrackedAliasConfigurator_get_Facade_m01E0A474BB5FBEB40271A92C6270F57C06AAE4FE (void);
+// 0x00000002 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::set_Facade(Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade)
+extern void TrackedAliasConfigurator_set_Facade_mFDC66A8F706C81739CCECCCC39BCE3F8B621F930 (void);
+// 0x00000003 Zinnia.Tracking.Follow.ObjectFollower Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::get_PlayArea()
+extern void TrackedAliasConfigurator_get_PlayArea_mD23BE437A2D5C54C1EDB0BEA99B64FA009D9CEDC (void);
+// 0x00000004 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::set_PlayArea(Zinnia.Tracking.Follow.ObjectFollower)
+extern void TrackedAliasConfigurator_set_PlayArea_m329534C548AB581B40937003292C1681DC352045 (void);
+// 0x00000005 Zinnia.Tracking.Follow.ObjectFollower Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::get_Headset()
+extern void TrackedAliasConfigurator_get_Headset_mE5D376C6C7BB76A46D0EC4DF41A6E7CB36A13D31 (void);
+// 0x00000006 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::set_Headset(Zinnia.Tracking.Follow.ObjectFollower)
+extern void TrackedAliasConfigurator_set_Headset_m187D32456A74B0788E948DF170874A4E17F523C6 (void);
+// 0x00000007 Zinnia.Tracking.Follow.ObjectFollower Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::get_HeadsetOrigin()
+extern void TrackedAliasConfigurator_get_HeadsetOrigin_m17765D1BABEF61EE0F585CC25EEA5093B3F2C0CB (void);
+// 0x00000008 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::set_HeadsetOrigin(Zinnia.Tracking.Follow.ObjectFollower)
+extern void TrackedAliasConfigurator_set_HeadsetOrigin_m355F82C126CD1A326D765E9711445F1B7E16F3A2 (void);
+// 0x00000009 Zinnia.Tracking.Follow.ObjectFollower Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::get_LeftController()
+extern void TrackedAliasConfigurator_get_LeftController_m639E6AE6392EE94176742CE22E97B2206737866F (void);
+// 0x0000000A System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::set_LeftController(Zinnia.Tracking.Follow.ObjectFollower)
+extern void TrackedAliasConfigurator_set_LeftController_mACBF914E1EBDEFCF2EE573F6DFD217614DA8625B (void);
+// 0x0000000B Zinnia.Tracking.Follow.ObjectFollower Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::get_RightController()
+extern void TrackedAliasConfigurator_get_RightController_m3340C8F3C06210C927A81657D41CD8A6CA7B6232 (void);
+// 0x0000000C System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::set_RightController(Zinnia.Tracking.Follow.ObjectFollower)
+extern void TrackedAliasConfigurator_set_RightController_mC32840C5CB6D5BFDD8F542ED6DC72CC0DE964FBC (void);
+// 0x0000000D Zinnia.Tracking.Follow.ObjectFollower Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::get_DominantController()
+extern void TrackedAliasConfigurator_get_DominantController_mEA769DCB1AF8CA46410CF0F99DFAB6C24A339195 (void);
+// 0x0000000E System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::set_DominantController(Zinnia.Tracking.Follow.ObjectFollower)
+extern void TrackedAliasConfigurator_set_DominantController_m8F879235E6230B1ED21DB449EA93D5CA0A0CAEA9 (void);
+// 0x0000000F Zinnia.Tracking.Velocity.VelocityTrackerProcessor Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::get_HeadsetVelocityTrackers()
+extern void TrackedAliasConfigurator_get_HeadsetVelocityTrackers_mBA4B0709326F57C220FE0B8005EC0254B0C2A5FA (void);
+// 0x00000010 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::set_HeadsetVelocityTrackers(Zinnia.Tracking.Velocity.VelocityTrackerProcessor)
+extern void TrackedAliasConfigurator_set_HeadsetVelocityTrackers_m8F41E6EC4FD6790EF3098D9A9048A8008D648D4F (void);
+// 0x00000011 Zinnia.Tracking.Velocity.VelocityTrackerProcessor Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::get_LeftControllerVelocityTrackers()
+extern void TrackedAliasConfigurator_get_LeftControllerVelocityTrackers_m184E94554BB2130802FA3142AC09D926DBD1C258 (void);
+// 0x00000012 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::set_LeftControllerVelocityTrackers(Zinnia.Tracking.Velocity.VelocityTrackerProcessor)
+extern void TrackedAliasConfigurator_set_LeftControllerVelocityTrackers_m86481977F546EE558CD60837775AD335C8B5FDF3 (void);
+// 0x00000013 Zinnia.Tracking.Velocity.VelocityTrackerProcessor Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::get_RightControllerVelocityTrackers()
+extern void TrackedAliasConfigurator_get_RightControllerVelocityTrackers_m22A66FCB9EA09BFBF827DF043199F8F81188C92B (void);
+// 0x00000014 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::set_RightControllerVelocityTrackers(Zinnia.Tracking.Velocity.VelocityTrackerProcessor)
+extern void TrackedAliasConfigurator_set_RightControllerVelocityTrackers_m2B45E7C65A8C309EC74D6F2AC3EF9B341F539D1F (void);
+// 0x00000015 Zinnia.Tracking.Velocity.VelocityTrackerProcessor Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::get_DominantControllerVelocityTrackers()
+extern void TrackedAliasConfigurator_get_DominantControllerVelocityTrackers_mB2F5122FC94F55513C1899A1DCF30B6037DE52C6 (void);
+// 0x00000016 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::set_DominantControllerVelocityTrackers(Zinnia.Tracking.Velocity.VelocityTrackerProcessor)
+extern void TrackedAliasConfigurator_set_DominantControllerVelocityTrackers_mC8A2A8A99019E118ECF948F0CBAC4D8C593819CF (void);
+// 0x00000017 Zinnia.Rule.ListContainsRule Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::get_ValidCameras()
+extern void TrackedAliasConfigurator_get_ValidCameras_mEFC024A40AEFA84210638105F4530640DF7F4D59 (void);
+// 0x00000018 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::set_ValidCameras(Zinnia.Rule.ListContainsRule)
+extern void TrackedAliasConfigurator_set_ValidCameras_mC5A7AF7ADF8E272A401CA38CEAE193BF5F9FF277 (void);
+// 0x00000019 System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::get_IncludeHeadsetSupplementCameras()
+extern void TrackedAliasConfigurator_get_IncludeHeadsetSupplementCameras_m7C38D8E61567898E1CC458F536FCCAB4EBC5E724 (void);
+// 0x0000001A System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::set_IncludeHeadsetSupplementCameras(System.Boolean)
+extern void TrackedAliasConfigurator_set_IncludeHeadsetSupplementCameras_m42D1CAFE0642A9F8D081B5EA185596F92EE945FD (void);
+// 0x0000001B System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::SetUpCameraRigsConfiguration()
+extern void TrackedAliasConfigurator_SetUpCameraRigsConfiguration_m0FC34A2DD20AC06811154750693C26F4321D4DC3 (void);
+// 0x0000001C System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::SetUpDominantTracking(Zinnia.Tracking.CameraRig.DeviceDetailsRecord)
+extern void TrackedAliasConfigurator_SetUpDominantTracking_mE8DA63CC34410214DD44A948B90C8CD60BF77252 (void);
+// 0x0000001D System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::NotifyTrackedAliasChanged(UnityEngine.GameObject)
+extern void TrackedAliasConfigurator_NotifyTrackedAliasChanged_m0D216B29190DD46895225707B1DB0BBBED5662BD (void);
+// 0x0000001E System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::NotifyHeadsetTrackingBegun()
+extern void TrackedAliasConfigurator_NotifyHeadsetTrackingBegun_mDBAB64F821715B66A45DD3031E392C310C74252B (void);
+// 0x0000001F System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::NotifyLeftControllerTrackingBegun()
+extern void TrackedAliasConfigurator_NotifyLeftControllerTrackingBegun_m5D4CED58A9125962126C28E1513C683E76631DBC (void);
+// 0x00000020 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::NotifyRightControllerTrackingBegun()
+extern void TrackedAliasConfigurator_NotifyRightControllerTrackingBegun_m4E28C97169F600DF7D03F94608C9259F9330B1D1 (void);
+// 0x00000021 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::OnEnable()
+extern void TrackedAliasConfigurator_OnEnable_m1C3D2601E102CB64E1DDD0AB8824C3E96AAA8EB9 (void);
+// 0x00000022 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::OnDisable()
+extern void TrackedAliasConfigurator_OnDisable_mC37A80339F549D58D07137822D4EF80B14006850 (void);
+// 0x00000023 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::OnApplicationPause(System.Boolean)
+extern void TrackedAliasConfigurator_OnApplicationPause_m159FF3EF70A3A383160BD31AFCFD55C78E276813 (void);
+// 0x00000024 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::OnApplicationFocus(System.Boolean)
+extern void TrackedAliasConfigurator_OnApplicationFocus_m9CABAE137448A3053D6F41963A9C7FA898C7CC6C (void);
+// 0x00000025 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::CheckAndRaiseEventWithPayload(TValue&,TValue,TEvent)
+// 0x00000026 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::CheckAndRaiseEventWithoutPayload(TValue&,TValue,TEvent)
+// 0x00000027 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::CacheAndRaiseEventWithPayload(TValue,TValue&,TEvent)
+// 0x00000028 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::CacheAndRaiseEventWithoutPayload(TValue,TValue&,TEvent)
+// 0x00000029 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::CheckExistingEventStatus()
+extern void TrackedAliasConfigurator_CheckExistingEventStatus_m10FA12B983DA902E063192FFE85AF917BAE359D4 (void);
+// 0x0000002A System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::SubscribeToDetailsEvents()
+extern void TrackedAliasConfigurator_SubscribeToDetailsEvents_m3942E80190F0BE8A5FBE3743EE2104DA9B2722A8 (void);
+// 0x0000002B System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::UnsubscribeToDetailsEvents()
+extern void TrackedAliasConfigurator_UnsubscribeToDetailsEvents_m7EE331D4321D584190DB4B293BE5DF5F0760074F (void);
+// 0x0000002C System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::.ctor()
+extern void TrackedAliasConfigurator__ctor_m3BCD807F41B1C56016AC6FA9626323A74C1D47D8 (void);
+// 0x0000002D System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SetUpCameraRigsConfiguration>b__82_0()
+extern void TrackedAliasConfigurator_U3CSetUpCameraRigsConfigurationU3Eb__82_0_mD0FC218E7ED16EF3003128A66AA275ECD31D156F (void);
+// 0x0000002E System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SetUpCameraRigsConfiguration>b__82_1()
+extern void TrackedAliasConfigurator_U3CSetUpCameraRigsConfigurationU3Eb__82_1_m3352772269BD372A64C427C1182B405034156D71 (void);
+// 0x0000002F System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SetUpCameraRigsConfiguration>b__82_2()
+extern void TrackedAliasConfigurator_U3CSetUpCameraRigsConfigurationU3Eb__82_2_mFF467BDB26FE730838DBA66001B031D78FFBC32F (void);
+// 0x00000030 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SetUpCameraRigsConfiguration>b__82_3()
+extern void TrackedAliasConfigurator_U3CSetUpCameraRigsConfigurationU3Eb__82_3_m6EE13E2337B8AC687723A52269B8CA58A8B62C51 (void);
+// 0x00000031 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SetUpCameraRigsConfiguration>b__82_4()
+extern void TrackedAliasConfigurator_U3CSetUpCameraRigsConfigurationU3Eb__82_4_m998BE7FD178DDBBF2CCDCAB4BD602E1612141878 (void);
+// 0x00000032 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SetUpCameraRigsConfiguration>b__82_5()
+extern void TrackedAliasConfigurator_U3CSetUpCameraRigsConfigurationU3Eb__82_5_m54848280A94817DBB0578AD8CBE9396E427708B6 (void);
+// 0x00000033 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SetUpCameraRigsConfiguration>b__82_6()
+extern void TrackedAliasConfigurator_U3CSetUpCameraRigsConfigurationU3Eb__82_6_m9502E6E28ACBCAC7EF5A7FAE653E36BA0D34132A (void);
+// 0x00000034 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SetUpCameraRigsConfiguration>b__82_7()
+extern void TrackedAliasConfigurator_U3CSetUpCameraRigsConfigurationU3Eb__82_7_m4338D103DBAFA4C016F8816C0258F74E5FFB88BD (void);
+// 0x00000035 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SetUpDominantTracking>b__83_0()
+extern void TrackedAliasConfigurator_U3CSetUpDominantTrackingU3Eb__83_0_m8820884BA078FEE8A31BDFEA67E1C9F39DF46282 (void);
+// 0x00000036 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SetUpDominantTracking>b__83_1()
+extern void TrackedAliasConfigurator_U3CSetUpDominantTrackingU3Eb__83_1_mCED69C94CA6ACFE02F33CCBE29CC998152300B10 (void);
+// 0x00000037 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SetUpDominantTracking>b__83_2()
+extern void TrackedAliasConfigurator_U3CSetUpDominantTrackingU3Eb__83_2_m8947D3D565DB4CE793FF177329F7C130A2512CFD (void);
+// 0x00000038 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SetUpDominantTracking>b__83_3()
+extern void TrackedAliasConfigurator_U3CSetUpDominantTrackingU3Eb__83_3_m3F338312AE10506C3FF96CE429EE1F292356C3AD (void);
+// 0x00000039 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SetUpDominantTracking>b__83_4()
+extern void TrackedAliasConfigurator_U3CSetUpDominantTrackingU3Eb__83_4_mD44AADBD6BFF129095F6A5843FD7FDD769556285 (void);
+// 0x0000003A System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SetUpDominantTracking>b__83_5()
+extern void TrackedAliasConfigurator_U3CSetUpDominantTrackingU3Eb__83_5_mECD167FFBC4C2E118281D35584E277C8E0EC26B5 (void);
+// 0x0000003B System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SetUpDominantTracking>b__83_6()
+extern void TrackedAliasConfigurator_U3CSetUpDominantTrackingU3Eb__83_6_m6155E57C039F6B6D6F91B70CFC7AB2234146BDB1 (void);
+// 0x0000003C System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SetUpDominantTracking>b__83_7()
+extern void TrackedAliasConfigurator_U3CSetUpDominantTrackingU3Eb__83_7_m5F27CBAAD4ADADF04063F3741BC00375D88787FC (void);
+// 0x0000003D System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SubscribeToDetailsEvents>b__97_0(Zinnia.Tracking.CameraRig.DeviceDetailsRecord)
+extern void TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_0_m5BBA5BFB60B409F4DCBA20AF8BA9F7B9969D2803 (void);
+// 0x0000003E System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SubscribeToDetailsEvents>b__97_1()
+extern void TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_1_m759ADE498375F61024207A2B81AB42C4A7779248 (void);
+// 0x0000003F System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SubscribeToDetailsEvents>b__97_2(System.Boolean)
+extern void TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_2_mD28EE592E03DF6B0027A3B2230B37AA3D9C9824A (void);
+// 0x00000040 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SubscribeToDetailsEvents>b__97_3(Zinnia.Tracking.CameraRig.DeviceDetailsRecord/SpatialTrackingType)
+extern void TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_3_mC296D38C59179D5993A7DF2C80E11004A463571E (void);
+// 0x00000041 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SubscribeToDetailsEvents>b__97_4(UnityEngine.BatteryStatus)
+extern void TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_4_m326A30818AAF6F0643A77133F061E8209DE6D719 (void);
+// 0x00000042 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SubscribeToDetailsEvents>b__97_5()
+extern void TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_5_m7EA557A11E7E1218B1DC0A667FDF9D33D0CFD399 (void);
+// 0x00000043 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SubscribeToDetailsEvents>b__97_6()
+extern void TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_6_m8C6087429B99197C8644E669C3647B3043173B22 (void);
+// 0x00000044 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SubscribeToDetailsEvents>b__97_7()
+extern void TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_7_m9E268B9381BCD11EA43E24929474B4D4DEB0BD02 (void);
+// 0x00000045 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SubscribeToDetailsEvents>b__97_8(System.Boolean)
+extern void TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_8_mF5837258BA51B0E53CDA71EF5A38D9B1B0AC7FAF (void);
+// 0x00000046 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SubscribeToDetailsEvents>b__97_9(Zinnia.Tracking.CameraRig.DeviceDetailsRecord/SpatialTrackingType)
+extern void TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_9_m6B5568DFFF58A2254DFF775E56748086848507D9 (void);
+// 0x00000047 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SubscribeToDetailsEvents>b__97_10(UnityEngine.BatteryStatus)
+extern void TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_10_m1C086F4E09E239F74511A28243EBBCBEE5249CBA (void);
+// 0x00000048 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SubscribeToDetailsEvents>b__97_11()
+extern void TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_11_m36D1A502E4576C62B79CB78CB70DACDA06892752 (void);
+// 0x00000049 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SubscribeToDetailsEvents>b__97_12(System.Boolean)
+extern void TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_12_m231F6B607E6D78D57133D8500D69473E788D9006 (void);
+// 0x0000004A System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SubscribeToDetailsEvents>b__97_13(Zinnia.Tracking.CameraRig.DeviceDetailsRecord/SpatialTrackingType)
+extern void TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_13_m66E2E1B2E322AD52CCBE1EFEF0EB673A68718E56 (void);
+// 0x0000004B System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator::<SubscribeToDetailsEvents>b__97_14(UnityEngine.BatteryStatus)
+extern void TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_14_mB5E963B4FCE85284319CE5B4527927BD7DCD9509 (void);
+// 0x0000004C System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator/<>c__DisplayClass82_0::.ctor()
+extern void U3CU3Ec__DisplayClass82_0__ctor_m1F644CD0F1976F7EE07E5BF58184FCB225823A76 (void);
+// 0x0000004D System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator/<>c__DisplayClass82_0::<SetUpCameraRigsConfiguration>b__8()
+extern void U3CU3Ec__DisplayClass82_0_U3CSetUpCameraRigsConfigurationU3Eb__8_m38EB89EFE93837D95EF9E92A734D651B7E78ED23 (void);
+// 0x0000004E System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator/<>c__DisplayClass82_1::.ctor()
+extern void U3CU3Ec__DisplayClass82_1__ctor_mE89E413C26C10A48D330F7EF97E976F9E7D764F9 (void);
+// 0x0000004F System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator/<>c__DisplayClass82_1::<SetUpCameraRigsConfiguration>b__9()
+extern void U3CU3Ec__DisplayClass82_1_U3CSetUpCameraRigsConfigurationU3Eb__9_m21BD5745C8678AEDB43D6E5F4514E1AE1B631FEB (void);
+// 0x00000050 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator/<>c__DisplayClass82_2::.ctor()
+extern void U3CU3Ec__DisplayClass82_2__ctor_mE109367B6EC6045FB56BE73B0192F39490254F4F (void);
+// 0x00000051 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator/<>c__DisplayClass82_2::<SetUpCameraRigsConfiguration>b__10()
+extern void U3CU3Ec__DisplayClass82_2_U3CSetUpCameraRigsConfigurationU3Eb__10_m2EC9DA4904AE413C3D8AB68EA8F5C37D91D4723F (void);
+// 0x00000052 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator/<>c__DisplayClass82_3::.ctor()
+extern void U3CU3Ec__DisplayClass82_3__ctor_m6B125E7F2308CB31062A41CAFB8BD9B1E11710BD (void);
+// 0x00000053 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator/<>c__DisplayClass82_3::<SetUpCameraRigsConfiguration>b__11()
+extern void U3CU3Ec__DisplayClass82_3_U3CSetUpCameraRigsConfigurationU3Eb__11_m1C3AAEBEF97D6B695AE2E1C55CB9288832995B79 (void);
+// 0x00000054 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator/<>c__DisplayClass82_4::.ctor()
+extern void U3CU3Ec__DisplayClass82_4__ctor_m09D74E565D583427976277BAAA0D7BA97BBCCD19 (void);
+// 0x00000055 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator/<>c__DisplayClass82_4::<SetUpCameraRigsConfiguration>b__12()
+extern void U3CU3Ec__DisplayClass82_4_U3CSetUpCameraRigsConfigurationU3Eb__12_mD4A71C1A9AF749F6BD722954658EC7A1CE4A0788 (void);
+// 0x00000056 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator/<>c__DisplayClass82_5::.ctor()
+extern void U3CU3Ec__DisplayClass82_5__ctor_m16B17E960BB43271B84275285A338ADAC4D755B2 (void);
+// 0x00000057 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator/<>c__DisplayClass82_5::<SetUpCameraRigsConfiguration>b__13()
+extern void U3CU3Ec__DisplayClass82_5_U3CSetUpCameraRigsConfigurationU3Eb__13_m0A8FF14C8CDAFE37DEBC6C0D050F8E2B26824BE2 (void);
+// 0x00000058 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator/<>c__DisplayClass82_6::.ctor()
+extern void U3CU3Ec__DisplayClass82_6__ctor_mEACA3E6841EEE089FA95F8E4B56403233B767379 (void);
+// 0x00000059 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator/<>c__DisplayClass82_6::<SetUpCameraRigsConfiguration>b__14()
+extern void U3CU3Ec__DisplayClass82_6_U3CSetUpCameraRigsConfigurationU3Eb__14_m2E3374427C5D066A2218C0D1CC18345327977B3D (void);
+// 0x0000005A System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator/<>c__DisplayClass82_7::.ctor()
+extern void U3CU3Ec__DisplayClass82_7__ctor_m1F6C4F4523C9C0D8AFBBF792BE2098B9BD344A2B (void);
+// 0x0000005B System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator/<>c__DisplayClass82_7::<SetUpCameraRigsConfiguration>b__15()
+extern void U3CU3Ec__DisplayClass82_7_U3CSetUpCameraRigsConfigurationU3Eb__15_mD725B88ECA38A2BC23F41F51076D0F3C238C7BF9 (void);
+// 0x0000005C System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator/<>c__DisplayClass82_8::.ctor()
+extern void U3CU3Ec__DisplayClass82_8__ctor_m3843B83241ED3B0452306D90F3AE67D8EBDA2C6A (void);
+// 0x0000005D System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator/<>c__DisplayClass82_8::<SetUpCameraRigsConfiguration>b__16()
+extern void U3CU3Ec__DisplayClass82_8_U3CSetUpCameraRigsConfigurationU3Eb__16_mBED14C9E63D824E8B707C09034C918B80CAE6AE0 (void);
+// 0x0000005E Zinnia.Tracking.CameraRig.Collection.LinkedAliasAssociationCollectionObservableList Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_CameraRigs()
+extern void TrackedAliasFacade_get_CameraRigs_mDF9D966A59CDC34609DAF5ABB0352F9F1B457CDE (void);
+// 0x0000005F System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::set_CameraRigs(Zinnia.Tracking.CameraRig.Collection.LinkedAliasAssociationCollectionObservableList)
+extern void TrackedAliasFacade_set_CameraRigs_mA3AA92ECCEBC119CB5E6C90EC231F4C917C68DD0 (void);
+// 0x00000060 Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_Configuration()
+extern void TrackedAliasFacade_get_Configuration_m753F7FE46CAA10A275D60C32B310322AFEEF9C72 (void);
+// 0x00000061 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::set_Configuration(Tilia.CameraRigs.TrackedAlias.TrackedAliasConfigurator)
+extern void TrackedAliasFacade_set_Configuration_mCEACF5913F46E0DF9394E534D4AB792A9A3648BB (void);
+// 0x00000062 Zinnia.Tracking.CameraRig.LinkedAliasAssociationCollection Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveLinkedAliasAssociation()
+extern void TrackedAliasFacade_get_ActiveLinkedAliasAssociation_mB996EC980C5A3DB29BAF85E220B394D2E930FB82 (void);
+// 0x00000063 UnityEngine.GameObject Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActivePlayArea()
+extern void TrackedAliasFacade_get_ActivePlayArea_m93D3012A21A42361A5A6B192C666B78DA25E3614 (void);
+// 0x00000064 UnityEngine.GameObject Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveHeadset()
+extern void TrackedAliasFacade_get_ActiveHeadset_m7050D6286CA568911018CF6E9672BE5744681884 (void);
+// 0x00000065 UnityEngine.Camera Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveHeadsetCamera()
+extern void TrackedAliasFacade_get_ActiveHeadsetCamera_mC0DB5C2670DD71A15F4521F5E6E19BCB3568B91A (void);
+// 0x00000066 Zinnia.Tracking.Velocity.VelocityTracker Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveHeadsetVelocity()
+extern void TrackedAliasFacade_get_ActiveHeadsetVelocity_m058934F1D118EBC84CD890A7839C0E946C1E6CF6 (void);
+// 0x00000067 Zinnia.Tracking.CameraRig.DeviceDetailsRecord Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveHeadsetDetails()
+extern void TrackedAliasFacade_get_ActiveHeadsetDetails_mE672809D3B63BE823DAFCB21F7CFD61B2EF9C92A (void);
+// 0x00000068 System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveHeadsetTrackingHasBegun()
+extern void TrackedAliasFacade_get_ActiveHeadsetTrackingHasBegun_m511EB48406333143EDC95245C123DDD1868DAD36 (void);
+// 0x00000069 System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveHeadsetIsConnected()
+extern void TrackedAliasFacade_get_ActiveHeadsetIsConnected_mC320F5C21F1816BBF04618F5B6ECA6E200F2EDF8 (void);
+// 0x0000006A System.String Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveHeadsetManufacturer()
+extern void TrackedAliasFacade_get_ActiveHeadsetManufacturer_m8960DF7EA096AE04393585465A005AC3B77E839E (void);
+// 0x0000006B System.String Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveHeadsetModel()
+extern void TrackedAliasFacade_get_ActiveHeadsetModel_m5D44046808AAD23A059472C2EA373765E8214602 (void);
+// 0x0000006C Zinnia.Tracking.CameraRig.DeviceDetailsRecord/SpatialTrackingType Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveHeadsetTrackingType()
+extern void TrackedAliasFacade_get_ActiveHeadsetTrackingType_m2420E28B2C6300BBB329FFD39090266964281664 (void);
+// 0x0000006D System.Single Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveHeadsetBatteryLevel()
+extern void TrackedAliasFacade_get_ActiveHeadsetBatteryLevel_m15C779F7EA8A10A5CA25E892F28D2A5BF8B0E29C (void);
+// 0x0000006E UnityEngine.BatteryStatus Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveHeadsetBatteryChargeStatus()
+extern void TrackedAliasFacade_get_ActiveHeadsetBatteryChargeStatus_m30DA8AA73152BC5229CE0C3F455A93EAF9578D2B (void);
+// 0x0000006F System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveHeadsetHasPassThroughCamera()
+extern void TrackedAliasFacade_get_ActiveHeadsetHasPassThroughCamera_m87BC6CE1EA92B9058566539ACB7562288AB549A0 (void);
+// 0x00000070 System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveHeadsetPassThroughCameraEnabled()
+extern void TrackedAliasFacade_get_ActiveHeadsetPassThroughCameraEnabled_m04709AAD03DD0EB3EA802CBA15269EC7C81B176B (void);
+// 0x00000071 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::set_ActiveHeadsetPassThroughCameraEnabled(System.Boolean)
+extern void TrackedAliasFacade_set_ActiveHeadsetPassThroughCameraEnabled_mE290F1C0E5938A9DA83460C3ED32922EC8A7B7FD (void);
+// 0x00000072 Zinnia.Tracking.CameraRig.DominantControllerObserver Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveDominantControllerObserver()
+extern void TrackedAliasFacade_get_ActiveDominantControllerObserver_m68D455F64562D9B8952703D9EE0DDD2C1CE274B4 (void);
+// 0x00000073 UnityEngine.GameObject Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveDominantController()
+extern void TrackedAliasFacade_get_ActiveDominantController_mF1EA044684050DD2EE04BF85398458E2E0F61712 (void);
+// 0x00000074 UnityEngine.XR.XRNode Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveDominantControllerNode()
+extern void TrackedAliasFacade_get_ActiveDominantControllerNode_m1F68962F1F32CF84680754DF64F13FDC7B15AAE4 (void);
+// 0x00000075 Zinnia.Tracking.Velocity.VelocityTracker Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveDominantControllerVelocity()
+extern void TrackedAliasFacade_get_ActiveDominantControllerVelocity_m3ECC99AD6B4110E99C34D65EDF3BC85C3471ACA2 (void);
+// 0x00000076 Zinnia.Haptics.HapticProcess Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveDominantHapticProcess()
+extern void TrackedAliasFacade_get_ActiveDominantHapticProcess_m3A936EB82A954574AAFE326A33E83373C69A5598 (void);
+// 0x00000077 Zinnia.Haptics.Collection.HapticProcessObservableList Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveDominantHapticProfiles()
+extern void TrackedAliasFacade_get_ActiveDominantHapticProfiles_mBC92D2ED6009C17538139B7EAD206A828567E28B (void);
+// 0x00000078 Zinnia.Haptics.HapticProcess Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveDominantHapticProfile()
+extern void TrackedAliasFacade_get_ActiveDominantHapticProfile_m8098CD75A4CE3AF104AB5ED70DC64E12B4A8C360 (void);
+// 0x00000079 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::set_ActiveDominantHapticProfile(Zinnia.Haptics.HapticProcess)
+extern void TrackedAliasFacade_set_ActiveDominantHapticProfile_m2BCC71164F4FAC837863F834DA1536C869C0E0C5 (void);
+// 0x0000007A Zinnia.Tracking.CameraRig.DeviceDetailsRecord Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveDominantControllerRecord()
+extern void TrackedAliasFacade_get_ActiveDominantControllerRecord_m499E6AA7523D2DAAC038C020377446FE4C3F342C (void);
+// 0x0000007B System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveDominantControllerTrackingHasBegun()
+extern void TrackedAliasFacade_get_ActiveDominantControllerTrackingHasBegun_m9D939DFB16F5FCF32319A153C2C772F0DC69A079 (void);
+// 0x0000007C System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveDominantControllerIsConnected()
+extern void TrackedAliasFacade_get_ActiveDominantControllerIsConnected_m91FEC2A5E51B9141E4E1BEF9C7B4249CA294545C (void);
+// 0x0000007D System.String Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveDominantControllerManufacturer()
+extern void TrackedAliasFacade_get_ActiveDominantControllerManufacturer_mC1AB4C7EADD4FF79CF4464D7C0BE486688B10489 (void);
+// 0x0000007E System.String Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveDominantControllerModel()
+extern void TrackedAliasFacade_get_ActiveDominantControllerModel_mCBF469801C2A2409515EA0AB988DDA1240C9D027 (void);
+// 0x0000007F Zinnia.Tracking.CameraRig.DeviceDetailsRecord/SpatialTrackingType Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveDominantControllerTrackingType()
+extern void TrackedAliasFacade_get_ActiveDominantControllerTrackingType_mB87E483700B4E10CE0910FBE5345C0534B2AFE33 (void);
+// 0x00000080 System.Single Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveDominantControllerBatteryLevel()
+extern void TrackedAliasFacade_get_ActiveDominantControllerBatteryLevel_m210C571FC46E38A0281C64CCDB667AB2C829E84B (void);
+// 0x00000081 UnityEngine.BatteryStatus Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveDominantControllerBatteryChargeStatus()
+extern void TrackedAliasFacade_get_ActiveDominantControllerBatteryChargeStatus_mA46D0EDF5E6CCBE8045EFA215D33B95ECBB32FAC (void);
+// 0x00000082 UnityEngine.GameObject Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveLeftController()
+extern void TrackedAliasFacade_get_ActiveLeftController_m26DE5E2D7D26FA59DB0B1DFDC5C9956DE3FE9D4B (void);
+// 0x00000083 UnityEngine.XR.XRNode Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveLeftControllerNode()
+extern void TrackedAliasFacade_get_ActiveLeftControllerNode_m6DF2686BEC77D10E8997B68225D70FCE8898E164 (void);
+// 0x00000084 Zinnia.Tracking.Velocity.VelocityTracker Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveLeftControllerVelocity()
+extern void TrackedAliasFacade_get_ActiveLeftControllerVelocity_m14F2808896F30A17FEED15C2A8C30B720695F6F4 (void);
+// 0x00000085 Zinnia.Haptics.HapticProcess Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveLeftHapticProcess()
+extern void TrackedAliasFacade_get_ActiveLeftHapticProcess_mD6A21D0E10ECBDA740C3C971D4EEA65D06A2E559 (void);
+// 0x00000086 Zinnia.Haptics.Collection.HapticProcessObservableList Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveLeftHapticProfiles()
+extern void TrackedAliasFacade_get_ActiveLeftHapticProfiles_m89C6BC3B1939E51CE0F97A1CA89171026AA5DA95 (void);
+// 0x00000087 Zinnia.Haptics.HapticProcess Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveLeftHapticProfile()
+extern void TrackedAliasFacade_get_ActiveLeftHapticProfile_mFD9B943DF1594A4A25F7483D7929CE77E3681007 (void);
+// 0x00000088 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::set_ActiveLeftHapticProfile(Zinnia.Haptics.HapticProcess)
+extern void TrackedAliasFacade_set_ActiveLeftHapticProfile_m058A44117375A42D80C73967A66623A757F09949 (void);
+// 0x00000089 Zinnia.Tracking.CameraRig.DeviceDetailsRecord Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveLeftControllerDetails()
+extern void TrackedAliasFacade_get_ActiveLeftControllerDetails_m60009A10550B6CD847026F8FBF3A06AF06E45992 (void);
+// 0x0000008A System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveLeftControllerTrackingHasBegun()
+extern void TrackedAliasFacade_get_ActiveLeftControllerTrackingHasBegun_m5F4D7CC2961FC57D8092520F21ABD673FFF43552 (void);
+// 0x0000008B System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveLeftControllerIsConnected()
+extern void TrackedAliasFacade_get_ActiveLeftControllerIsConnected_mC774516F6D047641F2D24DDA3688064DD13C9C6B (void);
+// 0x0000008C System.String Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveLeftControllerManufacturer()
+extern void TrackedAliasFacade_get_ActiveLeftControllerManufacturer_mBBB19B5BF05E4C03EA412A65F924412C3B802365 (void);
+// 0x0000008D System.String Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveLeftControllerModel()
+extern void TrackedAliasFacade_get_ActiveLeftControllerModel_m73DD0812C0B6ABD9B7BACD5B47AC373FB3785985 (void);
+// 0x0000008E Zinnia.Tracking.CameraRig.DeviceDetailsRecord/SpatialTrackingType Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveLeftControllerTrackingType()
+extern void TrackedAliasFacade_get_ActiveLeftControllerTrackingType_mF1C20E170343F5706FB7EDEC6F4AE0050A70CD9C (void);
+// 0x0000008F System.Single Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveLeftControllerBatteryLevel()
+extern void TrackedAliasFacade_get_ActiveLeftControllerBatteryLevel_m0B9BC1F1669BE459FC84BFE9601255128AD86630 (void);
+// 0x00000090 UnityEngine.BatteryStatus Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveLeftControllerBatteryChargeStatus()
+extern void TrackedAliasFacade_get_ActiveLeftControllerBatteryChargeStatus_m689EBF231F597AF84C9313343671FB15F69DE4D9 (void);
+// 0x00000091 UnityEngine.GameObject Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveRightController()
+extern void TrackedAliasFacade_get_ActiveRightController_m2A5234E5E7690093D52D6CC60857EBE6FDE8958E (void);
+// 0x00000092 UnityEngine.XR.XRNode Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveRightControllerNode()
+extern void TrackedAliasFacade_get_ActiveRightControllerNode_m3D79AC9B8DA43AB24C79A796D56D4F7C086EAD9E (void);
+// 0x00000093 Zinnia.Tracking.Velocity.VelocityTracker Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveRightControllerVelocity()
+extern void TrackedAliasFacade_get_ActiveRightControllerVelocity_mDC86F3644A639812C5BF3FF17E9C59D8CEA17220 (void);
+// 0x00000094 Zinnia.Haptics.HapticProcess Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveRightHapticProcess()
+extern void TrackedAliasFacade_get_ActiveRightHapticProcess_mA965DB614A7FF37627ECCF451809D9DF9A0BC871 (void);
+// 0x00000095 Zinnia.Haptics.Collection.HapticProcessObservableList Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveRightHapticProfiles()
+extern void TrackedAliasFacade_get_ActiveRightHapticProfiles_m26FC721DCC8EE7FD175A867973D107EE3E1F4AB5 (void);
+// 0x00000096 Zinnia.Haptics.HapticProcess Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveRightHapticProfile()
+extern void TrackedAliasFacade_get_ActiveRightHapticProfile_mF9569602F6939DC1EF23AD26DA87C8524439C5C9 (void);
+// 0x00000097 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::set_ActiveRightHapticProfile(Zinnia.Haptics.HapticProcess)
+extern void TrackedAliasFacade_set_ActiveRightHapticProfile_mEF81467326C686254B263130318FCAD6226CDF4B (void);
+// 0x00000098 Zinnia.Tracking.CameraRig.DeviceDetailsRecord Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveRightControllerDetails()
+extern void TrackedAliasFacade_get_ActiveRightControllerDetails_mA27D990444F255A2DEC6BCFA7048FF0E52F431BA (void);
+// 0x00000099 System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveRightControllerTrackingHasBegun()
+extern void TrackedAliasFacade_get_ActiveRightControllerTrackingHasBegun_m707ADF3D8FDA128BBF92BADF91161BB30E07ADFC (void);
+// 0x0000009A System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveRightControllerIsConnected()
+extern void TrackedAliasFacade_get_ActiveRightControllerIsConnected_m3BE9DE0DA40C36ECD57C0851B42B1BA055356CB6 (void);
+// 0x0000009B System.String Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveRightControllerManufacturer()
+extern void TrackedAliasFacade_get_ActiveRightControllerManufacturer_m8F1CC497E6653DBD5BBB31772A31134146F5BDE4 (void);
+// 0x0000009C System.String Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveRightControllerModel()
+extern void TrackedAliasFacade_get_ActiveRightControllerModel_mBA9B063BE976A6775138ED55CF67638134E8C8C2 (void);
+// 0x0000009D Zinnia.Tracking.CameraRig.DeviceDetailsRecord/SpatialTrackingType Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveRightControllerTrackingType()
+extern void TrackedAliasFacade_get_ActiveRightControllerTrackingType_m0B10AD36528E524FC4716400216E16E23B5D33B7 (void);
+// 0x0000009E System.Single Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveRightControllerBatteryLevel()
+extern void TrackedAliasFacade_get_ActiveRightControllerBatteryLevel_mC8634687D2D9984D1B81714B04A41F8AAFA35C80 (void);
+// 0x0000009F UnityEngine.BatteryStatus Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_ActiveRightControllerBatteryChargeStatus()
+extern void TrackedAliasFacade_get_ActiveRightControllerBatteryChargeStatus_m14F5C9F2772E88678C31C485871A5D15AC8DABE8 (void);
+// 0x000000A0 System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_PlayAreas()
+extern void TrackedAliasFacade_get_PlayAreas_m1A3F84C4616DF27F9D538F094868E864E028AFD2 (void);
+// 0x000000A1 System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_Headsets()
+extern void TrackedAliasFacade_get_Headsets_m09AB2B790C1015CF7399337D3BEBE431C8EF32EF (void);
+// 0x000000A2 System.Collections.Generic.IEnumerable`1<UnityEngine.Camera> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_HeadsetCameras()
+extern void TrackedAliasFacade_get_HeadsetCameras_mF62773828D2062FDD95CA0E17DB92424458B6640 (void);
+// 0x000000A3 System.Collections.Generic.IEnumerable`1<Zinnia.Tracking.Velocity.VelocityTracker> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_HeadsetVelocityTrackers()
+extern void TrackedAliasFacade_get_HeadsetVelocityTrackers_m5B62555C4C80DADB12192BCE8697E37134DB5B9C (void);
+// 0x000000A4 System.Collections.Generic.IEnumerable`1<UnityEngine.Camera> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_HeadsetSupplementCameras()
+extern void TrackedAliasFacade_get_HeadsetSupplementCameras_m0FADB34EF1708A5E7AD5980BD0C46C8C56D304F9 (void);
+// 0x000000A5 System.Collections.Generic.IEnumerable`1<Zinnia.Tracking.CameraRig.DeviceDetailsRecord> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_HeadsetDeviceDetailRecords()
+extern void TrackedAliasFacade_get_HeadsetDeviceDetailRecords_mF69C03FB8AA806AD773A42F0342991C41B946F34 (void);
+// 0x000000A6 System.Collections.Generic.IEnumerable`1<Zinnia.Tracking.CameraRig.DominantControllerObserver> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_DominantControllerObservers()
+extern void TrackedAliasFacade_get_DominantControllerObservers_m17E4DDFE047F7A1C0E7A105B1AD18DE0F03DC853 (void);
+// 0x000000A7 System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_LeftControllers()
+extern void TrackedAliasFacade_get_LeftControllers_mA9F6A9B35ED08861EA4F886AF54139F389E1AD96 (void);
+// 0x000000A8 System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_RightControllers()
+extern void TrackedAliasFacade_get_RightControllers_mA05088A3B2AD31D813EBA67710D0004FBF81FFC3 (void);
+// 0x000000A9 System.Collections.Generic.IEnumerable`1<Zinnia.Tracking.Velocity.VelocityTracker> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_LeftControllerVelocityTrackers()
+extern void TrackedAliasFacade_get_LeftControllerVelocityTrackers_mAE6987957ABA0EB14D08E1A5521C8EE98C8F9157 (void);
+// 0x000000AA System.Collections.Generic.IEnumerable`1<Zinnia.Tracking.Velocity.VelocityTracker> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_RightControllerVelocityTrackers()
+extern void TrackedAliasFacade_get_RightControllerVelocityTrackers_mCC4E5BC3EE7995EF11A71DE780B7E34EB3CB351F (void);
+// 0x000000AB System.Collections.Generic.IEnumerable`1<Zinnia.Haptics.HapticProcess> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_LeftControllerHapticProcesses()
+extern void TrackedAliasFacade_get_LeftControllerHapticProcesses_m1DA03203BA68EBAF89961795C34BE1ADB8144A6E (void);
+// 0x000000AC System.Collections.Generic.IEnumerable`1<Zinnia.Haptics.HapticProcess> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_RightControllerHapticProcesses()
+extern void TrackedAliasFacade_get_RightControllerHapticProcesses_m918DBCF5BD50350D6D2612303A138EAA586DC8F0 (void);
+// 0x000000AD System.Collections.Generic.IEnumerable`1<Zinnia.Haptics.Collection.HapticProcessObservableList> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_LeftControllerHapticProfiles()
+extern void TrackedAliasFacade_get_LeftControllerHapticProfiles_m7BD52B5B0EED4F3904210747476F03B990808E22 (void);
+// 0x000000AE System.Collections.Generic.IEnumerable`1<Zinnia.Haptics.Collection.HapticProcessObservableList> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_RightControllerHapticProfiles()
+extern void TrackedAliasFacade_get_RightControllerHapticProfiles_mFCB037C2A5266848DA47D6257CDDF6C3071CD38B (void);
+// 0x000000AF System.Collections.Generic.IEnumerable`1<Zinnia.Tracking.CameraRig.DeviceDetailsRecord> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_LeftControllerDeviceDetailRecords()
+extern void TrackedAliasFacade_get_LeftControllerDeviceDetailRecords_mC408FEA1908CF1842A024B2434AB3201471702A8 (void);
+// 0x000000B0 System.Collections.Generic.IEnumerable`1<Zinnia.Tracking.CameraRig.DeviceDetailsRecord> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_RightControllerDeviceDetailRecords()
+extern void TrackedAliasFacade_get_RightControllerDeviceDetailRecords_mE7445B528DC7AEF39BA3859CC316EC7D1E4221D0 (void);
+// 0x000000B1 Zinnia.Tracking.Follow.ObjectFollower Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_PlayAreaAlias()
+extern void TrackedAliasFacade_get_PlayAreaAlias_mA55E650EEE5F4307121A83351D01300D7B8C7A38 (void);
+// 0x000000B2 Zinnia.Tracking.Follow.ObjectFollower Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_HeadsetAlias()
+extern void TrackedAliasFacade_get_HeadsetAlias_m14B8754AB607E4ED39F79C75ED5295C214ECA76D (void);
+// 0x000000B3 Zinnia.Tracking.Follow.ObjectFollower Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_HeadsetOriginAlias()
+extern void TrackedAliasFacade_get_HeadsetOriginAlias_m27E66097CC32DA907BBC1C0FDA793A01634E153E (void);
+// 0x000000B4 Zinnia.Tracking.Follow.ObjectFollower Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_LeftControllerAlias()
+extern void TrackedAliasFacade_get_LeftControllerAlias_m26F740379A981D8A9B72EA37EAD9011D3D11F910 (void);
+// 0x000000B5 Zinnia.Tracking.Follow.ObjectFollower Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_RightControllerAlias()
+extern void TrackedAliasFacade_get_RightControllerAlias_m7322F1D0E35ACB3A0D4F0CAB8ECD4279405FD5FE (void);
+// 0x000000B6 Zinnia.Tracking.Follow.ObjectFollower Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::get_DominantControllerAlias()
+extern void TrackedAliasFacade_get_DominantControllerAlias_m9D1579F1503A50E44709EEEC163516F2B0B4E677 (void);
+// 0x000000B7 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::BeginHapticProcessOnLeftController()
+extern void TrackedAliasFacade_BeginHapticProcessOnLeftController_mBA8BC0C2A0DA7E9E5723E4008009ED4024EA8ACE (void);
+// 0x000000B8 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::BeginHapticProcessOnLeftController(System.Int32)
+extern void TrackedAliasFacade_BeginHapticProcessOnLeftController_mF3DF7D2FE5BCABE6D824A8CEF74FD9A780D11384 (void);
+// 0x000000B9 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::BeginHapticProcessOnRightController()
+extern void TrackedAliasFacade_BeginHapticProcessOnRightController_m02472895D3800160C23DD5AB6398973BCC47FC40 (void);
+// 0x000000BA System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::BeginHapticProcessOnRightController(System.Int32)
+extern void TrackedAliasFacade_BeginHapticProcessOnRightController_m8FBB2940B49EC88C8FF8D06D585B8675D1D92411 (void);
+// 0x000000BB System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::BeginHapticProcessOnDominantController()
+extern void TrackedAliasFacade_BeginHapticProcessOnDominantController_m635DFA94B641F98DCDD018B43B48F0C67CDB122A (void);
+// 0x000000BC System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::BeginHapticProcessOnDominantController(System.Int32)
+extern void TrackedAliasFacade_BeginHapticProcessOnDominantController_mC08301FCFC71DA5F63B39933BB5B72A5FD780E5E (void);
+// 0x000000BD System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::CancelAllHapticsOnLeftController()
+extern void TrackedAliasFacade_CancelAllHapticsOnLeftController_m8652A45CF64B7C6FEE0EE0DB92CC3907FDF33A15 (void);
+// 0x000000BE System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::CancelActiveHapticProfileOnLeftController()
+extern void TrackedAliasFacade_CancelActiveHapticProfileOnLeftController_mB957CC9238DB4DD9571497649CBA0C76FEA824BC (void);
+// 0x000000BF System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::CancelHapticProcessOnLeftController()
+extern void TrackedAliasFacade_CancelHapticProcessOnLeftController_m4A37C44203E88BC4BBA228B16ED795ECDFAA435C (void);
+// 0x000000C0 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::CancelHapticProcessOnLeftController(System.Int32)
+extern void TrackedAliasFacade_CancelHapticProcessOnLeftController_m43B225A4060F614D6C74AD52E10B5439AABF05EC (void);
+// 0x000000C1 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::CancelAllHapticsOnRightController()
+extern void TrackedAliasFacade_CancelAllHapticsOnRightController_mA39C38F76E2BA552ED7CE5CEEF9D54A3C216F62D (void);
+// 0x000000C2 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::CancelActiveHapticProfileOnRightController()
+extern void TrackedAliasFacade_CancelActiveHapticProfileOnRightController_m9E89C564DB5C695D92AF0865C0B4B166829426B8 (void);
+// 0x000000C3 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::CancelHapticProcessOnRightController()
+extern void TrackedAliasFacade_CancelHapticProcessOnRightController_m93A58111486BA147F26DDDE98F513F28082AF36E (void);
+// 0x000000C4 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::CancelHapticProcessOnRightController(System.Int32)
+extern void TrackedAliasFacade_CancelHapticProcessOnRightController_m64E32D5E5B5ABC6BB370103725206DC39CD88CB1 (void);
+// 0x000000C5 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::CancelAllHapticsOnDominantController()
+extern void TrackedAliasFacade_CancelAllHapticsOnDominantController_m3686AD3B5C4C3045B95836CFE626A804DCBB19FB (void);
+// 0x000000C6 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::CancelActiveHapticProfileOnDominantController()
+extern void TrackedAliasFacade_CancelActiveHapticProfileOnDominantController_m846AD68CAB65D3E7958662448654D82D8F93ED45 (void);
+// 0x000000C7 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::CancelHapticProcessOnDominantController()
+extern void TrackedAliasFacade_CancelHapticProcessOnDominantController_m884F933E604CE09D8F5FFDF6501717E2920F1B84 (void);
+// 0x000000C8 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::CancelHapticProcessOnDominantController(System.Int32)
+extern void TrackedAliasFacade_CancelHapticProcessOnDominantController_m235C3BB559A3AAC7267C5E0463BF10F0759B4363 (void);
+// 0x000000C9 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::OnEnable()
+extern void TrackedAliasFacade_OnEnable_mE2EF3BB863C6C137A7075E72A735196499643745 (void);
+// 0x000000CA System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::OnDisable()
+extern void TrackedAliasFacade_OnDisable_m65803816D452F8162506316F6276B21DF20763EF (void);
+// 0x000000CB System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::SubscribeToCameraRigsEvents()
+extern void TrackedAliasFacade_SubscribeToCameraRigsEvents_m074B1B0B4EC26450CBE18720B5072FD399780A6C (void);
+// 0x000000CC System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::UnsubscribeFromCameraRigsEvents()
+extern void TrackedAliasFacade_UnsubscribeFromCameraRigsEvents_m724F40CE69FE79BC5C098E7FAB355633F7BAE453 (void);
+// 0x000000CD System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::OnCameraRigAdded(Zinnia.Tracking.CameraRig.LinkedAliasAssociationCollection)
+extern void TrackedAliasFacade_OnCameraRigAdded_m9567D2DE2193D2FE55B4F34C86BC2EB04C406AB8 (void);
+// 0x000000CE System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::OnCameraRigRemoved(Zinnia.Tracking.CameraRig.LinkedAliasAssociationCollection)
+extern void TrackedAliasFacade_OnCameraRigRemoved_m68917AF9F33F72872E5887949AFE069EF7B0D1D9 (void);
+// 0x000000CF System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::RefreshCameraRigsConfiguration()
+extern void TrackedAliasFacade_RefreshCameraRigsConfiguration_m56384B3EE171213C1FF860A656FA132FB73B69FD (void);
+// 0x000000D0 Zinnia.Tracking.CameraRig.LinkedAliasAssociationCollection Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::GetFirstActiveLinkedAliasAssociationCollection(System.Collections.Generic.IEnumerable`1<Zinnia.Tracking.CameraRig.LinkedAliasAssociationCollection>)
+extern void TrackedAliasFacade_GetFirstActiveLinkedAliasAssociationCollection_mD10CE523C4B71B22BF4C72C6E074123BBC1F0FCD (void);
+// 0x000000D1 UnityEngine.GameObject Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::GetFirstActiveGameObject(System.Collections.Generic.IEnumerable`1<UnityEngine.GameObject>)
+extern void TrackedAliasFacade_GetFirstActiveGameObject_mCEB284FB8961D3F9A991F8F275ADD1CEF3B992A5 (void);
+// 0x000000D2 UnityEngine.Camera Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::GetFirstActiveCamera(System.Collections.Generic.IEnumerable`1<UnityEngine.Camera>)
+extern void TrackedAliasFacade_GetFirstActiveCamera_mA7C49ACA0C9C15930581D2DFCB958F0A4E2241F0 (void);
+// 0x000000D3 Zinnia.Tracking.Velocity.VelocityTracker Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::GetFirstActiveVelocityTracker(System.Collections.Generic.IEnumerable`1<Zinnia.Tracking.Velocity.VelocityTracker>)
+extern void TrackedAliasFacade_GetFirstActiveVelocityTracker_m8613C3CED67FA9482B78329D316D85F50CDE891E (void);
+// 0x000000D4 Zinnia.Haptics.HapticProcess Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::GetFirstActiveHapticProcess(System.Collections.Generic.IEnumerable`1<Zinnia.Haptics.HapticProcess>)
+extern void TrackedAliasFacade_GetFirstActiveHapticProcess_m7DE31FD93A8978895D32543CE710047E2AB498FF (void);
+// 0x000000D5 Zinnia.Haptics.Collection.HapticProcessObservableList Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::GetFirstActiveHapticProfile(System.Collections.Generic.IEnumerable`1<Zinnia.Haptics.Collection.HapticProcessObservableList>)
+extern void TrackedAliasFacade_GetFirstActiveHapticProfile_mA7819232225498E6EFEB20C5B01D55150E25B2EC (void);
+// 0x000000D6 Zinnia.Tracking.CameraRig.DominantControllerObserver Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::GetFirstActiveDominantControllerObserver(System.Collections.Generic.IEnumerable`1<Zinnia.Tracking.CameraRig.DominantControllerObserver>)
+extern void TrackedAliasFacade_GetFirstActiveDominantControllerObserver_mF65383BA5FAA282DF85D6E644B77E666F72D90BE (void);
+// 0x000000D7 Zinnia.Tracking.CameraRig.DeviceDetailsRecord Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::GetFirstActiveDeviceRecord(System.Collections.Generic.IEnumerable`1<Zinnia.Tracking.CameraRig.DeviceDetailsRecord>)
+extern void TrackedAliasFacade_GetFirstActiveDeviceRecord_m63F58342A4B8DE989439CAC68D30D45E013E6F8E (void);
+// 0x000000D8 Zinnia.Haptics.HapticProcess Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::BeginHapticProfile(Zinnia.Haptics.Collection.HapticProcessObservableList,System.Int32)
+extern void TrackedAliasFacade_BeginHapticProfile_mF831A3CD6CA940EFD8E688C4B5D0269AC1F109F4 (void);
+// 0x000000D9 Zinnia.Haptics.HapticProcess Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::CancelHapticProfile(Zinnia.Haptics.Collection.HapticProcessObservableList,System.Int32)
+extern void TrackedAliasFacade_CancelHapticProfile_m5036FE8CE02A99BAFE9C52A6329053A8469D6DEB (void);
+// 0x000000DA System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::IsValidHapticProfile(Zinnia.Haptics.Collection.HapticProcessObservableList,System.Int32)
+extern void TrackedAliasFacade_IsValidHapticProfile_m5D9A95D12EE77CD80DA76AB0E8DA9CFBF0408500 (void);
+// 0x000000DB System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::BeginHapticProcessOnController(Zinnia.Haptics.HapticProcess)
+extern void TrackedAliasFacade_BeginHapticProcessOnController_mDE78B42F7C11B06DA6C868363478F0887D617C48 (void);
+// 0x000000DC System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::CancelAllHapticsOnController(Zinnia.Haptics.Collection.HapticProcessObservableList,Zinnia.Haptics.HapticProcess,Zinnia.Haptics.HapticProcess)
+extern void TrackedAliasFacade_CancelAllHapticsOnController_m6E1ADAF3FF0212696CA895EC4B54EBF7B58F3B7C (void);
+// 0x000000DD System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::CancelHapticProcessOnController(Zinnia.Haptics.HapticProcess)
+extern void TrackedAliasFacade_CancelHapticProcessOnController_m43D53FA2D9F5F3F8BE749BDD5C8052DD220B7288 (void);
+// 0x000000DE System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::OnBeforeCameraRigsChange()
+extern void TrackedAliasFacade_OnBeforeCameraRigsChange_mF0EFDF42F936167572B806CB2308238A9C6E5502 (void);
+// 0x000000DF System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::OnAfterCameraRigsChange()
+extern void TrackedAliasFacade_OnAfterCameraRigsChange_mE2103E3C12B32786E54D984F686E89C24404F65C (void);
+// 0x000000E0 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade::.ctor()
+extern void TrackedAliasFacade__ctor_m416C01C7A14F92101E9756D2D531122B4351A536 (void);
+// 0x000000E1 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/LinkedAliasAssociationCollectionUnityEvent::.ctor()
+extern void LinkedAliasAssociationCollectionUnityEvent__ctor_m7CD4995C439A88D669FCC7397CDF3BC87AFD3868 (void);
+// 0x000000E2 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/CameraUnityEvent::.ctor()
+extern void CameraUnityEvent__ctor_mEF9D404843A8D19A7FE72329CECFE8ACA17C71C8 (void);
+// 0x000000E3 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_PlayAreas>d__158::.ctor(System.Int32)
+extern void U3Cget_PlayAreasU3Ed__158__ctor_m4034210CE2787FFB57EE00B81C3246D26E98ED51 (void);
+// 0x000000E4 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_PlayAreas>d__158::System.IDisposable.Dispose()
+extern void U3Cget_PlayAreasU3Ed__158_System_IDisposable_Dispose_mB8EAECA1AE9D783A9DE51399F4326E7A76632E96 (void);
+// 0x000000E5 System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_PlayAreas>d__158::MoveNext()
+extern void U3Cget_PlayAreasU3Ed__158_MoveNext_m811466B4676F13BAF25AE315E556358F4FED0CC3 (void);
+// 0x000000E6 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_PlayAreas>d__158::<>m__Finally1()
+extern void U3Cget_PlayAreasU3Ed__158_U3CU3Em__Finally1_m8F6F67D40F2708110D96818739C4E5D27349526C (void);
+// 0x000000E7 UnityEngine.GameObject Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_PlayAreas>d__158::System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.get_Current()
+extern void U3Cget_PlayAreasU3Ed__158_System_Collections_Generic_IEnumeratorU3CUnityEngine_GameObjectU3E_get_Current_m2E6771621F2E1CD5F0B14D0E63B36B0F33F146D9 (void);
+// 0x000000E8 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_PlayAreas>d__158::System.Collections.IEnumerator.Reset()
+extern void U3Cget_PlayAreasU3Ed__158_System_Collections_IEnumerator_Reset_m13508F5E833463C49A87070D979DD4178DD18C84 (void);
+// 0x000000E9 System.Object Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_PlayAreas>d__158::System.Collections.IEnumerator.get_Current()
+extern void U3Cget_PlayAreasU3Ed__158_System_Collections_IEnumerator_get_Current_m9501FBF0EA4C787C46326ACF6ACF6AC5B96D8165 (void);
+// 0x000000EA System.Collections.Generic.IEnumerator`1<UnityEngine.GameObject> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_PlayAreas>d__158::System.Collections.Generic.IEnumerable<UnityEngine.GameObject>.GetEnumerator()
+extern void U3Cget_PlayAreasU3Ed__158_System_Collections_Generic_IEnumerableU3CUnityEngine_GameObjectU3E_GetEnumerator_mCC60555ACEE0784A9BF258839AA5458D374CAACA (void);
+// 0x000000EB System.Collections.IEnumerator Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_PlayAreas>d__158::System.Collections.IEnumerable.GetEnumerator()
+extern void U3Cget_PlayAreasU3Ed__158_System_Collections_IEnumerable_GetEnumerator_mDFD43D65A52160601D780D033991F691DEC3B3F6 (void);
+// 0x000000EC System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_Headsets>d__160::.ctor(System.Int32)
+extern void U3Cget_HeadsetsU3Ed__160__ctor_m4210DA45B8A27F90C16CACDD4D0D9B1E6B9079EE (void);
+// 0x000000ED System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_Headsets>d__160::System.IDisposable.Dispose()
+extern void U3Cget_HeadsetsU3Ed__160_System_IDisposable_Dispose_m4AA4C1D4EB8EDB9E8AE23BDFA02B78E7BD6A375A (void);
+// 0x000000EE System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_Headsets>d__160::MoveNext()
+extern void U3Cget_HeadsetsU3Ed__160_MoveNext_mB704505FEFC35170CD530A610CE7BC9F6AB444DB (void);
+// 0x000000EF System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_Headsets>d__160::<>m__Finally1()
+extern void U3Cget_HeadsetsU3Ed__160_U3CU3Em__Finally1_m0CDF0B609280E2158C68167E1337A8CBB9AE06EF (void);
+// 0x000000F0 UnityEngine.GameObject Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_Headsets>d__160::System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.get_Current()
+extern void U3Cget_HeadsetsU3Ed__160_System_Collections_Generic_IEnumeratorU3CUnityEngine_GameObjectU3E_get_Current_m2B878540CDBBC4F96716344E80082649D1A3E38E (void);
+// 0x000000F1 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_Headsets>d__160::System.Collections.IEnumerator.Reset()
+extern void U3Cget_HeadsetsU3Ed__160_System_Collections_IEnumerator_Reset_m3292329450D743402ED47103E6473403372A0D10 (void);
+// 0x000000F2 System.Object Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_Headsets>d__160::System.Collections.IEnumerator.get_Current()
+extern void U3Cget_HeadsetsU3Ed__160_System_Collections_IEnumerator_get_Current_mDCA0172657C6C984A1FEA5BE4668E6AC1D999220 (void);
+// 0x000000F3 System.Collections.Generic.IEnumerator`1<UnityEngine.GameObject> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_Headsets>d__160::System.Collections.Generic.IEnumerable<UnityEngine.GameObject>.GetEnumerator()
+extern void U3Cget_HeadsetsU3Ed__160_System_Collections_Generic_IEnumerableU3CUnityEngine_GameObjectU3E_GetEnumerator_m0332D049B961342216DE53AD0DE2B77D1D85ABD2 (void);
+// 0x000000F4 System.Collections.IEnumerator Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_Headsets>d__160::System.Collections.IEnumerable.GetEnumerator()
+extern void U3Cget_HeadsetsU3Ed__160_System_Collections_IEnumerable_GetEnumerator_m266E1C7192AF7CB56684D3B3A9459F42C5967763 (void);
+// 0x000000F5 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetCameras>d__162::.ctor(System.Int32)
+extern void U3Cget_HeadsetCamerasU3Ed__162__ctor_mB30EAC677C880A099E954A1A57B9EE78BFBE7F5F (void);
+// 0x000000F6 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetCameras>d__162::System.IDisposable.Dispose()
+extern void U3Cget_HeadsetCamerasU3Ed__162_System_IDisposable_Dispose_m77537DEB3B5C541C91BCD8FF29039C64BE3AC13D (void);
+// 0x000000F7 System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetCameras>d__162::MoveNext()
+extern void U3Cget_HeadsetCamerasU3Ed__162_MoveNext_m9C3E2C1ABCDA70ACA2F3E0B561E75DE191F3B083 (void);
+// 0x000000F8 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetCameras>d__162::<>m__Finally1()
+extern void U3Cget_HeadsetCamerasU3Ed__162_U3CU3Em__Finally1_m5630E75C27BE2B7831A91E087CC8534CC96518BD (void);
+// 0x000000F9 UnityEngine.Camera Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetCameras>d__162::System.Collections.Generic.IEnumerator<UnityEngine.Camera>.get_Current()
+extern void U3Cget_HeadsetCamerasU3Ed__162_System_Collections_Generic_IEnumeratorU3CUnityEngine_CameraU3E_get_Current_m524D8401AA6A0FCA93485232092795B8F7211CAB (void);
+// 0x000000FA System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetCameras>d__162::System.Collections.IEnumerator.Reset()
+extern void U3Cget_HeadsetCamerasU3Ed__162_System_Collections_IEnumerator_Reset_m2D782D49DFC7F9D6AAB205866911D982036EB0D8 (void);
+// 0x000000FB System.Object Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetCameras>d__162::System.Collections.IEnumerator.get_Current()
+extern void U3Cget_HeadsetCamerasU3Ed__162_System_Collections_IEnumerator_get_Current_mC508145008DD4E2872D33157F1097D6BAADE066B (void);
+// 0x000000FC System.Collections.Generic.IEnumerator`1<UnityEngine.Camera> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetCameras>d__162::System.Collections.Generic.IEnumerable<UnityEngine.Camera>.GetEnumerator()
+extern void U3Cget_HeadsetCamerasU3Ed__162_System_Collections_Generic_IEnumerableU3CUnityEngine_CameraU3E_GetEnumerator_m412B8FE9A04D644DC3123C62A9EF7B8809A83B95 (void);
+// 0x000000FD System.Collections.IEnumerator Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetCameras>d__162::System.Collections.IEnumerable.GetEnumerator()
+extern void U3Cget_HeadsetCamerasU3Ed__162_System_Collections_IEnumerable_GetEnumerator_mBB932A4B3375F8599DD6DA2BA9A2308B2C4B694E (void);
+// 0x000000FE System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetVelocityTrackers>d__164::.ctor(System.Int32)
+extern void U3Cget_HeadsetVelocityTrackersU3Ed__164__ctor_m2AEB50195DFF4E1A7C60EFA57DAE700A5C30286F (void);
+// 0x000000FF System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetVelocityTrackers>d__164::System.IDisposable.Dispose()
+extern void U3Cget_HeadsetVelocityTrackersU3Ed__164_System_IDisposable_Dispose_m8324028870B36E66BBD4D7F31326AB3AFE6ADABC (void);
+// 0x00000100 System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetVelocityTrackers>d__164::MoveNext()
+extern void U3Cget_HeadsetVelocityTrackersU3Ed__164_MoveNext_mA68D53C0250A7AB20C590C8DE28C848184BA396F (void);
+// 0x00000101 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetVelocityTrackers>d__164::<>m__Finally1()
+extern void U3Cget_HeadsetVelocityTrackersU3Ed__164_U3CU3Em__Finally1_m54C885B59EB747A1132FE79AD04CE25A7A7B6CC8 (void);
+// 0x00000102 Zinnia.Tracking.Velocity.VelocityTracker Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetVelocityTrackers>d__164::System.Collections.Generic.IEnumerator<Zinnia.Tracking.Velocity.VelocityTracker>.get_Current()
+extern void U3Cget_HeadsetVelocityTrackersU3Ed__164_System_Collections_Generic_IEnumeratorU3CZinnia_Tracking_Velocity_VelocityTrackerU3E_get_Current_m92A530A2AF43B7B8400D8A8F14E4F48BEA5E1568 (void);
+// 0x00000103 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetVelocityTrackers>d__164::System.Collections.IEnumerator.Reset()
+extern void U3Cget_HeadsetVelocityTrackersU3Ed__164_System_Collections_IEnumerator_Reset_mC74A2AB0715E33ED04A81FEFD63E014D6F7A6160 (void);
+// 0x00000104 System.Object Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetVelocityTrackers>d__164::System.Collections.IEnumerator.get_Current()
+extern void U3Cget_HeadsetVelocityTrackersU3Ed__164_System_Collections_IEnumerator_get_Current_mC97E5506B057FD2AE6127304117ABB02000D6521 (void);
+// 0x00000105 System.Collections.Generic.IEnumerator`1<Zinnia.Tracking.Velocity.VelocityTracker> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetVelocityTrackers>d__164::System.Collections.Generic.IEnumerable<Zinnia.Tracking.Velocity.VelocityTracker>.GetEnumerator()
+extern void U3Cget_HeadsetVelocityTrackersU3Ed__164_System_Collections_Generic_IEnumerableU3CZinnia_Tracking_Velocity_VelocityTrackerU3E_GetEnumerator_mCBBFFF3369D87289EBD216C7C3FD7F38ABD0BECC (void);
+// 0x00000106 System.Collections.IEnumerator Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetVelocityTrackers>d__164::System.Collections.IEnumerable.GetEnumerator()
+extern void U3Cget_HeadsetVelocityTrackersU3Ed__164_System_Collections_IEnumerable_GetEnumerator_m7BB8731C9F17AFED2B30D00A82F4E93D18852C5D (void);
+// 0x00000107 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetSupplementCameras>d__166::.ctor(System.Int32)
+extern void U3Cget_HeadsetSupplementCamerasU3Ed__166__ctor_m8FAB68D11DF8E5EAF9E82F2C1F28C214DD34CC08 (void);
+// 0x00000108 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetSupplementCameras>d__166::System.IDisposable.Dispose()
+extern void U3Cget_HeadsetSupplementCamerasU3Ed__166_System_IDisposable_Dispose_m95050EB8CAD9E27E43E9BC73A072A5DB0257003E (void);
+// 0x00000109 System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetSupplementCameras>d__166::MoveNext()
+extern void U3Cget_HeadsetSupplementCamerasU3Ed__166_MoveNext_mCA7B56526476E7B9F017B91F1E611ACC205F758B (void);
+// 0x0000010A System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetSupplementCameras>d__166::<>m__Finally1()
+extern void U3Cget_HeadsetSupplementCamerasU3Ed__166_U3CU3Em__Finally1_mAEAD16F8247F7667016B7B4A86E7F2E06F631661 (void);
+// 0x0000010B System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetSupplementCameras>d__166::<>m__Finally2()
+extern void U3Cget_HeadsetSupplementCamerasU3Ed__166_U3CU3Em__Finally2_m47D1B9657DC12855556B18925C8BF0BC80629BA7 (void);
+// 0x0000010C UnityEngine.Camera Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetSupplementCameras>d__166::System.Collections.Generic.IEnumerator<UnityEngine.Camera>.get_Current()
+extern void U3Cget_HeadsetSupplementCamerasU3Ed__166_System_Collections_Generic_IEnumeratorU3CUnityEngine_CameraU3E_get_Current_mFF378BAF46C1715766314DE340006E39E630582F (void);
+// 0x0000010D System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetSupplementCameras>d__166::System.Collections.IEnumerator.Reset()
+extern void U3Cget_HeadsetSupplementCamerasU3Ed__166_System_Collections_IEnumerator_Reset_mFDBC1DA8FFE085836DC5EA32783ED8F5B5061BA5 (void);
+// 0x0000010E System.Object Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetSupplementCameras>d__166::System.Collections.IEnumerator.get_Current()
+extern void U3Cget_HeadsetSupplementCamerasU3Ed__166_System_Collections_IEnumerator_get_Current_m05DA3C24B6E4D2A41793705ED64ACBBE892307DC (void);
+// 0x0000010F System.Collections.Generic.IEnumerator`1<UnityEngine.Camera> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetSupplementCameras>d__166::System.Collections.Generic.IEnumerable<UnityEngine.Camera>.GetEnumerator()
+extern void U3Cget_HeadsetSupplementCamerasU3Ed__166_System_Collections_Generic_IEnumerableU3CUnityEngine_CameraU3E_GetEnumerator_mF822AC647574748D7CB2270CA744F16DE97BB27D (void);
+// 0x00000110 System.Collections.IEnumerator Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetSupplementCameras>d__166::System.Collections.IEnumerable.GetEnumerator()
+extern void U3Cget_HeadsetSupplementCamerasU3Ed__166_System_Collections_IEnumerable_GetEnumerator_m55700F178F5D62FC2414A240C21B07BB69AE4F01 (void);
+// 0x00000111 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetDeviceDetailRecords>d__168::.ctor(System.Int32)
+extern void U3Cget_HeadsetDeviceDetailRecordsU3Ed__168__ctor_m02C219F9BC93CC8EE78828EE80CA792293DA42D9 (void);
+// 0x00000112 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetDeviceDetailRecords>d__168::System.IDisposable.Dispose()
+extern void U3Cget_HeadsetDeviceDetailRecordsU3Ed__168_System_IDisposable_Dispose_mE1482F6F1397D0CF7A1EDC476C03E0423B1C5F1A (void);
+// 0x00000113 System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetDeviceDetailRecords>d__168::MoveNext()
+extern void U3Cget_HeadsetDeviceDetailRecordsU3Ed__168_MoveNext_mB85791D0D147A07199138EE0C7EB81CDDA4C59D2 (void);
+// 0x00000114 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetDeviceDetailRecords>d__168::<>m__Finally1()
+extern void U3Cget_HeadsetDeviceDetailRecordsU3Ed__168_U3CU3Em__Finally1_mA97015D55431E7FD49117842591C11BAFF83059A (void);
+// 0x00000115 Zinnia.Tracking.CameraRig.DeviceDetailsRecord Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetDeviceDetailRecords>d__168::System.Collections.Generic.IEnumerator<Zinnia.Tracking.CameraRig.DeviceDetailsRecord>.get_Current()
+extern void U3Cget_HeadsetDeviceDetailRecordsU3Ed__168_System_Collections_Generic_IEnumeratorU3CZinnia_Tracking_CameraRig_DeviceDetailsRecordU3E_get_Current_mE0F85255127EA9B2826135962DE0DDCCC08B8439 (void);
+// 0x00000116 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetDeviceDetailRecords>d__168::System.Collections.IEnumerator.Reset()
+extern void U3Cget_HeadsetDeviceDetailRecordsU3Ed__168_System_Collections_IEnumerator_Reset_m805AAF960BC54B72CF7D24A3D6D456878BB8AAF2 (void);
+// 0x00000117 System.Object Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetDeviceDetailRecords>d__168::System.Collections.IEnumerator.get_Current()
+extern void U3Cget_HeadsetDeviceDetailRecordsU3Ed__168_System_Collections_IEnumerator_get_Current_m7C3F4E556A445E6A57B03D4E3B9F622907665590 (void);
+// 0x00000118 System.Collections.Generic.IEnumerator`1<Zinnia.Tracking.CameraRig.DeviceDetailsRecord> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetDeviceDetailRecords>d__168::System.Collections.Generic.IEnumerable<Zinnia.Tracking.CameraRig.DeviceDetailsRecord>.GetEnumerator()
+extern void U3Cget_HeadsetDeviceDetailRecordsU3Ed__168_System_Collections_Generic_IEnumerableU3CZinnia_Tracking_CameraRig_DeviceDetailsRecordU3E_GetEnumerator_m518B222095710224452387BF33BFC88B1E306BAF (void);
+// 0x00000119 System.Collections.IEnumerator Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_HeadsetDeviceDetailRecords>d__168::System.Collections.IEnumerable.GetEnumerator()
+extern void U3Cget_HeadsetDeviceDetailRecordsU3Ed__168_System_Collections_IEnumerable_GetEnumerator_m899930532501831C2EBFC8A01885A31EC3577EDC (void);
+// 0x0000011A System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_DominantControllerObservers>d__170::.ctor(System.Int32)
+extern void U3Cget_DominantControllerObserversU3Ed__170__ctor_m05B8DEEC9AA3774A0D66707DCDC6E4F114C307D4 (void);
+// 0x0000011B System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_DominantControllerObservers>d__170::System.IDisposable.Dispose()
+extern void U3Cget_DominantControllerObserversU3Ed__170_System_IDisposable_Dispose_mA825713F87AB3587153683810AD9629EA5565A8E (void);
+// 0x0000011C System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_DominantControllerObservers>d__170::MoveNext()
+extern void U3Cget_DominantControllerObserversU3Ed__170_MoveNext_m2774F7A84328D5964932ECC859C344F6CF39556E (void);
+// 0x0000011D System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_DominantControllerObservers>d__170::<>m__Finally1()
+extern void U3Cget_DominantControllerObserversU3Ed__170_U3CU3Em__Finally1_mC1D9C01FF739B7916412D0E2744F9AB844F5CCEF (void);
+// 0x0000011E Zinnia.Tracking.CameraRig.DominantControllerObserver Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_DominantControllerObservers>d__170::System.Collections.Generic.IEnumerator<Zinnia.Tracking.CameraRig.DominantControllerObserver>.get_Current()
+extern void U3Cget_DominantControllerObserversU3Ed__170_System_Collections_Generic_IEnumeratorU3CZinnia_Tracking_CameraRig_DominantControllerObserverU3E_get_Current_m61FE7B4A4274CB520D29F87A182A8827A3B45391 (void);
+// 0x0000011F System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_DominantControllerObservers>d__170::System.Collections.IEnumerator.Reset()
+extern void U3Cget_DominantControllerObserversU3Ed__170_System_Collections_IEnumerator_Reset_mA17C501B7436B1FD4FC90555D4878A2A2B805473 (void);
+// 0x00000120 System.Object Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_DominantControllerObservers>d__170::System.Collections.IEnumerator.get_Current()
+extern void U3Cget_DominantControllerObserversU3Ed__170_System_Collections_IEnumerator_get_Current_m34D57187B6677046D3EF12167F8C4619932A53D8 (void);
+// 0x00000121 System.Collections.Generic.IEnumerator`1<Zinnia.Tracking.CameraRig.DominantControllerObserver> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_DominantControllerObservers>d__170::System.Collections.Generic.IEnumerable<Zinnia.Tracking.CameraRig.DominantControllerObserver>.GetEnumerator()
+extern void U3Cget_DominantControllerObserversU3Ed__170_System_Collections_Generic_IEnumerableU3CZinnia_Tracking_CameraRig_DominantControllerObserverU3E_GetEnumerator_mDEF8ED9688F1455B90C3CBEF4A4D97CF03C17647 (void);
+// 0x00000122 System.Collections.IEnumerator Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_DominantControllerObservers>d__170::System.Collections.IEnumerable.GetEnumerator()
+extern void U3Cget_DominantControllerObserversU3Ed__170_System_Collections_IEnumerable_GetEnumerator_m3022DC0E9FF03238AAF5B799D6BE2E22F7E54909 (void);
+// 0x00000123 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllers>d__172::.ctor(System.Int32)
+extern void U3Cget_LeftControllersU3Ed__172__ctor_mF1DD426F98531499662D447A2E71084C0E8F6C04 (void);
+// 0x00000124 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllers>d__172::System.IDisposable.Dispose()
+extern void U3Cget_LeftControllersU3Ed__172_System_IDisposable_Dispose_mCB1AC08A772C3D73EFB38B2D241905ECF661B10E (void);
+// 0x00000125 System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllers>d__172::MoveNext()
+extern void U3Cget_LeftControllersU3Ed__172_MoveNext_mCEB8C876DE16FAAB55427070F44C1F45A236F201 (void);
+// 0x00000126 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllers>d__172::<>m__Finally1()
+extern void U3Cget_LeftControllersU3Ed__172_U3CU3Em__Finally1_m5ECA576F3478ED4FC652CD47162D67D79BDD00F4 (void);
+// 0x00000127 UnityEngine.GameObject Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllers>d__172::System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.get_Current()
+extern void U3Cget_LeftControllersU3Ed__172_System_Collections_Generic_IEnumeratorU3CUnityEngine_GameObjectU3E_get_Current_m65ECA77F8B7A539577003FB2A1816F54BFF908F9 (void);
+// 0x00000128 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllers>d__172::System.Collections.IEnumerator.Reset()
+extern void U3Cget_LeftControllersU3Ed__172_System_Collections_IEnumerator_Reset_m58B34B064B1D46D59896B87FDC814862970A780D (void);
+// 0x00000129 System.Object Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllers>d__172::System.Collections.IEnumerator.get_Current()
+extern void U3Cget_LeftControllersU3Ed__172_System_Collections_IEnumerator_get_Current_m3376C97CF10D742612F6C8E806F0D99E632B1AEC (void);
+// 0x0000012A System.Collections.Generic.IEnumerator`1<UnityEngine.GameObject> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllers>d__172::System.Collections.Generic.IEnumerable<UnityEngine.GameObject>.GetEnumerator()
+extern void U3Cget_LeftControllersU3Ed__172_System_Collections_Generic_IEnumerableU3CUnityEngine_GameObjectU3E_GetEnumerator_m24EB253AC9681DF9062CF9840088F51A6C32ED20 (void);
+// 0x0000012B System.Collections.IEnumerator Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllers>d__172::System.Collections.IEnumerable.GetEnumerator()
+extern void U3Cget_LeftControllersU3Ed__172_System_Collections_IEnumerable_GetEnumerator_mE46C1D0637B847268CFF5539929B0CD940A855C2 (void);
+// 0x0000012C System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllers>d__174::.ctor(System.Int32)
+extern void U3Cget_RightControllersU3Ed__174__ctor_mCDAA2E77068053BB76F0F83ADD7B340EC03158FC (void);
+// 0x0000012D System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllers>d__174::System.IDisposable.Dispose()
+extern void U3Cget_RightControllersU3Ed__174_System_IDisposable_Dispose_m5B537DDCDF888B7557B8128E740D4EE3A93DE6DD (void);
+// 0x0000012E System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllers>d__174::MoveNext()
+extern void U3Cget_RightControllersU3Ed__174_MoveNext_m4697E5BC326798E617B24B3A96CAC69F0EA56054 (void);
+// 0x0000012F System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllers>d__174::<>m__Finally1()
+extern void U3Cget_RightControllersU3Ed__174_U3CU3Em__Finally1_mE5C31D8C9B5261082EDEFBC51A036634A99AFCB3 (void);
+// 0x00000130 UnityEngine.GameObject Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllers>d__174::System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.get_Current()
+extern void U3Cget_RightControllersU3Ed__174_System_Collections_Generic_IEnumeratorU3CUnityEngine_GameObjectU3E_get_Current_m9B36633C69B38CBD55002C7AD9A3A806F5E43A32 (void);
+// 0x00000131 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllers>d__174::System.Collections.IEnumerator.Reset()
+extern void U3Cget_RightControllersU3Ed__174_System_Collections_IEnumerator_Reset_mE42302890825D351EB4C510D180FD9D0EABFC784 (void);
+// 0x00000132 System.Object Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllers>d__174::System.Collections.IEnumerator.get_Current()
+extern void U3Cget_RightControllersU3Ed__174_System_Collections_IEnumerator_get_Current_mAFD3E01804B17BA5DD05E073D67DDED280BA833C (void);
+// 0x00000133 System.Collections.Generic.IEnumerator`1<UnityEngine.GameObject> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllers>d__174::System.Collections.Generic.IEnumerable<UnityEngine.GameObject>.GetEnumerator()
+extern void U3Cget_RightControllersU3Ed__174_System_Collections_Generic_IEnumerableU3CUnityEngine_GameObjectU3E_GetEnumerator_m8E8898BCD307BCA9DEAFB6A7C5A3BF08AFA3A038 (void);
+// 0x00000134 System.Collections.IEnumerator Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllers>d__174::System.Collections.IEnumerable.GetEnumerator()
+extern void U3Cget_RightControllersU3Ed__174_System_Collections_IEnumerable_GetEnumerator_m3E661F78CA005F41E50CED0D321C901C8C6DA1C9 (void);
+// 0x00000135 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerVelocityTrackers>d__176::.ctor(System.Int32)
+extern void U3Cget_LeftControllerVelocityTrackersU3Ed__176__ctor_m181353B474CD3CD7A774E5F92B1749A48461EC26 (void);
+// 0x00000136 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerVelocityTrackers>d__176::System.IDisposable.Dispose()
+extern void U3Cget_LeftControllerVelocityTrackersU3Ed__176_System_IDisposable_Dispose_m932FE672B50790300B48C11AF47861B9871748B9 (void);
+// 0x00000137 System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerVelocityTrackers>d__176::MoveNext()
+extern void U3Cget_LeftControllerVelocityTrackersU3Ed__176_MoveNext_m765C03999DCF026236B0B9E261FBD0488CCC0E56 (void);
+// 0x00000138 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerVelocityTrackers>d__176::<>m__Finally1()
+extern void U3Cget_LeftControllerVelocityTrackersU3Ed__176_U3CU3Em__Finally1_m8382120829FEA8A43C258A1FDE0F21A91D108944 (void);
+// 0x00000139 Zinnia.Tracking.Velocity.VelocityTracker Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerVelocityTrackers>d__176::System.Collections.Generic.IEnumerator<Zinnia.Tracking.Velocity.VelocityTracker>.get_Current()
+extern void U3Cget_LeftControllerVelocityTrackersU3Ed__176_System_Collections_Generic_IEnumeratorU3CZinnia_Tracking_Velocity_VelocityTrackerU3E_get_Current_mF8E68FD2D63C93C51400CBF2627E907B802EC4A7 (void);
+// 0x0000013A System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerVelocityTrackers>d__176::System.Collections.IEnumerator.Reset()
+extern void U3Cget_LeftControllerVelocityTrackersU3Ed__176_System_Collections_IEnumerator_Reset_m12DA2C8C9B02CBA0052AEF01390AAC6629FB7C8C (void);
+// 0x0000013B System.Object Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerVelocityTrackers>d__176::System.Collections.IEnumerator.get_Current()
+extern void U3Cget_LeftControllerVelocityTrackersU3Ed__176_System_Collections_IEnumerator_get_Current_m400914149CCA78BB45AF0116F514C9060D134EE9 (void);
+// 0x0000013C System.Collections.Generic.IEnumerator`1<Zinnia.Tracking.Velocity.VelocityTracker> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerVelocityTrackers>d__176::System.Collections.Generic.IEnumerable<Zinnia.Tracking.Velocity.VelocityTracker>.GetEnumerator()
+extern void U3Cget_LeftControllerVelocityTrackersU3Ed__176_System_Collections_Generic_IEnumerableU3CZinnia_Tracking_Velocity_VelocityTrackerU3E_GetEnumerator_m6D71FD60BF51C79527783543DE173E79433F1115 (void);
+// 0x0000013D System.Collections.IEnumerator Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerVelocityTrackers>d__176::System.Collections.IEnumerable.GetEnumerator()
+extern void U3Cget_LeftControllerVelocityTrackersU3Ed__176_System_Collections_IEnumerable_GetEnumerator_m001CE25E968072F074E877882AC238AE9FB3C670 (void);
+// 0x0000013E System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerVelocityTrackers>d__178::.ctor(System.Int32)
+extern void U3Cget_RightControllerVelocityTrackersU3Ed__178__ctor_m151A343643E1E1889EAB769744F3430C5148FA3D (void);
+// 0x0000013F System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerVelocityTrackers>d__178::System.IDisposable.Dispose()
+extern void U3Cget_RightControllerVelocityTrackersU3Ed__178_System_IDisposable_Dispose_mCF05102EC4DEE7ED46B54464EAAAA6A6F795EA36 (void);
+// 0x00000140 System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerVelocityTrackers>d__178::MoveNext()
+extern void U3Cget_RightControllerVelocityTrackersU3Ed__178_MoveNext_m2624CAE1050C60D9AD2941C21B9E444C539DC886 (void);
+// 0x00000141 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerVelocityTrackers>d__178::<>m__Finally1()
+extern void U3Cget_RightControllerVelocityTrackersU3Ed__178_U3CU3Em__Finally1_mC7D607C4D5C2FEDA77E9D463BC59B58A78E77099 (void);
+// 0x00000142 Zinnia.Tracking.Velocity.VelocityTracker Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerVelocityTrackers>d__178::System.Collections.Generic.IEnumerator<Zinnia.Tracking.Velocity.VelocityTracker>.get_Current()
+extern void U3Cget_RightControllerVelocityTrackersU3Ed__178_System_Collections_Generic_IEnumeratorU3CZinnia_Tracking_Velocity_VelocityTrackerU3E_get_Current_mFAFB509E09BD527E2AB29A7ECB1BF70CD449D691 (void);
+// 0x00000143 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerVelocityTrackers>d__178::System.Collections.IEnumerator.Reset()
+extern void U3Cget_RightControllerVelocityTrackersU3Ed__178_System_Collections_IEnumerator_Reset_m8BD45C4070E7BA011CFAAFA25CC1B12A54030C4B (void);
+// 0x00000144 System.Object Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerVelocityTrackers>d__178::System.Collections.IEnumerator.get_Current()
+extern void U3Cget_RightControllerVelocityTrackersU3Ed__178_System_Collections_IEnumerator_get_Current_m5D54B300AA07FDEFE915CB10EC665F0894F56CAD (void);
+// 0x00000145 System.Collections.Generic.IEnumerator`1<Zinnia.Tracking.Velocity.VelocityTracker> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerVelocityTrackers>d__178::System.Collections.Generic.IEnumerable<Zinnia.Tracking.Velocity.VelocityTracker>.GetEnumerator()
+extern void U3Cget_RightControllerVelocityTrackersU3Ed__178_System_Collections_Generic_IEnumerableU3CZinnia_Tracking_Velocity_VelocityTrackerU3E_GetEnumerator_m6736A7D728899BA48CB7A869BE39BD39DD65A84B (void);
+// 0x00000146 System.Collections.IEnumerator Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerVelocityTrackers>d__178::System.Collections.IEnumerable.GetEnumerator()
+extern void U3Cget_RightControllerVelocityTrackersU3Ed__178_System_Collections_IEnumerable_GetEnumerator_m30141C4ECCDE89F63C23753C5F01FDEF7E5AF466 (void);
+// 0x00000147 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerHapticProcesses>d__180::.ctor(System.Int32)
+extern void U3Cget_LeftControllerHapticProcessesU3Ed__180__ctor_m211B3A8C8FDC3E6B41CFC33A33E7C6D81B1C19F9 (void);
+// 0x00000148 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerHapticProcesses>d__180::System.IDisposable.Dispose()
+extern void U3Cget_LeftControllerHapticProcessesU3Ed__180_System_IDisposable_Dispose_m0D856119044A3BE9FC9F97D7BB8B6D45473C793D (void);
+// 0x00000149 System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerHapticProcesses>d__180::MoveNext()
+extern void U3Cget_LeftControllerHapticProcessesU3Ed__180_MoveNext_mDC9A3B994048AA6DBB05C655C16982FAB9C3A40F (void);
+// 0x0000014A System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerHapticProcesses>d__180::<>m__Finally1()
+extern void U3Cget_LeftControllerHapticProcessesU3Ed__180_U3CU3Em__Finally1_m44EFB4A6E6AAF417F098D6708ACCAD48EC150127 (void);
+// 0x0000014B Zinnia.Haptics.HapticProcess Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerHapticProcesses>d__180::System.Collections.Generic.IEnumerator<Zinnia.Haptics.HapticProcess>.get_Current()
+extern void U3Cget_LeftControllerHapticProcessesU3Ed__180_System_Collections_Generic_IEnumeratorU3CZinnia_Haptics_HapticProcessU3E_get_Current_m313785FB8E66687CE6F946D38123350FE951E3F2 (void);
+// 0x0000014C System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerHapticProcesses>d__180::System.Collections.IEnumerator.Reset()
+extern void U3Cget_LeftControllerHapticProcessesU3Ed__180_System_Collections_IEnumerator_Reset_m4AD44027B829888156DB9B804F52EEAC1A38C2F9 (void);
+// 0x0000014D System.Object Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerHapticProcesses>d__180::System.Collections.IEnumerator.get_Current()
+extern void U3Cget_LeftControllerHapticProcessesU3Ed__180_System_Collections_IEnumerator_get_Current_m72B7C3BC817ABE17FBE132001BA5D8A70ACB0CB6 (void);
+// 0x0000014E System.Collections.Generic.IEnumerator`1<Zinnia.Haptics.HapticProcess> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerHapticProcesses>d__180::System.Collections.Generic.IEnumerable<Zinnia.Haptics.HapticProcess>.GetEnumerator()
+extern void U3Cget_LeftControllerHapticProcessesU3Ed__180_System_Collections_Generic_IEnumerableU3CZinnia_Haptics_HapticProcessU3E_GetEnumerator_mB9A515B59431926B7C4765A27DE1A379454B02C9 (void);
+// 0x0000014F System.Collections.IEnumerator Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerHapticProcesses>d__180::System.Collections.IEnumerable.GetEnumerator()
+extern void U3Cget_LeftControllerHapticProcessesU3Ed__180_System_Collections_IEnumerable_GetEnumerator_m994521EF874AFDAACA062FCD85ABEF7AC4B277AD (void);
+// 0x00000150 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerHapticProcesses>d__182::.ctor(System.Int32)
+extern void U3Cget_RightControllerHapticProcessesU3Ed__182__ctor_m5E504FB6A975B760AF270C67428703306665366F (void);
+// 0x00000151 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerHapticProcesses>d__182::System.IDisposable.Dispose()
+extern void U3Cget_RightControllerHapticProcessesU3Ed__182_System_IDisposable_Dispose_mDDE7773AFC61DF264356268D321AF0BE3FAAA18C (void);
+// 0x00000152 System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerHapticProcesses>d__182::MoveNext()
+extern void U3Cget_RightControllerHapticProcessesU3Ed__182_MoveNext_m80BD3A923C69468B99C59AA32F9547971A8CAAD1 (void);
+// 0x00000153 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerHapticProcesses>d__182::<>m__Finally1()
+extern void U3Cget_RightControllerHapticProcessesU3Ed__182_U3CU3Em__Finally1_m4F6FCE01C58D73DC51F70CC8D6B48795D00BD675 (void);
+// 0x00000154 Zinnia.Haptics.HapticProcess Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerHapticProcesses>d__182::System.Collections.Generic.IEnumerator<Zinnia.Haptics.HapticProcess>.get_Current()
+extern void U3Cget_RightControllerHapticProcessesU3Ed__182_System_Collections_Generic_IEnumeratorU3CZinnia_Haptics_HapticProcessU3E_get_Current_m9F9851121B4823B7BB0AEE056A55AE5D6C834209 (void);
+// 0x00000155 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerHapticProcesses>d__182::System.Collections.IEnumerator.Reset()
+extern void U3Cget_RightControllerHapticProcessesU3Ed__182_System_Collections_IEnumerator_Reset_m0F4D5DF05CAA57B663F905579B2945243DD545D7 (void);
+// 0x00000156 System.Object Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerHapticProcesses>d__182::System.Collections.IEnumerator.get_Current()
+extern void U3Cget_RightControllerHapticProcessesU3Ed__182_System_Collections_IEnumerator_get_Current_m96D098229A82B7D924E53DFEFF3953964F1AF698 (void);
+// 0x00000157 System.Collections.Generic.IEnumerator`1<Zinnia.Haptics.HapticProcess> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerHapticProcesses>d__182::System.Collections.Generic.IEnumerable<Zinnia.Haptics.HapticProcess>.GetEnumerator()
+extern void U3Cget_RightControllerHapticProcessesU3Ed__182_System_Collections_Generic_IEnumerableU3CZinnia_Haptics_HapticProcessU3E_GetEnumerator_m2A96351582556970AAE68455AAA297ED21D536B2 (void);
+// 0x00000158 System.Collections.IEnumerator Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerHapticProcesses>d__182::System.Collections.IEnumerable.GetEnumerator()
+extern void U3Cget_RightControllerHapticProcessesU3Ed__182_System_Collections_IEnumerable_GetEnumerator_mF55779C5C83C561027EDAE3BB09B7802665AF9EB (void);
+// 0x00000159 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerHapticProfiles>d__184::.ctor(System.Int32)
+extern void U3Cget_LeftControllerHapticProfilesU3Ed__184__ctor_mBB31B18C59451BE2E349D6B35B8E3DC141CA27E2 (void);
+// 0x0000015A System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerHapticProfiles>d__184::System.IDisposable.Dispose()
+extern void U3Cget_LeftControllerHapticProfilesU3Ed__184_System_IDisposable_Dispose_m9EFBEEF1F09B7B9D550B01825D0EE27742342197 (void);
+// 0x0000015B System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerHapticProfiles>d__184::MoveNext()
+extern void U3Cget_LeftControllerHapticProfilesU3Ed__184_MoveNext_mA91BE5200F915C97CFE3396F45AD792913ECF622 (void);
+// 0x0000015C System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerHapticProfiles>d__184::<>m__Finally1()
+extern void U3Cget_LeftControllerHapticProfilesU3Ed__184_U3CU3Em__Finally1_m402886CB4F25DB63EB43DDE010D9B9F51A6D57F4 (void);
+// 0x0000015D Zinnia.Haptics.Collection.HapticProcessObservableList Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerHapticProfiles>d__184::System.Collections.Generic.IEnumerator<Zinnia.Haptics.Collection.HapticProcessObservableList>.get_Current()
+extern void U3Cget_LeftControllerHapticProfilesU3Ed__184_System_Collections_Generic_IEnumeratorU3CZinnia_Haptics_Collection_HapticProcessObservableListU3E_get_Current_m5AE15BA120FC3D85414E3C69D0A26332F79758B9 (void);
+// 0x0000015E System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerHapticProfiles>d__184::System.Collections.IEnumerator.Reset()
+extern void U3Cget_LeftControllerHapticProfilesU3Ed__184_System_Collections_IEnumerator_Reset_mF08710CAA9B8BBF3BE6C2FEA7C01C3BCC30A2AE2 (void);
+// 0x0000015F System.Object Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerHapticProfiles>d__184::System.Collections.IEnumerator.get_Current()
+extern void U3Cget_LeftControllerHapticProfilesU3Ed__184_System_Collections_IEnumerator_get_Current_mEB3BE7A429F42A7EA5C736CFCCE3D0B2119F16D4 (void);
+// 0x00000160 System.Collections.Generic.IEnumerator`1<Zinnia.Haptics.Collection.HapticProcessObservableList> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerHapticProfiles>d__184::System.Collections.Generic.IEnumerable<Zinnia.Haptics.Collection.HapticProcessObservableList>.GetEnumerator()
+extern void U3Cget_LeftControllerHapticProfilesU3Ed__184_System_Collections_Generic_IEnumerableU3CZinnia_Haptics_Collection_HapticProcessObservableListU3E_GetEnumerator_m0EBCB281EC51395F3396641DF15AB4A0DC3D96D5 (void);
+// 0x00000161 System.Collections.IEnumerator Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerHapticProfiles>d__184::System.Collections.IEnumerable.GetEnumerator()
+extern void U3Cget_LeftControllerHapticProfilesU3Ed__184_System_Collections_IEnumerable_GetEnumerator_m7FA22B5FC36309049D28FDC4128077DED658B772 (void);
+// 0x00000162 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerHapticProfiles>d__186::.ctor(System.Int32)
+extern void U3Cget_RightControllerHapticProfilesU3Ed__186__ctor_mA239FC4AE83DCC2241F091736CF7D4EC84454A53 (void);
+// 0x00000163 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerHapticProfiles>d__186::System.IDisposable.Dispose()
+extern void U3Cget_RightControllerHapticProfilesU3Ed__186_System_IDisposable_Dispose_m090164556BEC6107BB963D71DE2BE952E1AA1CD6 (void);
+// 0x00000164 System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerHapticProfiles>d__186::MoveNext()
+extern void U3Cget_RightControllerHapticProfilesU3Ed__186_MoveNext_mB14DF10678E266A4F9CBBD5E4E146E73B5D90EE6 (void);
+// 0x00000165 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerHapticProfiles>d__186::<>m__Finally1()
+extern void U3Cget_RightControllerHapticProfilesU3Ed__186_U3CU3Em__Finally1_m3F81B40EA58290158FB48DB67BB0D83799723550 (void);
+// 0x00000166 Zinnia.Haptics.Collection.HapticProcessObservableList Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerHapticProfiles>d__186::System.Collections.Generic.IEnumerator<Zinnia.Haptics.Collection.HapticProcessObservableList>.get_Current()
+extern void U3Cget_RightControllerHapticProfilesU3Ed__186_System_Collections_Generic_IEnumeratorU3CZinnia_Haptics_Collection_HapticProcessObservableListU3E_get_Current_mD063BEAB8612DBDFD92E76946F6F3A791F8AD3A4 (void);
+// 0x00000167 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerHapticProfiles>d__186::System.Collections.IEnumerator.Reset()
+extern void U3Cget_RightControllerHapticProfilesU3Ed__186_System_Collections_IEnumerator_Reset_mC690B60EB4CA310DCD6AE854B3E55A94DBEACFCD (void);
+// 0x00000168 System.Object Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerHapticProfiles>d__186::System.Collections.IEnumerator.get_Current()
+extern void U3Cget_RightControllerHapticProfilesU3Ed__186_System_Collections_IEnumerator_get_Current_m5EED492546217D07A0D2C5E6AD9A7B34E11F7B32 (void);
+// 0x00000169 System.Collections.Generic.IEnumerator`1<Zinnia.Haptics.Collection.HapticProcessObservableList> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerHapticProfiles>d__186::System.Collections.Generic.IEnumerable<Zinnia.Haptics.Collection.HapticProcessObservableList>.GetEnumerator()
+extern void U3Cget_RightControllerHapticProfilesU3Ed__186_System_Collections_Generic_IEnumerableU3CZinnia_Haptics_Collection_HapticProcessObservableListU3E_GetEnumerator_mC65F6BF70FB8FDD0F0082FE8A0F2B016BA0AA978 (void);
+// 0x0000016A System.Collections.IEnumerator Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerHapticProfiles>d__186::System.Collections.IEnumerable.GetEnumerator()
+extern void U3Cget_RightControllerHapticProfilesU3Ed__186_System_Collections_IEnumerable_GetEnumerator_mF1853A35B7EE233F7ADB63995670EE7D85C0D851 (void);
+// 0x0000016B System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerDeviceDetailRecords>d__188::.ctor(System.Int32)
+extern void U3Cget_LeftControllerDeviceDetailRecordsU3Ed__188__ctor_m2D5C41C94D6BB273BA466B3CEFACE59495C8B66D (void);
+// 0x0000016C System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerDeviceDetailRecords>d__188::System.IDisposable.Dispose()
+extern void U3Cget_LeftControllerDeviceDetailRecordsU3Ed__188_System_IDisposable_Dispose_m87F507864140607A4D0D7CBB822B37244BF4FF82 (void);
+// 0x0000016D System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerDeviceDetailRecords>d__188::MoveNext()
+extern void U3Cget_LeftControllerDeviceDetailRecordsU3Ed__188_MoveNext_m2EA889D5588318B794E6B4E0A6805EAE5A549044 (void);
+// 0x0000016E System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerDeviceDetailRecords>d__188::<>m__Finally1()
+extern void U3Cget_LeftControllerDeviceDetailRecordsU3Ed__188_U3CU3Em__Finally1_mBAE9A7049D88ABCFBC438DB402D53C7579BC68D3 (void);
+// 0x0000016F Zinnia.Tracking.CameraRig.DeviceDetailsRecord Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerDeviceDetailRecords>d__188::System.Collections.Generic.IEnumerator<Zinnia.Tracking.CameraRig.DeviceDetailsRecord>.get_Current()
+extern void U3Cget_LeftControllerDeviceDetailRecordsU3Ed__188_System_Collections_Generic_IEnumeratorU3CZinnia_Tracking_CameraRig_DeviceDetailsRecordU3E_get_Current_mDBFCBAD03610E0C4178118410C8D6620EB265D96 (void);
+// 0x00000170 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerDeviceDetailRecords>d__188::System.Collections.IEnumerator.Reset()
+extern void U3Cget_LeftControllerDeviceDetailRecordsU3Ed__188_System_Collections_IEnumerator_Reset_m216B79B4C9C0FC7D05621C9AF88B261E7156E522 (void);
+// 0x00000171 System.Object Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerDeviceDetailRecords>d__188::System.Collections.IEnumerator.get_Current()
+extern void U3Cget_LeftControllerDeviceDetailRecordsU3Ed__188_System_Collections_IEnumerator_get_Current_m9C562ECD0827E8AC190D972EB642EDB172FD99C7 (void);
+// 0x00000172 System.Collections.Generic.IEnumerator`1<Zinnia.Tracking.CameraRig.DeviceDetailsRecord> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerDeviceDetailRecords>d__188::System.Collections.Generic.IEnumerable<Zinnia.Tracking.CameraRig.DeviceDetailsRecord>.GetEnumerator()
+extern void U3Cget_LeftControllerDeviceDetailRecordsU3Ed__188_System_Collections_Generic_IEnumerableU3CZinnia_Tracking_CameraRig_DeviceDetailsRecordU3E_GetEnumerator_m7714B7D9E2FAC5FC6D4D939B74D4E94EF696CAF8 (void);
+// 0x00000173 System.Collections.IEnumerator Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_LeftControllerDeviceDetailRecords>d__188::System.Collections.IEnumerable.GetEnumerator()
+extern void U3Cget_LeftControllerDeviceDetailRecordsU3Ed__188_System_Collections_IEnumerable_GetEnumerator_mAC82DE0715A3CAF21D25F18D40CD07572F13748A (void);
+// 0x00000174 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerDeviceDetailRecords>d__190::.ctor(System.Int32)
+extern void U3Cget_RightControllerDeviceDetailRecordsU3Ed__190__ctor_mEF6EB01352317D5E4FC379C8A2BA37413EB163E5 (void);
+// 0x00000175 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerDeviceDetailRecords>d__190::System.IDisposable.Dispose()
+extern void U3Cget_RightControllerDeviceDetailRecordsU3Ed__190_System_IDisposable_Dispose_mB9DF326EC1374D535D299387F57900119E06D110 (void);
+// 0x00000176 System.Boolean Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerDeviceDetailRecords>d__190::MoveNext()
+extern void U3Cget_RightControllerDeviceDetailRecordsU3Ed__190_MoveNext_m18A9D1FDFB576EA7F6875563FE7A673133039CD4 (void);
+// 0x00000177 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerDeviceDetailRecords>d__190::<>m__Finally1()
+extern void U3Cget_RightControllerDeviceDetailRecordsU3Ed__190_U3CU3Em__Finally1_m0F632DDC1DCAAD525F2BD6DAB5763EFD686EE98A (void);
+// 0x00000178 Zinnia.Tracking.CameraRig.DeviceDetailsRecord Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerDeviceDetailRecords>d__190::System.Collections.Generic.IEnumerator<Zinnia.Tracking.CameraRig.DeviceDetailsRecord>.get_Current()
+extern void U3Cget_RightControllerDeviceDetailRecordsU3Ed__190_System_Collections_Generic_IEnumeratorU3CZinnia_Tracking_CameraRig_DeviceDetailsRecordU3E_get_Current_mF6C9177A02CCA915606BF4788360C7CF0BE17E31 (void);
+// 0x00000179 System.Void Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerDeviceDetailRecords>d__190::System.Collections.IEnumerator.Reset()
+extern void U3Cget_RightControllerDeviceDetailRecordsU3Ed__190_System_Collections_IEnumerator_Reset_m5AD19ED6F95F2E0E9EFC981C0FDCA300CEE82CCF (void);
+// 0x0000017A System.Object Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerDeviceDetailRecords>d__190::System.Collections.IEnumerator.get_Current()
+extern void U3Cget_RightControllerDeviceDetailRecordsU3Ed__190_System_Collections_IEnumerator_get_Current_m89C62A08ABBD1A1706BE2BA79DEDFD6B75F7D212 (void);
+// 0x0000017B System.Collections.Generic.IEnumerator`1<Zinnia.Tracking.CameraRig.DeviceDetailsRecord> Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerDeviceDetailRecords>d__190::System.Collections.Generic.IEnumerable<Zinnia.Tracking.CameraRig.DeviceDetailsRecord>.GetEnumerator()
+extern void U3Cget_RightControllerDeviceDetailRecordsU3Ed__190_System_Collections_Generic_IEnumerableU3CZinnia_Tracking_CameraRig_DeviceDetailsRecordU3E_GetEnumerator_m1E8705F6B7999424FE22D6DA30A29229CD00EC3D (void);
+// 0x0000017C System.Collections.IEnumerator Tilia.CameraRigs.TrackedAlias.TrackedAliasFacade/<get_RightControllerDeviceDetailRecords>d__190::System.Collections.IEnumerable.GetEnumerator()
+extern void U3Cget_RightControllerDeviceDetailRecordsU3Ed__190_System_Collections_IEnumerable_GetEnumerator_mC31868C59977600D7014984724AEDA108FE4F9E4 (void);
+static Il2CppMethodPointer s_methodPointers[380] = 
+{
+	TrackedAliasConfigurator_get_Facade_m01E0A474BB5FBEB40271A92C6270F57C06AAE4FE,
+	TrackedAliasConfigurator_set_Facade_mFDC66A8F706C81739CCECCCC39BCE3F8B621F930,
+	TrackedAliasConfigurator_get_PlayArea_mD23BE437A2D5C54C1EDB0BEA99B64FA009D9CEDC,
+	TrackedAliasConfigurator_set_PlayArea_m329534C548AB581B40937003292C1681DC352045,
+	TrackedAliasConfigurator_get_Headset_mE5D376C6C7BB76A46D0EC4DF41A6E7CB36A13D31,
+	TrackedAliasConfigurator_set_Headset_m187D32456A74B0788E948DF170874A4E17F523C6,
+	TrackedAliasConfigurator_get_HeadsetOrigin_m17765D1BABEF61EE0F585CC25EEA5093B3F2C0CB,
+	TrackedAliasConfigurator_set_HeadsetOrigin_m355F82C126CD1A326D765E9711445F1B7E16F3A2,
+	TrackedAliasConfigurator_get_LeftController_m639E6AE6392EE94176742CE22E97B2206737866F,
+	TrackedAliasConfigurator_set_LeftController_mACBF914E1EBDEFCF2EE573F6DFD217614DA8625B,
+	TrackedAliasConfigurator_get_RightController_m3340C8F3C06210C927A81657D41CD8A6CA7B6232,
+	TrackedAliasConfigurator_set_RightController_mC32840C5CB6D5BFDD8F542ED6DC72CC0DE964FBC,
+	TrackedAliasConfigurator_get_DominantController_mEA769DCB1AF8CA46410CF0F99DFAB6C24A339195,
+	TrackedAliasConfigurator_set_DominantController_m8F879235E6230B1ED21DB449EA93D5CA0A0CAEA9,
+	TrackedAliasConfigurator_get_HeadsetVelocityTrackers_mBA4B0709326F57C220FE0B8005EC0254B0C2A5FA,
+	TrackedAliasConfigurator_set_HeadsetVelocityTrackers_m8F41E6EC4FD6790EF3098D9A9048A8008D648D4F,
+	TrackedAliasConfigurator_get_LeftControllerVelocityTrackers_m184E94554BB2130802FA3142AC09D926DBD1C258,
+	TrackedAliasConfigurator_set_LeftControllerVelocityTrackers_m86481977F546EE558CD60837775AD335C8B5FDF3,
+	TrackedAliasConfigurator_get_RightControllerVelocityTrackers_m22A66FCB9EA09BFBF827DF043199F8F81188C92B,
+	TrackedAliasConfigurator_set_RightControllerVelocityTrackers_m2B45E7C65A8C309EC74D6F2AC3EF9B341F539D1F,
+	TrackedAliasConfigurator_get_DominantControllerVelocityTrackers_mB2F5122FC94F55513C1899A1DCF30B6037DE52C6,
+	TrackedAliasConfigurator_set_DominantControllerVelocityTrackers_mC8A2A8A99019E118ECF948F0CBAC4D8C593819CF,
+	TrackedAliasConfigurator_get_ValidCameras_mEFC024A40AEFA84210638105F4530640DF7F4D59,
+	TrackedAliasConfigurator_set_ValidCameras_mC5A7AF7ADF8E272A401CA38CEAE193BF5F9FF277,
+	TrackedAliasConfigurator_get_IncludeHeadsetSupplementCameras_m7C38D8E61567898E1CC458F536FCCAB4EBC5E724,
+	TrackedAliasConfigurator_set_IncludeHeadsetSupplementCameras_m42D1CAFE0642A9F8D081B5EA185596F92EE945FD,
+	TrackedAliasConfigurator_SetUpCameraRigsConfiguration_m0FC34A2DD20AC06811154750693C26F4321D4DC3,
+	TrackedAliasConfigurator_SetUpDominantTracking_mE8DA63CC34410214DD44A948B90C8CD60BF77252,
+	TrackedAliasConfigurator_NotifyTrackedAliasChanged_m0D216B29190DD46895225707B1DB0BBBED5662BD,
+	TrackedAliasConfigurator_NotifyHeadsetTrackingBegun_mDBAB64F821715B66A45DD3031E392C310C74252B,
+	TrackedAliasConfigurator_NotifyLeftControllerTrackingBegun_m5D4CED58A9125962126C28E1513C683E76631DBC,
+	TrackedAliasConfigurator_NotifyRightControllerTrackingBegun_m4E28C97169F600DF7D03F94608C9259F9330B1D1,
+	TrackedAliasConfigurator_OnEnable_m1C3D2601E102CB64E1DDD0AB8824C3E96AAA8EB9,
+	TrackedAliasConfigurator_OnDisable_mC37A80339F549D58D07137822D4EF80B14006850,
+	TrackedAliasConfigurator_OnApplicationPause_m159FF3EF70A3A383160BD31AFCFD55C78E276813,
+	TrackedAliasConfigurator_OnApplicationFocus_m9CABAE137448A3053D6F41963A9C7FA898C7CC6C,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	TrackedAliasConfigurator_CheckExistingEventStatus_m10FA12B983DA902E063192FFE85AF917BAE359D4,
+	TrackedAliasConfigurator_SubscribeToDetailsEvents_m3942E80190F0BE8A5FBE3743EE2104DA9B2722A8,
+	TrackedAliasConfigurator_UnsubscribeToDetailsEvents_m7EE331D4321D584190DB4B293BE5DF5F0760074F,
+	TrackedAliasConfigurator__ctor_m3BCD807F41B1C56016AC6FA9626323A74C1D47D8,
+	TrackedAliasConfigurator_U3CSetUpCameraRigsConfigurationU3Eb__82_0_mD0FC218E7ED16EF3003128A66AA275ECD31D156F,
+	TrackedAliasConfigurator_U3CSetUpCameraRigsConfigurationU3Eb__82_1_m3352772269BD372A64C427C1182B405034156D71,
+	TrackedAliasConfigurator_U3CSetUpCameraRigsConfigurationU3Eb__82_2_mFF467BDB26FE730838DBA66001B031D78FFBC32F,
+	TrackedAliasConfigurator_U3CSetUpCameraRigsConfigurationU3Eb__82_3_m6EE13E2337B8AC687723A52269B8CA58A8B62C51,
+	TrackedAliasConfigurator_U3CSetUpCameraRigsConfigurationU3Eb__82_4_m998BE7FD178DDBBF2CCDCAB4BD602E1612141878,
+	TrackedAliasConfigurator_U3CSetUpCameraRigsConfigurationU3Eb__82_5_m54848280A94817DBB0578AD8CBE9396E427708B6,
+	TrackedAliasConfigurator_U3CSetUpCameraRigsConfigurationU3Eb__82_6_m9502E6E28ACBCAC7EF5A7FAE653E36BA0D34132A,
+	TrackedAliasConfigurator_U3CSetUpCameraRigsConfigurationU3Eb__82_7_m4338D103DBAFA4C016F8816C0258F74E5FFB88BD,
+	TrackedAliasConfigurator_U3CSetUpDominantTrackingU3Eb__83_0_m8820884BA078FEE8A31BDFEA67E1C9F39DF46282,
+	TrackedAliasConfigurator_U3CSetUpDominantTrackingU3Eb__83_1_mCED69C94CA6ACFE02F33CCBE29CC998152300B10,
+	TrackedAliasConfigurator_U3CSetUpDominantTrackingU3Eb__83_2_m8947D3D565DB4CE793FF177329F7C130A2512CFD,
+	TrackedAliasConfigurator_U3CSetUpDominantTrackingU3Eb__83_3_m3F338312AE10506C3FF96CE429EE1F292356C3AD,
+	TrackedAliasConfigurator_U3CSetUpDominantTrackingU3Eb__83_4_mD44AADBD6BFF129095F6A5843FD7FDD769556285,
+	TrackedAliasConfigurator_U3CSetUpDominantTrackingU3Eb__83_5_mECD167FFBC4C2E118281D35584E277C8E0EC26B5,
+	TrackedAliasConfigurator_U3CSetUpDominantTrackingU3Eb__83_6_m6155E57C039F6B6D6F91B70CFC7AB2234146BDB1,
+	TrackedAliasConfigurator_U3CSetUpDominantTrackingU3Eb__83_7_m5F27CBAAD4ADADF04063F3741BC00375D88787FC,
+	TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_0_m5BBA5BFB60B409F4DCBA20AF8BA9F7B9969D2803,
+	TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_1_m759ADE498375F61024207A2B81AB42C4A7779248,
+	TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_2_mD28EE592E03DF6B0027A3B2230B37AA3D9C9824A,
+	TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_3_mC296D38C59179D5993A7DF2C80E11004A463571E,
+	TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_4_m326A30818AAF6F0643A77133F061E8209DE6D719,
+	TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_5_m7EA557A11E7E1218B1DC0A667FDF9D33D0CFD399,
+	TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_6_m8C6087429B99197C8644E669C3647B3043173B22,
+	TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_7_m9E268B9381BCD11EA43E24929474B4D4DEB0BD02,
+	TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_8_mF5837258BA51B0E53CDA71EF5A38D9B1B0AC7FAF,
+	TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_9_m6B5568DFFF58A2254DFF775E56748086848507D9,
+	TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_10_m1C086F4E09E239F74511A28243EBBCBEE5249CBA,
+	TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_11_m36D1A502E4576C62B79CB78CB70DACDA06892752,
+	TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_12_m231F6B607E6D78D57133D8500D69473E788D9006,
+	TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_13_m66E2E1B2E322AD52CCBE1EFEF0EB673A68718E56,
+	TrackedAliasConfigurator_U3CSubscribeToDetailsEventsU3Eb__97_14_mB5E963B4FCE85284319CE5B4527927BD7DCD9509,
+	U3CU3Ec__DisplayClass82_0__ctor_m1F644CD0F1976F7EE07E5BF58184FCB225823A76,
+	U3CU3Ec__DisplayClass82_0_U3CSetUpCameraRigsConfigurationU3Eb__8_m38EB89EFE93837D95EF9E92A734D651B7E78ED23,
+	U3CU3Ec__DisplayClass82_1__ctor_mE89E413C26C10A48D330F7EF97E976F9E7D764F9,
+	U3CU3Ec__DisplayClass82_1_U3CSetUpCameraRigsConfigurationU3Eb__9_m21BD5745C8678AEDB43D6E5F4514E1AE1B631FEB,
+	U3CU3Ec__DisplayClass82_2__ctor_mE109367B6EC6045FB56BE73B0192F39490254F4F,
+	U3CU3Ec__DisplayClass82_2_U3CSetUpCameraRigsConfigurationU3Eb__10_m2EC9DA4904AE413C3D8AB68EA8F5C37D91D4723F,
+	U3CU3Ec__DisplayClass82_3__ctor_m6B125E7F2308CB31062A41CAFB8BD9B1E11710BD,
+	U3CU3Ec__DisplayClass82_3_U3CSetUpCameraRigsConfigurationU3Eb__11_m1C3AAEBEF97D6B695AE2E1C55CB9288832995B79,
+	U3CU3Ec__DisplayClass82_4__ctor_m09D74E565D583427976277BAAA0D7BA97BBCCD19,
+	U3CU3Ec__DisplayClass82_4_U3CSetUpCameraRigsConfigurationU3Eb__12_mD4A71C1A9AF749F6BD722954658EC7A1CE4A0788,
+	U3CU3Ec__DisplayClass82_5__ctor_m16B17E960BB43271B84275285A338ADAC4D755B2,
+	U3CU3Ec__DisplayClass82_5_U3CSetUpCameraRigsConfigurationU3Eb__13_m0A8FF14C8CDAFE37DEBC6C0D050F8E2B26824BE2,
+	U3CU3Ec__DisplayClass82_6__ctor_mEACA3E6841EEE089FA95F8E4B56403233B767379,
+	U3CU3Ec__DisplayClass82_6_U3CSetUpCameraRigsConfigurationU3Eb__14_m2E3374427C5D066A2218C0D1CC18345327977B3D,
+	U3CU3Ec__DisplayClass82_7__ctor_m1F6C4F4523C9C0D8AFBBF792BE2098B9BD344A2B,
+	U3CU3Ec__DisplayClass82_7_U3CSetUpCameraRigsConfigurationU3Eb__15_mD725B88ECA38A2BC23F41F51076D0F3C238C7BF9,
+	U3CU3Ec__DisplayClass82_8__ctor_m3843B83241ED3B0452306D90F3AE67D8EBDA2C6A,
+	U3CU3Ec__DisplayClass82_8_U3CSetUpCameraRigsConfigurationU3Eb__16_mBED14C9E63D824E8B707C09034C918B80CAE6AE0,
+	TrackedAliasFacade_get_CameraRigs_mDF9D966A59CDC34609DAF5ABB0352F9F1B457CDE,
+	TrackedAliasFacade_set_CameraRigs_mA3AA92ECCEBC119CB5E6C90EC231F4C917C68DD0,
+	TrackedAliasFacade_get_Configuration_m753F7FE46CAA10A275D60C32B310322AFEEF9C72,
+	TrackedAliasFacade_set_Configuration_mCEACF5913F46E0DF9394E534D4AB792A9A3648BB,
+	TrackedAliasFacade_get_ActiveLinkedAliasAssociation_mB996EC980C5A3DB29BAF85E220B394D2E930FB82,
+	TrackedAliasFacade_get_ActivePlayArea_m93D3012A21A42361A5A6B192C666B78DA25E3614,
+	TrackedAliasFacade_get_ActiveHeadset_m7050D6286CA568911018CF6E9672BE5744681884,
+	TrackedAliasFacade_get_ActiveHeadsetCamera_mC0DB5C2670DD71A15F4521F5E6E19BCB3568B91A,
+	TrackedAliasFacade_get_ActiveHeadsetVelocity_m058934F1D118EBC84CD890A7839C0E946C1E6CF6,
+	TrackedAliasFacade_get_ActiveHeadsetDetails_mE672809D3B63BE823DAFCB21F7CFD61B2EF9C92A,
+	TrackedAliasFacade_get_ActiveHeadsetTrackingHasBegun_m511EB48406333143EDC95245C123DDD1868DAD36,
+	TrackedAliasFacade_get_ActiveHeadsetIsConnected_mC320F5C21F1816BBF04618F5B6ECA6E200F2EDF8,
+	TrackedAliasFacade_get_ActiveHeadsetManufacturer_m8960DF7EA096AE04393585465A005AC3B77E839E,
+	TrackedAliasFacade_get_ActiveHeadsetModel_m5D44046808AAD23A059472C2EA373765E8214602,
+	TrackedAliasFacade_get_ActiveHeadsetTrackingType_m2420E28B2C6300BBB329FFD39090266964281664,
+	TrackedAliasFacade_get_ActiveHeadsetBatteryLevel_m15C779F7EA8A10A5CA25E892F28D2A5BF8B0E29C,
+	TrackedAliasFacade_get_ActiveHeadsetBatteryChargeStatus_m30DA8AA73152BC5229CE0C3F455A93EAF9578D2B,
+	TrackedAliasFacade_get_ActiveHeadsetHasPassThroughCamera_m87BC6CE1EA92B9058566539ACB7562288AB549A0,
+	TrackedAliasFacade_get_ActiveHeadsetPassThroughCameraEnabled_m04709AAD03DD0EB3EA802CBA15269EC7C81B176B,
+	TrackedAliasFacade_set_ActiveHeadsetPassThroughCameraEnabled_mE290F1C0E5938A9DA83460C3ED32922EC8A7B7FD,
+	TrackedAliasFacade_get_ActiveDominantControllerObserver_m68D455F64562D9B8952703D9EE0DDD2C1CE274B4,
+	TrackedAliasFacade_get_ActiveDominantController_mF1EA044684050DD2EE04BF85398458E2E0F61712,
+	TrackedAliasFacade_get_ActiveDominantControllerNode_m1F68962F1F32CF84680754DF64F13FDC7B15AAE4,
+	TrackedAliasFacade_get_ActiveDominantControllerVelocity_m3ECC99AD6B4110E99C34D65EDF3BC85C3471ACA2,
+	TrackedAliasFacade_get_ActiveDominantHapticProcess_m3A936EB82A954574AAFE326A33E83373C69A5598,
+	TrackedAliasFacade_get_ActiveDominantHapticProfiles_mBC92D2ED6009C17538139B7EAD206A828567E28B,
+	TrackedAliasFacade_get_ActiveDominantHapticProfile_m8098CD75A4CE3AF104AB5ED70DC64E12B4A8C360,
+	TrackedAliasFacade_set_ActiveDominantHapticProfile_m2BCC71164F4FAC837863F834DA1536C869C0E0C5,
+	TrackedAliasFacade_get_ActiveDominantControllerRecord_m499E6AA7523D2DAAC038C020377446FE4C3F342C,
+	TrackedAliasFacade_get_ActiveDominantControllerTrackingHasBegun_m9D939DFB16F5FCF32319A153C2C772F0DC69A079,
+	TrackedAliasFacade_get_ActiveDominantControllerIsConnected_m91FEC2A5E51B9141E4E1BEF9C7B4249CA294545C,
+	TrackedAliasFacade_get_ActiveDominantControllerManufacturer_mC1AB4C7EADD4FF79CF4464D7C0BE486688B10489,
+	TrackedAliasFacade_get_ActiveDominantControllerModel_mCBF469801C2A2409515EA0AB988DDA1240C9D027,
+	TrackedAliasFacade_get_ActiveDominantControllerTrackingType_mB87E483700B4E10CE0910FBE5345C0534B2AFE33,
+	TrackedAliasFacade_get_ActiveDominantControllerBatteryLevel_m210C571FC46E38A0281C64CCDB667AB2C829E84B,
+	TrackedAliasFacade_get_ActiveDominantControllerBatteryChargeStatus_mA46D0EDF5E6CCBE8045EFA215D33B95ECBB32FAC,
+	TrackedAliasFacade_get_ActiveLeftController_m26DE5E2D7D26FA59DB0B1DFDC5C9956DE3FE9D4B,
+	TrackedAliasFacade_get_ActiveLeftControllerNode_m6DF2686BEC77D10E8997B68225D70FCE8898E164,
+	TrackedAliasFacade_get_ActiveLeftControllerVelocity_m14F2808896F30A17FEED15C2A8C30B720695F6F4,
+	TrackedAliasFacade_get_ActiveLeftHapticProcess_mD6A21D0E10ECBDA740C3C971D4EEA65D06A2E559,
+	TrackedAliasFacade_get_ActiveLeftHapticProfiles_m89C6BC3B1939E51CE0F97A1CA89171026AA5DA95,
+	TrackedAliasFacade_get_ActiveLeftHapticProfile_mFD9B943DF1594A4A25F7483D7929CE77E3681007,
+	TrackedAliasFacade_set_ActiveLeftHapticProfile_m058A44117375A42D80C73967A66623A757F09949,
+	TrackedAliasFacade_get_ActiveLeftControllerDetails_m60009A10550B6CD847026F8FBF3A06AF06E45992,
+	TrackedAliasFacade_get_ActiveLeftControllerTrackingHasBegun_m5F4D7CC2961FC57D8092520F21ABD673FFF43552,
+	TrackedAliasFacade_get_ActiveLeftControllerIsConnected_mC774516F6D047641F2D24DDA3688064DD13C9C6B,
+	TrackedAliasFacade_get_ActiveLeftControllerManufacturer_mBBB19B5BF05E4C03EA412A65F924412C3B802365,
+	TrackedAliasFacade_get_ActiveLeftControllerModel_m73DD0812C0B6ABD9B7BACD5B47AC373FB3785985,
+	TrackedAliasFacade_get_ActiveLeftControllerTrackingType_mF1C20E170343F5706FB7EDEC6F4AE0050A70CD9C,
+	TrackedAliasFacade_get_ActiveLeftControllerBatteryLevel_m0B9BC1F1669BE459FC84BFE9601255128AD86630,
+	TrackedAliasFacade_get_ActiveLeftControllerBatteryChargeStatus_m689EBF231F597AF84C9313343671FB15F69DE4D9,
+	TrackedAliasFacade_get_ActiveRightController_m2A5234E5E7690093D52D6CC60857EBE6FDE8958E,
+	TrackedAliasFacade_get_ActiveRightControllerNode_m3D79AC9B8DA43AB24C79A796D56D4F7C086EAD9E,
+	TrackedAliasFacade_get_ActiveRightControllerVelocity_mDC86F3644A639812C5BF3FF17E9C59D8CEA17220,
+	TrackedAliasFacade_get_ActiveRightHapticProcess_mA965DB614A7FF37627ECCF451809D9DF9A0BC871,
+	TrackedAliasFacade_get_ActiveRightHapticProfiles_m26FC721DCC8EE7FD175A867973D107EE3E1F4AB5,
+	TrackedAliasFacade_get_ActiveRightHapticProfile_mF9569602F6939DC1EF23AD26DA87C8524439C5C9,
+	TrackedAliasFacade_set_ActiveRightHapticProfile_mEF81467326C686254B263130318FCAD6226CDF4B,
+	TrackedAliasFacade_get_ActiveRightControllerDetails_mA27D990444F255A2DEC6BCFA7048FF0E52F431BA,
+	TrackedAliasFacade_get_ActiveRightControllerTrackingHasBegun_m707ADF3D8FDA128BBF92BADF91161BB30E07ADFC,
+	TrackedAliasFacade_get_ActiveRightControllerIsConnected_m3BE9DE0DA40C36ECD57C0851B42B1BA055356CB6,
+	TrackedAliasFacade_get_ActiveRightControllerManufacturer_m8F1CC497E6653DBD5BBB31772A31134146F5BDE4,
+	TrackedAliasFacade_get_ActiveRightControllerModel_mBA9B063BE976A6775138ED55CF67638134E8C8C2,
+	TrackedAliasFacade_get_ActiveRightControllerTrackingType_m0B10AD36528E524FC4716400216E16E23B5D33B7,
+	TrackedAliasFacade_get_ActiveRightControllerBatteryLevel_mC8634687D2D9984D1B81714B04A41F8AAFA35C80,
+	TrackedAliasFacade_get_ActiveRightControllerBatteryChargeStatus_m14F5C9F2772E88678C31C485871A5D15AC8DABE8,
+	TrackedAliasFacade_get_PlayAreas_m1A3F84C4616DF27F9D538F094868E864E028AFD2,
+	TrackedAliasFacade_get_Headsets_m09AB2B790C1015CF7399337D3BEBE431C8EF32EF,
+	TrackedAliasFacade_get_HeadsetCameras_mF62773828D2062FDD95CA0E17DB92424458B6640,
+	TrackedAliasFacade_get_HeadsetVelocityTrackers_m5B62555C4C80DADB12192BCE8697E37134DB5B9C,
+	TrackedAliasFacade_get_HeadsetSupplementCameras_m0FADB34EF1708A5E7AD5980BD0C46C8C56D304F9,
+	TrackedAliasFacade_get_HeadsetDeviceDetailRecords_mF69C03FB8AA806AD773A42F0342991C41B946F34,
+	TrackedAliasFacade_get_DominantControllerObservers_m17E4DDFE047F7A1C0E7A105B1AD18DE0F03DC853,
+	TrackedAliasFacade_get_LeftControllers_mA9F6A9B35ED08861EA4F886AF54139F389E1AD96,
+	TrackedAliasFacade_get_RightControllers_mA05088A3B2AD31D813EBA67710D0004FBF81FFC3,
+	TrackedAliasFacade_get_LeftControllerVelocityTrackers_mAE6987957ABA0EB14D08E1A5521C8EE98C8F9157,
+	TrackedAliasFacade_get_RightControllerVelocityTrackers_mCC4E5BC3EE7995EF11A71DE780B7E34EB3CB351F,
+	TrackedAliasFacade_get_LeftControllerHapticProcesses_m1DA03203BA68EBAF89961795C34BE1ADB8144A6E,
+	TrackedAliasFacade_get_RightControllerHapticProcesses_m918DBCF5BD50350D6D2612303A138EAA586DC8F0,
+	TrackedAliasFacade_get_LeftControllerHapticProfiles_m7BD52B5B0EED4F3904210747476F03B990808E22,
+	TrackedAliasFacade_get_RightControllerHapticProfiles_mFCB037C2A5266848DA47D6257CDDF6C3071CD38B,
+	TrackedAliasFacade_get_LeftControllerDeviceDetailRecords_mC408FEA1908CF1842A024B2434AB3201471702A8,
+	TrackedAliasFacade_get_RightControllerDeviceDetailRecords_mE7445B528DC7AEF39BA3859CC316EC7D1E4221D0,
+	TrackedAliasFacade_get_PlayAreaAlias_mA55E650EEE5F4307121A83351D01300D7B8C7A38,
+	TrackedAliasFacade_get_HeadsetAlias_m14B8754AB607E4ED39F79C75ED5295C214ECA76D,
+	TrackedAliasFacade_get_HeadsetOriginAlias_m27E66097CC32DA907BBC1C0FDA793A01634E153E,
+	TrackedAliasFacade_get_LeftControllerAlias_m26F740379A981D8A9B72EA37EAD9011D3D11F910,
+	TrackedAliasFacade_get_RightControllerAlias_m7322F1D0E35ACB3A0D4F0CAB8ECD4279405FD5FE,
+	TrackedAliasFacade_get_DominantControllerAlias_m9D1579F1503A50E44709EEEC163516F2B0B4E677,
+	TrackedAliasFacade_BeginHapticProcessOnLeftController_mBA8BC0C2A0DA7E9E5723E4008009ED4024EA8ACE,
+	TrackedAliasFacade_BeginHapticProcessOnLeftController_mF3DF7D2FE5BCABE6D824A8CEF74FD9A780D11384,
+	TrackedAliasFacade_BeginHapticProcessOnRightController_m02472895D3800160C23DD5AB6398973BCC47FC40,
+	TrackedAliasFacade_BeginHapticProcessOnRightController_m8FBB2940B49EC88C8FF8D06D585B8675D1D92411,
+	TrackedAliasFacade_BeginHapticProcessOnDominantController_m635DFA94B641F98DCDD018B43B48F0C67CDB122A,
+	TrackedAliasFacade_BeginHapticProcessOnDominantController_mC08301FCFC71DA5F63B39933BB5B72A5FD780E5E,
+	TrackedAliasFacade_CancelAllHapticsOnLeftController_m8652A45CF64B7C6FEE0EE0DB92CC3907FDF33A15,
+	TrackedAliasFacade_CancelActiveHapticProfileOnLeftController_mB957CC9238DB4DD9571497649CBA0C76FEA824BC,
+	TrackedAliasFacade_CancelHapticProcessOnLeftController_m4A37C44203E88BC4BBA228B16ED795ECDFAA435C,
+	TrackedAliasFacade_CancelHapticProcessOnLeftController_m43B225A4060F614D6C74AD52E10B5439AABF05EC,
+	TrackedAliasFacade_CancelAllHapticsOnRightController_mA39C38F76E2BA552ED7CE5CEEF9D54A3C216F62D,
+	TrackedAliasFacade_CancelActiveHapticProfileOnRightController_m9E89C564DB5C695D92AF0865C0B4B166829426B8,
+	TrackedAliasFacade_CancelHapticProcessOnRightController_m93A58111486BA147F26DDDE98F513F28082AF36E,
+	TrackedAliasFacade_CancelHapticProcessOnRightController_m64E32D5E5B5ABC6BB370103725206DC39CD88CB1,
+	TrackedAliasFacade_CancelAllHapticsOnDominantController_m3686AD3B5C4C3045B95836CFE626A804DCBB19FB,
+	TrackedAliasFacade_CancelActiveHapticProfileOnDominantController_m846AD68CAB65D3E7958662448654D82D8F93ED45,
+	TrackedAliasFacade_CancelHapticProcessOnDominantController_m884F933E604CE09D8F5FFDF6501717E2920F1B84,
+	TrackedAliasFacade_CancelHapticProcessOnDominantController_m235C3BB559A3AAC7267C5E0463BF10F0759B4363,
+	TrackedAliasFacade_OnEnable_mE2EF3BB863C6C137A7075E72A735196499643745,
+	TrackedAliasFacade_OnDisable_m65803816D452F8162506316F6276B21DF20763EF,
+	TrackedAliasFacade_SubscribeToCameraRigsEvents_m074B1B0B4EC26450CBE18720B5072FD399780A6C,
+	TrackedAliasFacade_UnsubscribeFromCameraRigsEvents_m724F40CE69FE79BC5C098E7FAB355633F7BAE453,
+	TrackedAliasFacade_OnCameraRigAdded_m9567D2DE2193D2FE55B4F34C86BC2EB04C406AB8,
+	TrackedAliasFacade_OnCameraRigRemoved_m68917AF9F33F72872E5887949AFE069EF7B0D1D9,
+	TrackedAliasFacade_RefreshCameraRigsConfiguration_m56384B3EE171213C1FF860A656FA132FB73B69FD,
+	TrackedAliasFacade_GetFirstActiveLinkedAliasAssociationCollection_mD10CE523C4B71B22BF4C72C6E074123BBC1F0FCD,
+	TrackedAliasFacade_GetFirstActiveGameObject_mCEB284FB8961D3F9A991F8F275ADD1CEF3B992A5,
+	TrackedAliasFacade_GetFirstActiveCamera_mA7C49ACA0C9C15930581D2DFCB958F0A4E2241F0,
+	TrackedAliasFacade_GetFirstActiveVelocityTracker_m8613C3CED67FA9482B78329D316D85F50CDE891E,
+	TrackedAliasFacade_GetFirstActiveHapticProcess_m7DE31FD93A8978895D32543CE710047E2AB498FF,
+	TrackedAliasFacade_GetFirstActiveHapticProfile_mA7819232225498E6EFEB20C5B01D55150E25B2EC,
+	TrackedAliasFacade_GetFirstActiveDominantControllerObserver_mF65383BA5FAA282DF85D6E644B77E666F72D90BE,
+	TrackedAliasFacade_GetFirstActiveDeviceRecord_m63F58342A4B8DE989439CAC68D30D45E013E6F8E,
+	TrackedAliasFacade_BeginHapticProfile_mF831A3CD6CA940EFD8E688C4B5D0269AC1F109F4,
+	TrackedAliasFacade_CancelHapticProfile_m5036FE8CE02A99BAFE9C52A6329053A8469D6DEB,
+	TrackedAliasFacade_IsValidHapticProfile_m5D9A95D12EE77CD80DA76AB0E8DA9CFBF0408500,
+	TrackedAliasFacade_BeginHapticProcessOnController_mDE78B42F7C11B06DA6C868363478F0887D617C48,
+	TrackedAliasFacade_CancelAllHapticsOnController_m6E1ADAF3FF0212696CA895EC4B54EBF7B58F3B7C,
+	TrackedAliasFacade_CancelHapticProcessOnController_m43D53FA2D9F5F3F8BE749BDD5C8052DD220B7288,
+	TrackedAliasFacade_OnBeforeCameraRigsChange_mF0EFDF42F936167572B806CB2308238A9C6E5502,
+	TrackedAliasFacade_OnAfterCameraRigsChange_mE2103E3C12B32786E54D984F686E89C24404F65C,
+	TrackedAliasFacade__ctor_m416C01C7A14F92101E9756D2D531122B4351A536,
+	LinkedAliasAssociationCollectionUnityEvent__ctor_m7CD4995C439A88D669FCC7397CDF3BC87AFD3868,
+	CameraUnityEvent__ctor_mEF9D404843A8D19A7FE72329CECFE8ACA17C71C8,
+	U3Cget_PlayAreasU3Ed__158__ctor_m4034210CE2787FFB57EE00B81C3246D26E98ED51,
+	U3Cget_PlayAreasU3Ed__158_System_IDisposable_Dispose_mB8EAECA1AE9D783A9DE51399F4326E7A76632E96,
+	U3Cget_PlayAreasU3Ed__158_MoveNext_m811466B4676F13BAF25AE315E556358F4FED0CC3,
+	U3Cget_PlayAreasU3Ed__158_U3CU3Em__Finally1_m8F6F67D40F2708110D96818739C4E5D27349526C,
+	U3Cget_PlayAreasU3Ed__158_System_Collections_Generic_IEnumeratorU3CUnityEngine_GameObjectU3E_get_Current_m2E6771621F2E1CD5F0B14D0E63B36B0F33F146D9,
+	U3Cget_PlayAreasU3Ed__158_System_Collections_IEnumerator_Reset_m13508F5E833463C49A87070D979DD4178DD18C84,
+	U3Cget_PlayAreasU3Ed__158_System_Collections_IEnumerator_get_Current_m9501FBF0EA4C787C46326ACF6ACF6AC5B96D8165,
+	U3Cget_PlayAreasU3Ed__158_System_Collections_Generic_IEnumerableU3CUnityEngine_GameObjectU3E_GetEnumerator_mCC60555ACEE0784A9BF258839AA5458D374CAACA,
+	U3Cget_PlayAreasU3Ed__158_System_Collections_IEnumerable_GetEnumerator_mDFD43D65A52160601D780D033991F691DEC3B3F6,
+	U3Cget_HeadsetsU3Ed__160__ctor_m4210DA45B8A27F90C16CACDD4D0D9B1E6B9079EE,
+	U3Cget_HeadsetsU3Ed__160_System_IDisposable_Dispose_m4AA4C1D4EB8EDB9E8AE23BDFA02B78E7BD6A375A,
+	U3Cget_HeadsetsU3Ed__160_MoveNext_mB704505FEFC35170CD530A610CE7BC9F6AB444DB,
+	U3Cget_HeadsetsU3Ed__160_U3CU3Em__Finally1_m0CDF0B609280E2158C68167E1337A8CBB9AE06EF,
+	U3Cget_HeadsetsU3Ed__160_System_Collections_Generic_IEnumeratorU3CUnityEngine_GameObjectU3E_get_Current_m2B878540CDBBC4F96716344E80082649D1A3E38E,
+	U3Cget_HeadsetsU3Ed__160_System_Collections_IEnumerator_Reset_m3292329450D743402ED47103E6473403372A0D10,
+	U3Cget_HeadsetsU3Ed__160_System_Collections_IEnumerator_get_Current_mDCA0172657C6C984A1FEA5BE4668E6AC1D999220,
+	U3Cget_HeadsetsU3Ed__160_System_Collections_Generic_IEnumerableU3CUnityEngine_GameObjectU3E_GetEnumerator_m0332D049B961342216DE53AD0DE2B77D1D85ABD2,
+	U3Cget_HeadsetsU3Ed__160_System_Collections_IEnumerable_GetEnumerator_m266E1C7192AF7CB56684D3B3A9459F42C5967763,
+	U3Cget_HeadsetCamerasU3Ed__162__ctor_mB30EAC677C880A099E954A1A57B9EE78BFBE7F5F,
+	U3Cget_HeadsetCamerasU3Ed__162_System_IDisposable_Dispose_m77537DEB3B5C541C91BCD8FF29039C64BE3AC13D,
+	U3Cget_HeadsetCamerasU3Ed__162_MoveNext_m9C3E2C1ABCDA70ACA2F3E0B561E75DE191F3B083,
+	U3Cget_HeadsetCamerasU3Ed__162_U3CU3Em__Finally1_m5630E75C27BE2B7831A91E087CC8534CC96518BD,
+	U3Cget_HeadsetCamerasU3Ed__162_System_Collections_Generic_IEnumeratorU3CUnityEngine_CameraU3E_get_Current_m524D8401AA6A0FCA93485232092795B8F7211CAB,
+	U3Cget_HeadsetCamerasU3Ed__162_System_Collections_IEnumerator_Reset_m2D782D49DFC7F9D6AAB205866911D982036EB0D8,
+	U3Cget_HeadsetCamerasU3Ed__162_System_Collections_IEnumerator_get_Current_mC508145008DD4E2872D33157F1097D6BAADE066B,
+	U3Cget_HeadsetCamerasU3Ed__162_System_Collections_Generic_IEnumerableU3CUnityEngine_CameraU3E_GetEnumerator_m412B8FE9A04D644DC3123C62A9EF7B8809A83B95,
+	U3Cget_HeadsetCamerasU3Ed__162_System_Collections_IEnumerable_GetEnumerator_mBB932A4B3375F8599DD6DA2BA9A2308B2C4B694E,
+	U3Cget_HeadsetVelocityTrackersU3Ed__164__ctor_m2AEB50195DFF4E1A7C60EFA57DAE700A5C30286F,
+	U3Cget_HeadsetVelocityTrackersU3Ed__164_System_IDisposable_Dispose_m8324028870B36E66BBD4D7F31326AB3AFE6ADABC,
+	U3Cget_HeadsetVelocityTrackersU3Ed__164_MoveNext_mA68D53C0250A7AB20C590C8DE28C848184BA396F,
+	U3Cget_HeadsetVelocityTrackersU3Ed__164_U3CU3Em__Finally1_m54C885B59EB747A1132FE79AD04CE25A7A7B6CC8,
+	U3Cget_HeadsetVelocityTrackersU3Ed__164_System_Collections_Generic_IEnumeratorU3CZinnia_Tracking_Velocity_VelocityTrackerU3E_get_Current_m92A530A2AF43B7B8400D8A8F14E4F48BEA5E1568,
+	U3Cget_HeadsetVelocityTrackersU3Ed__164_System_Collections_IEnumerator_Reset_mC74A2AB0715E33ED04A81FEFD63E014D6F7A6160,
+	U3Cget_HeadsetVelocityTrackersU3Ed__164_System_Collections_IEnumerator_get_Current_mC97E5506B057FD2AE6127304117ABB02000D6521,
+	U3Cget_HeadsetVelocityTrackersU3Ed__164_System_Collections_Generic_IEnumerableU3CZinnia_Tracking_Velocity_VelocityTrackerU3E_GetEnumerator_mCBBFFF3369D87289EBD216C7C3FD7F38ABD0BECC,
+	U3Cget_HeadsetVelocityTrackersU3Ed__164_System_Collections_IEnumerable_GetEnumerator_m7BB8731C9F17AFED2B30D00A82F4E93D18852C5D,
+	U3Cget_HeadsetSupplementCamerasU3Ed__166__ctor_m8FAB68D11DF8E5EAF9E82F2C1F28C214DD34CC08,
+	U3Cget_HeadsetSupplementCamerasU3Ed__166_System_IDisposable_Dispose_m95050EB8CAD9E27E43E9BC73A072A5DB0257003E,
+	U3Cget_HeadsetSupplementCamerasU3Ed__166_MoveNext_mCA7B56526476E7B9F017B91F1E611ACC205F758B,
+	U3Cget_HeadsetSupplementCamerasU3Ed__166_U3CU3Em__Finally1_mAEAD16F8247F7667016B7B4A86E7F2E06F631661,
+	U3Cget_HeadsetSupplementCamerasU3Ed__166_U3CU3Em__Finally2_m47D1B9657DC12855556B18925C8BF0BC80629BA7,
+	U3Cget_HeadsetSupplementCamerasU3Ed__166_System_Collections_Generic_IEnumeratorU3CUnityEngine_CameraU3E_get_Current_mFF378BAF46C1715766314DE340006E39E630582F,
+	U3Cget_HeadsetSupplementCamerasU3Ed__166_System_Collections_IEnumerator_Reset_mFDBC1DA8FFE085836DC5EA32783ED8F5B5061BA5,
+	U3Cget_HeadsetSupplementCamerasU3Ed__166_System_Collections_IEnumerator_get_Current_m05DA3C24B6E4D2A41793705ED64ACBBE892307DC,
+	U3Cget_HeadsetSupplementCamerasU3Ed__166_System_Collections_Generic_IEnumerableU3CUnityEngine_CameraU3E_GetEnumerator_mF822AC647574748D7CB2270CA744F16DE97BB27D,
+	U3Cget_HeadsetSupplementCamerasU3Ed__166_System_Collections_IEnumerable_GetEnumerator_m55700F178F5D62FC2414A240C21B07BB69AE4F01,
+	U3Cget_HeadsetDeviceDetailRecordsU3Ed__168__ctor_m02C219F9BC93CC8EE78828EE80CA792293DA42D9,
+	U3Cget_HeadsetDeviceDetailRecordsU3Ed__168_System_IDisposable_Dispose_mE1482F6F1397D0CF7A1EDC476C03E0423B1C5F1A,
+	U3Cget_HeadsetDeviceDetailRecordsU3Ed__168_MoveNext_mB85791D0D147A07199138EE0C7EB81CDDA4C59D2,
+	U3Cget_HeadsetDeviceDetailRecordsU3Ed__168_U3CU3Em__Finally1_mA97015D55431E7FD49117842591C11BAFF83059A,
+	U3Cget_HeadsetDeviceDetailRecordsU3Ed__168_System_Collections_Generic_IEnumeratorU3CZinnia_Tracking_CameraRig_DeviceDetailsRecordU3E_get_Current_mE0F85255127EA9B2826135962DE0DDCCC08B8439,
+	U3Cget_HeadsetDeviceDetailRecordsU3Ed__168_System_Collections_IEnumerator_Reset_m805AAF960BC54B72CF7D24A3D6D456878BB8AAF2,
+	U3Cget_HeadsetDeviceDetailRecordsU3Ed__168_System_Collections_IEnumerator_get_Current_m7C3F4E556A445E6A57B03D4E3B9F622907665590,
+	U3Cget_HeadsetDeviceDetailRecordsU3Ed__168_System_Collections_Generic_IEnumerableU3CZinnia_Tracking_CameraRig_DeviceDetailsRecordU3E_GetEnumerator_m518B222095710224452387BF33BFC88B1E306BAF,
+	U3Cget_HeadsetDeviceDetailRecordsU3Ed__168_System_Collections_IEnumerable_GetEnumerator_m899930532501831C2EBFC8A01885A31EC3577EDC,
+	U3Cget_DominantControllerObserversU3Ed__170__ctor_m05B8DEEC9AA3774A0D66707DCDC6E4F114C307D4,
+	U3Cget_DominantControllerObserversU3Ed__170_System_IDisposable_Dispose_mA825713F87AB3587153683810AD9629EA5565A8E,
+	U3Cget_DominantControllerObserversU3Ed__170_MoveNext_m2774F7A84328D5964932ECC859C344F6CF39556E,
+	U3Cget_DominantControllerObserversU3Ed__170_U3CU3Em__Finally1_mC1D9C01FF739B7916412D0E2744F9AB844F5CCEF,
+	U3Cget_DominantControllerObserversU3Ed__170_System_Collections_Generic_IEnumeratorU3CZinnia_Tracking_CameraRig_DominantControllerObserverU3E_get_Current_m61FE7B4A4274CB520D29F87A182A8827A3B45391,
+	U3Cget_DominantControllerObserversU3Ed__170_System_Collections_IEnumerator_Reset_mA17C501B7436B1FD4FC90555D4878A2A2B805473,
+	U3Cget_DominantControllerObserversU3Ed__170_System_Collections_IEnumerator_get_Current_m34D57187B6677046D3EF12167F8C4619932A53D8,
+	U3Cget_DominantControllerObserversU3Ed__170_System_Collections_Generic_IEnumerableU3CZinnia_Tracking_CameraRig_DominantControllerObserverU3E_GetEnumerator_mDEF8ED9688F1455B90C3CBEF4A4D97CF03C17647,
+	U3Cget_DominantControllerObserversU3Ed__170_System_Collections_IEnumerable_GetEnumerator_m3022DC0E9FF03238AAF5B799D6BE2E22F7E54909,
+	U3Cget_LeftControllersU3Ed__172__ctor_mF1DD426F98531499662D447A2E71084C0E8F6C04,
+	U3Cget_LeftControllersU3Ed__172_System_IDisposable_Dispose_mCB1AC08A772C3D73EFB38B2D241905ECF661B10E,
+	U3Cget_LeftControllersU3Ed__172_MoveNext_mCEB8C876DE16FAAB55427070F44C1F45A236F201,
+	U3Cget_LeftControllersU3Ed__172_U3CU3Em__Finally1_m5ECA576F3478ED4FC652CD47162D67D79BDD00F4,
+	U3Cget_LeftControllersU3Ed__172_System_Collections_Generic_IEnumeratorU3CUnityEngine_GameObjectU3E_get_Current_m65ECA77F8B7A539577003FB2A1816F54BFF908F9,
+	U3Cget_LeftControllersU3Ed__172_System_Collections_IEnumerator_Reset_m58B34B064B1D46D59896B87FDC814862970A780D,
+	U3Cget_LeftControllersU3Ed__172_System_Collections_IEnumerator_get_Current_m3376C97CF10D742612F6C8E806F0D99E632B1AEC,
+	U3Cget_LeftControllersU3Ed__172_System_Collections_Generic_IEnumerableU3CUnityEngine_GameObjectU3E_GetEnumerator_m24EB253AC9681DF9062CF9840088F51A6C32ED20,
+	U3Cget_LeftControllersU3Ed__172_System_Collections_IEnumerable_GetEnumerator_mE46C1D0637B847268CFF5539929B0CD940A855C2,
+	U3Cget_RightControllersU3Ed__174__ctor_mCDAA2E77068053BB76F0F83ADD7B340EC03158FC,
+	U3Cget_RightControllersU3Ed__174_System_IDisposable_Dispose_m5B537DDCDF888B7557B8128E740D4EE3A93DE6DD,
+	U3Cget_RightControllersU3Ed__174_MoveNext_m4697E5BC326798E617B24B3A96CAC69F0EA56054,
+	U3Cget_RightControllersU3Ed__174_U3CU3Em__Finally1_mE5C31D8C9B5261082EDEFBC51A036634A99AFCB3,
+	U3Cget_RightControllersU3Ed__174_System_Collections_Generic_IEnumeratorU3CUnityEngine_GameObjectU3E_get_Current_m9B36633C69B38CBD55002C7AD9A3A806F5E43A32,
+	U3Cget_RightControllersU3Ed__174_System_Collections_IEnumerator_Reset_mE42302890825D351EB4C510D180FD9D0EABFC784,
+	U3Cget_RightControllersU3Ed__174_System_Collections_IEnumerator_get_Current_mAFD3E01804B17BA5DD05E073D67DDED280BA833C,
+	U3Cget_RightControllersU3Ed__174_System_Collections_Generic_IEnumerableU3CUnityEngine_GameObjectU3E_GetEnumerator_m8E8898BCD307BCA9DEAFB6A7C5A3BF08AFA3A038,
+	U3Cget_RightControllersU3Ed__174_System_Collections_IEnumerable_GetEnumerator_m3E661F78CA005F41E50CED0D321C901C8C6DA1C9,
+	U3Cget_LeftControllerVelocityTrackersU3Ed__176__ctor_m181353B474CD3CD7A774E5F92B1749A48461EC26,
+	U3Cget_LeftControllerVelocityTrackersU3Ed__176_System_IDisposable_Dispose_m932FE672B50790300B48C11AF47861B9871748B9,
+	U3Cget_LeftControllerVelocityTrackersU3Ed__176_MoveNext_m765C03999DCF026236B0B9E261FBD0488CCC0E56,
+	U3Cget_LeftControllerVelocityTrackersU3Ed__176_U3CU3Em__Finally1_m8382120829FEA8A43C258A1FDE0F21A91D108944,
+	U3Cget_LeftControllerVelocityTrackersU3Ed__176_System_Collections_Generic_IEnumeratorU3CZinnia_Tracking_Velocity_VelocityTrackerU3E_get_Current_mF8E68FD2D63C93C51400CBF2627E907B802EC4A7,
+	U3Cget_LeftControllerVelocityTrackersU3Ed__176_System_Collections_IEnumerator_Reset_m12DA2C8C9B02CBA0052AEF01390AAC6629FB7C8C,
+	U3Cget_LeftControllerVelocityTrackersU3Ed__176_System_Collections_IEnumerator_get_Current_m400914149CCA78BB45AF0116F514C9060D134EE9,
+	U3Cget_LeftControllerVelocityTrackersU3Ed__176_System_Collections_Generic_IEnumerableU3CZinnia_Tracking_Velocity_VelocityTrackerU3E_GetEnumerator_m6D71FD60BF51C79527783543DE173E79433F1115,
+	U3Cget_LeftControllerVelocityTrackersU3Ed__176_System_Collections_IEnumerable_GetEnumerator_m001CE25E968072F074E877882AC238AE9FB3C670,
+	U3Cget_RightControllerVelocityTrackersU3Ed__178__ctor_m151A343643E1E1889EAB769744F3430C5148FA3D,
+	U3Cget_RightControllerVelocityTrackersU3Ed__178_System_IDisposable_Dispose_mCF05102EC4DEE7ED46B54464EAAAA6A6F795EA36,
+	U3Cget_RightControllerVelocityTrackersU3Ed__178_MoveNext_m2624CAE1050C60D9AD2941C21B9E444C539DC886,
+	U3Cget_RightControllerVelocityTrackersU3Ed__178_U3CU3Em__Finally1_mC7D607C4D5C2FEDA77E9D463BC59B58A78E77099,
+	U3Cget_RightControllerVelocityTrackersU3Ed__178_System_Collections_Generic_IEnumeratorU3CZinnia_Tracking_Velocity_VelocityTrackerU3E_get_Current_mFAFB509E09BD527E2AB29A7ECB1BF70CD449D691,
+	U3Cget_RightControllerVelocityTrackersU3Ed__178_System_Collections_IEnumerator_Reset_m8BD45C4070E7BA011CFAAFA25CC1B12A54030C4B,
+	U3Cget_RightControllerVelocityTrackersU3Ed__178_System_Collections_IEnumerator_get_Current_m5D54B300AA07FDEFE915CB10EC665F0894F56CAD,
+	U3Cget_RightControllerVelocityTrackersU3Ed__178_System_Collections_Generic_IEnumerableU3CZinnia_Tracking_Velocity_VelocityTrackerU3E_GetEnumerator_m6736A7D728899BA48CB7A869BE39BD39DD65A84B,
+	U3Cget_RightControllerVelocityTrackersU3Ed__178_System_Collections_IEnumerable_GetEnumerator_m30141C4ECCDE89F63C23753C5F01FDEF7E5AF466,
+	U3Cget_LeftControllerHapticProcessesU3Ed__180__ctor_m211B3A8C8FDC3E6B41CFC33A33E7C6D81B1C19F9,
+	U3Cget_LeftControllerHapticProcessesU3Ed__180_System_IDisposable_Dispose_m0D856119044A3BE9FC9F97D7BB8B6D45473C793D,
+	U3Cget_LeftControllerHapticProcessesU3Ed__180_MoveNext_mDC9A3B994048AA6DBB05C655C16982FAB9C3A40F,
+	U3Cget_LeftControllerHapticProcessesU3Ed__180_U3CU3Em__Finally1_m44EFB4A6E6AAF417F098D6708ACCAD48EC150127,
+	U3Cget_LeftControllerHapticProcessesU3Ed__180_System_Collections_Generic_IEnumeratorU3CZinnia_Haptics_HapticProcessU3E_get_Current_m313785FB8E66687CE6F946D38123350FE951E3F2,
+	U3Cget_LeftControllerHapticProcessesU3Ed__180_System_Collections_IEnumerator_Reset_m4AD44027B829888156DB9B804F52EEAC1A38C2F9,
+	U3Cget_LeftControllerHapticProcessesU3Ed__180_System_Collections_IEnumerator_get_Current_m72B7C3BC817ABE17FBE132001BA5D8A70ACB0CB6,
+	U3Cget_LeftControllerHapticProcessesU3Ed__180_System_Collections_Generic_IEnumerableU3CZinnia_Haptics_HapticProcessU3E_GetEnumerator_mB9A515B59431926B7C4765A27DE1A379454B02C9,
+	U3Cget_LeftControllerHapticProcessesU3Ed__180_System_Collections_IEnumerable_GetEnumerator_m994521EF874AFDAACA062FCD85ABEF7AC4B277AD,
+	U3Cget_RightControllerHapticProcessesU3Ed__182__ctor_m5E504FB6A975B760AF270C67428703306665366F,
+	U3Cget_RightControllerHapticProcessesU3Ed__182_System_IDisposable_Dispose_mDDE7773AFC61DF264356268D321AF0BE3FAAA18C,
+	U3Cget_RightControllerHapticProcessesU3Ed__182_MoveNext_m80BD3A923C69468B99C59AA32F9547971A8CAAD1,
+	U3Cget_RightControllerHapticProcessesU3Ed__182_U3CU3Em__Finally1_m4F6FCE01C58D73DC51F70CC8D6B48795D00BD675,
+	U3Cget_RightControllerHapticProcessesU3Ed__182_System_Collections_Generic_IEnumeratorU3CZinnia_Haptics_HapticProcessU3E_get_Current_m9F9851121B4823B7BB0AEE056A55AE5D6C834209,
+	U3Cget_RightControllerHapticProcessesU3Ed__182_System_Collections_IEnumerator_Reset_m0F4D5DF05CAA57B663F905579B2945243DD545D7,
+	U3Cget_RightControllerHapticProcessesU3Ed__182_System_Collections_IEnumerator_get_Current_m96D098229A82B7D924E53DFEFF3953964F1AF698,
+	U3Cget_RightControllerHapticProcessesU3Ed__182_System_Collections_Generic_IEnumerableU3CZinnia_Haptics_HapticProcessU3E_GetEnumerator_m2A96351582556970AAE68455AAA297ED21D536B2,
+	U3Cget_RightControllerHapticProcessesU3Ed__182_System_Collections_IEnumerable_GetEnumerator_mF55779C5C83C561027EDAE3BB09B7802665AF9EB,
+	U3Cget_LeftControllerHapticProfilesU3Ed__184__ctor_mBB31B18C59451BE2E349D6B35B8E3DC141CA27E2,
+	U3Cget_LeftControllerHapticProfilesU3Ed__184_System_IDisposable_Dispose_m9EFBEEF1F09B7B9D550B01825D0EE27742342197,
+	U3Cget_LeftControllerHapticProfilesU3Ed__184_MoveNext_mA91BE5200F915C97CFE3396F45AD792913ECF622,
+	U3Cget_LeftControllerHapticProfilesU3Ed__184_U3CU3Em__Finally1_m402886CB4F25DB63EB43DDE010D9B9F51A6D57F4,
+	U3Cget_LeftControllerHapticProfilesU3Ed__184_System_Collections_Generic_IEnumeratorU3CZinnia_Haptics_Collection_HapticProcessObservableListU3E_get_Current_m5AE15BA120FC3D85414E3C69D0A26332F79758B9,
+	U3Cget_LeftControllerHapticProfilesU3Ed__184_System_Collections_IEnumerator_Reset_mF08710CAA9B8BBF3BE6C2FEA7C01C3BCC30A2AE2,
+	U3Cget_LeftControllerHapticProfilesU3Ed__184_System_Collections_IEnumerator_get_Current_mEB3BE7A429F42A7EA5C736CFCCE3D0B2119F16D4,
+	U3Cget_LeftControllerHapticProfilesU3Ed__184_System_Collections_Generic_IEnumerableU3CZinnia_Haptics_Collection_HapticProcessObservableListU3E_GetEnumerator_m0EBCB281EC51395F3396641DF15AB4A0DC3D96D5,
+	U3Cget_LeftControllerHapticProfilesU3Ed__184_System_Collections_IEnumerable_GetEnumerator_m7FA22B5FC36309049D28FDC4128077DED658B772,
+	U3Cget_RightControllerHapticProfilesU3Ed__186__ctor_mA239FC4AE83DCC2241F091736CF7D4EC84454A53,
+	U3Cget_RightControllerHapticProfilesU3Ed__186_System_IDisposable_Dispose_m090164556BEC6107BB963D71DE2BE952E1AA1CD6,
+	U3Cget_RightControllerHapticProfilesU3Ed__186_MoveNext_mB14DF10678E266A4F9CBBD5E4E146E73B5D90EE6,
+	U3Cget_RightControllerHapticProfilesU3Ed__186_U3CU3Em__Finally1_m3F81B40EA58290158FB48DB67BB0D83799723550,
+	U3Cget_RightControllerHapticProfilesU3Ed__186_System_Collections_Generic_IEnumeratorU3CZinnia_Haptics_Collection_HapticProcessObservableListU3E_get_Current_mD063BEAB8612DBDFD92E76946F6F3A791F8AD3A4,
+	U3Cget_RightControllerHapticProfilesU3Ed__186_System_Collections_IEnumerator_Reset_mC690B60EB4CA310DCD6AE854B3E55A94DBEACFCD,
+	U3Cget_RightControllerHapticProfilesU3Ed__186_System_Collections_IEnumerator_get_Current_m5EED492546217D07A0D2C5E6AD9A7B34E11F7B32,
+	U3Cget_RightControllerHapticProfilesU3Ed__186_System_Collections_Generic_IEnumerableU3CZinnia_Haptics_Collection_HapticProcessObservableListU3E_GetEnumerator_mC65F6BF70FB8FDD0F0082FE8A0F2B016BA0AA978,
+	U3Cget_RightControllerHapticProfilesU3Ed__186_System_Collections_IEnumerable_GetEnumerator_mF1853A35B7EE233F7ADB63995670EE7D85C0D851,
+	U3Cget_LeftControllerDeviceDetailRecordsU3Ed__188__ctor_m2D5C41C94D6BB273BA466B3CEFACE59495C8B66D,
+	U3Cget_LeftControllerDeviceDetailRecordsU3Ed__188_System_IDisposable_Dispose_m87F507864140607A4D0D7CBB822B37244BF4FF82,
+	U3Cget_LeftControllerDeviceDetailRecordsU3Ed__188_MoveNext_m2EA889D5588318B794E6B4E0A6805EAE5A549044,
+	U3Cget_LeftControllerDeviceDetailRecordsU3Ed__188_U3CU3Em__Finally1_mBAE9A7049D88ABCFBC438DB402D53C7579BC68D3,
+	U3Cget_LeftControllerDeviceDetailRecordsU3Ed__188_System_Collections_Generic_IEnumeratorU3CZinnia_Tracking_CameraRig_DeviceDetailsRecordU3E_get_Current_mDBFCBAD03610E0C4178118410C8D6620EB265D96,
+	U3Cget_LeftControllerDeviceDetailRecordsU3Ed__188_System_Collections_IEnumerator_Reset_m216B79B4C9C0FC7D05621C9AF88B261E7156E522,
+	U3Cget_LeftControllerDeviceDetailRecordsU3Ed__188_System_Collections_IEnumerator_get_Current_m9C562ECD0827E8AC190D972EB642EDB172FD99C7,
+	U3Cget_LeftControllerDeviceDetailRecordsU3Ed__188_System_Collections_Generic_IEnumerableU3CZinnia_Tracking_CameraRig_DeviceDetailsRecordU3E_GetEnumerator_m7714B7D9E2FAC5FC6D4D939B74D4E94EF696CAF8,
+	U3Cget_LeftControllerDeviceDetailRecordsU3Ed__188_System_Collections_IEnumerable_GetEnumerator_mAC82DE0715A3CAF21D25F18D40CD07572F13748A,
+	U3Cget_RightControllerDeviceDetailRecordsU3Ed__190__ctor_mEF6EB01352317D5E4FC379C8A2BA37413EB163E5,
+	U3Cget_RightControllerDeviceDetailRecordsU3Ed__190_System_IDisposable_Dispose_mB9DF326EC1374D535D299387F57900119E06D110,
+	U3Cget_RightControllerDeviceDetailRecordsU3Ed__190_MoveNext_m18A9D1FDFB576EA7F6875563FE7A673133039CD4,
+	U3Cget_RightControllerDeviceDetailRecordsU3Ed__190_U3CU3Em__Finally1_m0F632DDC1DCAAD525F2BD6DAB5763EFD686EE98A,
+	U3Cget_RightControllerDeviceDetailRecordsU3Ed__190_System_Collections_Generic_IEnumeratorU3CZinnia_Tracking_CameraRig_DeviceDetailsRecordU3E_get_Current_mF6C9177A02CCA915606BF4788360C7CF0BE17E31,
+	U3Cget_RightControllerDeviceDetailRecordsU3Ed__190_System_Collections_IEnumerator_Reset_m5AD19ED6F95F2E0E9EFC981C0FDCA300CEE82CCF,
+	U3Cget_RightControllerDeviceDetailRecordsU3Ed__190_System_Collections_IEnumerator_get_Current_m89C62A08ABBD1A1706BE2BA79DEDFD6B75F7D212,
+	U3Cget_RightControllerDeviceDetailRecordsU3Ed__190_System_Collections_Generic_IEnumerableU3CZinnia_Tracking_CameraRig_DeviceDetailsRecordU3E_GetEnumerator_m1E8705F6B7999424FE22D6DA30A29229CD00EC3D,
+	U3Cget_RightControllerDeviceDetailRecordsU3Ed__190_System_Collections_IEnumerable_GetEnumerator_mC31868C59977600D7014984724AEDA108FE4F9E4,
+};
+static const int32_t s_InvokerIndices[380] = 
+{
+	6387,
+	5192,
+	6387,
+	5192,
+	6387,
+	5192,
+	6387,
+	5192,
+	6387,
+	5192,
+	6387,
+	5192,
+	6387,
+	5192,
+	6387,
+	5192,
+	6387,
+	5192,
+	6387,
+	5192,
+	6387,
+	5192,
+	6387,
+	5192,
+	6288,
+	5087,
+	6501,
+	5192,
+	5192,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	5087,
+	5087,
+	0,
+	0,
+	0,
+	0,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	5192,
+	6501,
+	5087,
+	5163,
+	5163,
+	6501,
+	6501,
+	6501,
+	5087,
+	5163,
+	5163,
+	6501,
+	5087,
+	5163,
+	5163,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	6387,
+	5192,
+	6387,
+	5192,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6288,
+	6288,
+	6387,
+	6387,
+	6356,
+	6435,
+	6356,
+	6288,
+	6288,
+	5087,
+	6387,
+	6387,
+	6356,
+	6387,
+	6387,
+	6387,
+	6387,
+	5192,
+	6387,
+	6288,
+	6288,
+	6387,
+	6387,
+	6356,
+	6435,
+	6356,
+	6387,
+	6356,
+	6387,
+	6387,
+	6387,
+	6387,
+	5192,
+	6387,
+	6288,
+	6288,
+	6387,
+	6387,
+	6356,
+	6435,
+	6356,
+	6387,
+	6356,
+	6387,
+	6387,
+	6387,
+	6387,
+	5192,
+	6387,
+	6288,
+	6288,
+	6387,
+	6387,
+	6356,
+	6435,
+	6356,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6387,
+	6501,
+	5163,
+	6501,
+	5163,
+	6501,
+	5163,
+	6501,
+	6501,
+	6501,
+	5163,
+	6501,
+	6501,
+	6501,
+	5163,
+	6501,
+	6501,
+	6501,
+	5163,
+	6501,
+	6501,
+	6501,
+	6501,
+	5192,
+	5192,
+	6501,
+	4640,
+	4640,
+	4640,
+	4640,
+	4640,
+	4640,
+	4640,
+	4640,
+	2391,
+	2391,
+	1926,
+	5192,
+	1699,
+	5192,
+	6501,
+	6501,
+	6501,
+	6501,
+	6501,
+	5163,
+	6501,
+	6288,
+	6501,
+	6387,
+	6501,
+	6387,
+	6387,
+	6387,
+	5163,
+	6501,
+	6288,
+	6501,
+	6387,
+	6501,
+	6387,
+	6387,
+	6387,
+	5163,
+	6501,
+	6288,
+	6501,
+	6387,
+	6501,
+	6387,
+	6387,
+	6387,
+	5163,
+	6501,
+	6288,
+	6501,
+	6387,
+	6501,
+	6387,
+	6387,
+	6387,
+	5163,
+	6501,
+	6288,
+	6501,
+	6501,
+	6387,
+	6501,
+	6387,
+	6387,
+	6387,
+	5163,
+	6501,
+	6288,
+	6501,
+	6387,
+	6501,
+	6387,
+	6387,
+	6387,
+	5163,
+	6501,
+	6288,
+	6501,
+	6387,
+	6501,
+	6387,
+	6387,
+	6387,
+	5163,
+	6501,
+	6288,
+	6501,
+	6387,
+	6501,
+	6387,
+	6387,
+	6387,
+	5163,
+	6501,
+	6288,
+	6501,
+	6387,
+	6501,
+	6387,
+	6387,
+	6387,
+	5163,
+	6501,
+	6288,
+	6501,
+	6387,
+	6501,
+	6387,
+	6387,
+	6387,
+	5163,
+	6501,
+	6288,
+	6501,
+	6387,
+	6501,
+	6387,
+	6387,
+	6387,
+	5163,
+	6501,
+	6288,
+	6501,
+	6387,
+	6501,
+	6387,
+	6387,
+	6387,
+	5163,
+	6501,
+	6288,
+	6501,
+	6387,
+	6501,
+	6387,
+	6387,
+	6387,
+	5163,
+	6501,
+	6288,
+	6501,
+	6387,
+	6501,
+	6387,
+	6387,
+	6387,
+	5163,
+	6501,
+	6288,
+	6501,
+	6387,
+	6501,
+	6387,
+	6387,
+	6387,
+	5163,
+	6501,
+	6288,
+	6501,
+	6387,
+	6501,
+	6387,
+	6387,
+	6387,
+	5163,
+	6501,
+	6288,
+	6501,
+	6387,
+	6501,
+	6387,
+	6387,
+	6387,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[4] = 
+{
+	{ 0x06000025, { 0, 5 } },
+	{ 0x06000026, { 5, 3 } },
+	{ 0x06000027, { 8, 3 } },
+	{ 0x06000028, { 11, 1 } },
+};
+extern const uint32_t g_rgctx_TValue_tEDF08C4409A85AF46B69EAF3E2CE92175D268B31;
+extern const Il2CppRGCTXConstrainedData g_rgctx_TValue_tEDF08C4409A85AF46B69EAF3E2CE92175D268B31_Object_Equals_m07105C4585D3FE204F2A80D58523D001DC43F63B;
+extern const uint32_t g_rgctx_TEvent_t2AF2B8D50B960DFCDE4C19D38214F7188980279F;
+extern const uint32_t g_rgctx_UnityEvent_1_tC5A3CAE79126C94331D18437BD03BA55618B19C4;
+extern const uint32_t g_rgctx_UnityEvent_1_Invoke_m351542616B417E70C806D3DBB79C865CF88BEA52;
+extern const uint32_t g_rgctx_TValue_t91A58DBED228E683F8A448C3F6C853C52C8759BA;
+extern const Il2CppRGCTXConstrainedData g_rgctx_TValue_t91A58DBED228E683F8A448C3F6C853C52C8759BA_Object_Equals_m07105C4585D3FE204F2A80D58523D001DC43F63B;
+extern const uint32_t g_rgctx_TEvent_t6A093EF06A5CA4221EE51CFF3AADE30DFD329552;
+extern const uint32_t g_rgctx_TEvent_t66CBE93D9D52192BB9D9AD60437A5A53A88ECAF8;
+extern const uint32_t g_rgctx_UnityEvent_1_tE17815A80246BA13865A5069B983CB8C074A9A11;
+extern const uint32_t g_rgctx_UnityEvent_1_Invoke_m5E35CC41DA016A91F77948840C14B29AA61E2581;
+extern const uint32_t g_rgctx_TEvent_t8512F0C186A4AB93D0831C0BA52D92B75E54933B;
+static const Il2CppRGCTXDefinition s_rgctxValues[12] = 
+{
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TValue_tEDF08C4409A85AF46B69EAF3E2CE92175D268B31 },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_TValue_tEDF08C4409A85AF46B69EAF3E2CE92175D268B31_Object_Equals_m07105C4585D3FE204F2A80D58523D001DC43F63B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TEvent_t2AF2B8D50B960DFCDE4C19D38214F7188980279F },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UnityEvent_1_tC5A3CAE79126C94331D18437BD03BA55618B19C4 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UnityEvent_1_Invoke_m351542616B417E70C806D3DBB79C865CF88BEA52 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TValue_t91A58DBED228E683F8A448C3F6C853C52C8759BA },
+	{ (Il2CppRGCTXDataType)5, (const void *)&g_rgctx_TValue_t91A58DBED228E683F8A448C3F6C853C52C8759BA_Object_Equals_m07105C4585D3FE204F2A80D58523D001DC43F63B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TEvent_t6A093EF06A5CA4221EE51CFF3AADE30DFD329552 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TEvent_t66CBE93D9D52192BB9D9AD60437A5A53A88ECAF8 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_UnityEvent_1_tE17815A80246BA13865A5069B983CB8C074A9A11 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_UnityEvent_1_Invoke_m5E35CC41DA016A91F77948840C14B29AA61E2581 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TEvent_t8512F0C186A4AB93D0831C0BA52D92B75E54933B },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Tilia_CameraRigs_TrackedAlias_Unity_Runtime_CodeGenModule;
+const Il2CppCodeGenModule g_Tilia_CameraRigs_TrackedAlias_Unity_Runtime_CodeGenModule = 
+{
+	"Tilia.CameraRigs.TrackedAlias.Unity.Runtime.dll",
+	380,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	4,
+	s_rgctxIndices,
+	12,
+	s_rgctxValues,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
