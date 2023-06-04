@@ -43,6 +43,22 @@ namespace PICOVRDEMO
 		private void Update()
 		{
             Btn_login.interactable = !(string.IsNullOrEmpty(IF_Account.text) || string.IsNullOrEmpty(IF_Password.text));
+#if UNITY_EDITOR
+			if(Input.GetKeyDown(KeyCode.Return) && Btn_login.interactable)
+			{
+                if (Accounts.Match(IF_Account.text, IF_Password.text))
+                {
+                    Tt_result.text = "登录成功";
+					CloseSelf();
+					//UIKit.OpenPanel<Panel_Design>();
+					GameEntity.Instance.RegitstTestHandle();
+                }
+                else
+                {
+                    Tt_result.text = "账户或密码错误";
+                }
+            }
+#endif
 		}
 
 		protected override void OnShow()

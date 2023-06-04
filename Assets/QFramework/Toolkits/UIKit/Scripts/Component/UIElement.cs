@@ -54,5 +54,19 @@ namespace QFramework
         {
             get { return UIManager.Instance; }
         }
+        public virtual void Init()
+        {
+
+        }
+
+        public virtual void Open()
+        {
+            Show();
+        }
+
+        public virtual void Close()
+        {
+            Hide();
+        }
     }
 }

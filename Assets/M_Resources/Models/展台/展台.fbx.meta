@@ -3,7 +3,77 @@ guid: 2a8236b2401dc7a428c972f4897ad1c6
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 17 - Old Copper #1
+    second: {fileID: 2100000, guid: 900649f066b55dd49af066c4cacd8b3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 806711 Slot #3
+    second: {fileID: 2100000, guid: df896ed71ad1d1e45bc9252753f106d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #25
+    second: {fileID: 2100000, guid: 268b12a2964d5074e80ff135eede9d0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #32
+    second: {fileID: 2100000, guid: 14a1ebbf979e3e847be650e8c7debb94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #33
+    second: {fileID: 2100000, guid: d0cf7babb8bee23409ec47dd648c0019, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #34
+    second: {fileID: 2100000, guid: f8656a782aefc084ca4afdccc9ed6534, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #35
+    second: {fileID: 2100000, guid: d54869e7f1740e647b5419d701262454, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #36
+    second: {fileID: 2100000, guid: 043ff01730baf2145a0411a1c2bbfa29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #37
+    second: {fileID: 2100000, guid: 0595921c49690164c9304ebc6acb6b3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #38
+    second: {fileID: 2100000, guid: 601a33bc74fb8ae40b1505e0ee1113c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8D28"
+    second: {fileID: 2100000, guid: ce3acd076184f274c9064a46fe441e00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8D28.004"
+    second: {fileID: 2100000, guid: ffec073c488a4564893521ddcfae85b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u767D\u8272\u6728\u7EB9"
+    second: {fileID: 2100000, guid: bc13fc60434ea3c468cf4740c14a5d15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u91D1\u5C5E\u74F6\u76D6"
+    second: {fileID: 2100000, guid: 32d50328089078a41a9bae101d58262a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -32,7 +102,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1

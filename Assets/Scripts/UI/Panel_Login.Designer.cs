@@ -5,7 +5,7 @@ using QFramework;
 
 namespace PICOVRDEMO
 {
-	// Generate Id:978643fb-ae21-4994-a298-28d652ebaf4b
+	// Generate Id:05ca51b9-d21a-4fee-9732-84d19a7589c5
 	public partial class Panel_Login
 	{
 		public const string Name = "Panel_Login";
