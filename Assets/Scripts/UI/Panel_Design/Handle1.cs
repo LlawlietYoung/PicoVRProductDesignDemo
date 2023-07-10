@@ -36,8 +36,8 @@ namespace PICOVRDEMO
 			Toggle_3.onValueChanged.AddListener(b =>
 			{
                 if (b) Gongnengtiao.sprite = gongnengtiao[2];
-                if (b) Color.Open();
-				else Color.Close();
+                if (b) ColorModule.Open();
+				else ColorModule.Close();
 			});
 			Toggle_4.onValueChanged.AddListener(b =>
 			{
@@ -45,6 +45,11 @@ namespace PICOVRDEMO
                 if (b) Lights.Open();
 				else Lights.Close();
 			});
+
+            BoxShaps.Init();
+            BoxMats.Init();
+			ColorModule.Init();
+			Lights.Init();
 		}
 
 		public override void Open()

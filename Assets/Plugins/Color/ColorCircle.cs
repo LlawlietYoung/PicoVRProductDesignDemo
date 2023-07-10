@@ -42,6 +42,7 @@ public class ColorCircle : MonoBehaviour, IDragHandler
 
     public void setShowColor()
     {
+        Debug.Log(rt);
         getPos(rt.anchoredPosition);
     }
 

@@ -890,6 +890,11 @@ struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883  : public Behaviour_t0
 {
 };
 
+// UnityEngine.Animations.LookAtConstraint
+struct LookAtConstraint_t2B4569F15EA2736FAC97AD3DE35B093AE8B5D919  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+
 // <Module>
 
 // <Module>
@@ -1176,6 +1181,10 @@ struct AnimatorControllerPlayable_tADDCB301674D6243EFE1BD032E7D118FD091210A_Stat
 // UnityEngine.Animator
 
 // UnityEngine.Animator
+
+// UnityEngine.Animations.LookAtConstraint
+
+// UnityEngine.Animations.LookAtConstraint
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -2995,6 +3004,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimationOffsetPlayable__cctor_m6F50D35C
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

@@ -5425,6 +5425,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UIElement_get_Manager_m215535A
 		return L_0;
 	}
 }
+// System.Void QFramework.UIElement::Init()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElement_Init_m7221D0573EAC2C406931D8322806F8094C417822 (UIElement_tAC0710DF9804BF65C117D16DB98DA328983C2DDA* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void QFramework.UIElement::Open()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElement_Open_m2A95B2064780AB718FEE318198D846E48E758C05 (UIElement_tAC0710DF9804BF65C117D16DB98DA328983C2DDA* __this, const RuntimeMethod* method) 
+{
+	{
+		// Show();
+		VirtualActionInvoker0::Invoke(6 /* System.Void QFramework.QMonoBehaviour::Show() */, __this);
+		// }
+		return;
+	}
+}
+// System.Void QFramework.UIElement::Close()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElement_Close_mC44ED1AC9A062A3BE0D56A76F912052115B251E2 (UIElement_tAC0710DF9804BF65C117D16DB98DA328983C2DDA* __this, const RuntimeMethod* method) 
+{
+	{
+		// Hide();
+		VirtualActionInvoker0::Invoke(8 /* System.Void QFramework.QMonoBehaviour::Hide() */, __this);
+		// }
+		return;
+	}
+}
 // System.Void QFramework.UIElement::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElement__ctor_m396A17C7564709B22FABBB9300CA0FEEA635D954 (UIElement_tAC0710DF9804BF65C117D16DB98DA328983C2DDA* __this, const RuntimeMethod* method) 
 {

@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1945588382
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f9ce72fe27a37d2f4491699b97dbf0ad
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c07a22d5f463510f09a38dc7fe8ef2e1
+HashAppended: 0
+ClassTypes:
+- Class: 114
+  Script: {fileID: 11500000, guid: 25c0b01ca2d340ebbf1efa046a61b7a9, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: QFramework.CoreKit
+  ClassName: QFramework.LanguageDefine
+Assets:
+- Assets/QFrameworkData/LocaleKit/Resources/LanguageDefineConfig.asset
+Dependencies: []

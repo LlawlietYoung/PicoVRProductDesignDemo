@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 2281671662
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: languagedefineconfig_asset
+      Dependencies: {}
+    Info_1:
+      Name: panel_login_prefab
+      Dependencies: {}
+    Info_2:
+      Name: panel_design_prefab
+      Dependencies:
+        Dependency_0: matview_rendertexture
+        Dependency_1: tg_image_prefab
+    Info_3:
+      Name: uihomepanel_prefab
+      Dependencies: {}
+    Info_4:
+      Name: matview_rendertexture
+      Dependencies: {}
+    Info_5:
+      Name: tg_image_prefab
+      Dependencies: {}

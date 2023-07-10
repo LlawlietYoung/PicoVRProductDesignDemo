@@ -5,11 +5,13 @@ using QFramework;
 
 namespace PICOVRDEMO
 {
-	// Generate Id:574ed2bd-04ba-4f2c-b566-7f85bcd42c2a
+	// Generate Id:10ce18e0-5459-4f60-b917-4d3820fcf0f2
 	public partial class Panel_Design
 	{
 		public const string Name = "Panel_Design";
 		
+		[SerializeField]
+		public RectTransform HandController;
 		[SerializeField]
 		public UnityEngine.UI.Button Left;
 		[SerializeField]
@@ -20,16 +22,23 @@ namespace PICOVRDEMO
 		public UnityEngine.UI.Toggle Tg_textures;
 		[SerializeField]
 		public Handle1 Handle1;
+		[SerializeField]
+		public Handle2 Handle2;
+		[SerializeField]
+		public Result Result;
 		
 		private Panel_DesignData mPrivateData = null;
 		
 		protected override void ClearUIComponents()
 		{
+			HandController = null;
 			Left = null;
 			Right = null;
 			Tg_base = null;
 			Tg_textures = null;
 			Handle1 = null;
+			Handle2 = null;
+			Result = null;
 			
 			mData = null;
 		}

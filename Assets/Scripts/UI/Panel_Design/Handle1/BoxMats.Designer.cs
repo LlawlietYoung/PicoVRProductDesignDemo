@@ -10,9 +10,11 @@ namespace PICOVRDEMO
 {
 	public partial class BoxMats
 	{
+		[SerializeField] public UnityEngine.UI.RawImage RawImage;
 
 		public void Clear()
 		{
+			RawImage = null;
 		}
 
 		public override string ComponentName

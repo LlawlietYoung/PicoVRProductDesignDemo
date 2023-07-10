@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.EventSystems;
+using System;
 
 public class ColorManager : MonoBehaviour, IDragHandler
 {
@@ -13,17 +14,15 @@ public class ColorManager : MonoBehaviour, IDragHandler
 
     public Slider sliderCRGB;
     public Image colorShow;
-
+    public Action<Color> onColorChange;
     
-    void OnDisable()
-    {
-        CC.getPos -= CC_getPos;
-    }
+
 
     private void CC_getPos(Vector2 pos)
     {
         Color getColor= CP.GetColorByPosition(pos);
         colorShow.color = getColor;
+        onColorChange?.Invoke(getColor);
     }
     
     // Use this for initialization
@@ -35,10 +34,9 @@ public class ColorManager : MonoBehaviour, IDragHandler
         CC = GetComponentInChildren<ColorCircle>();
 
         sliderCRGB.onValueChanged.AddListener(OnCRGBValueChanged);
-
         CC.getPos += CC_getPos;
     }
-	
+
     public void OnDrag(PointerEventData eventData)
     {
         //Vector3 wordPos;

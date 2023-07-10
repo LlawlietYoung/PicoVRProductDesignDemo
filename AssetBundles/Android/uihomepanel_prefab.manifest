@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 3503651851
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e5ad274368bdb50d83fda23baf215892
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 69ca35b695730daa6b6e443573f4004e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 57c3f7c39dc07f44087dea8b1bbba3b7, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Art/UIPrefab/UIHomePanel.prefab
+Dependencies: []

@@ -240,7 +240,6 @@ UnityEngine.Behaviour::get_isActiveAndEnabled
 UnityEngine.Behaviour::set_enabled
 UnityEngine.BoxCollider::get_center_Injected
 UnityEngine.BoxCollider::get_size_Injected
-UnityEngine.BoxCollider::set_center_Injected
 UnityEngine.BoxCollider::set_size_Injected
 UnityEngine.Camera::get_stereoEnabled
 UnityEngine.Camera::GetAllCamerasCount
@@ -319,7 +318,6 @@ UnityEngine.CanvasGroup::get_ignoreParentGroups
 UnityEngine.CanvasGroup::get_interactable
 UnityEngine.CanvasGroup::get_alpha
 UnityEngine.CanvasGroup::set_alpha
-UnityEngine.CanvasGroup::set_blocksRaycasts
 UnityEngine.CanvasRenderer::get_cull
 UnityEngine.CanvasRenderer::get_cullTransparentMesh
 UnityEngine.CanvasRenderer::get_hasMoved
@@ -805,10 +803,13 @@ UnityEngine.PlayerConnectionInternal::PollInternal
 UnityEngine.PlayerConnectionInternal::RegisterInternal
 UnityEngine.PlayerConnectionInternal::SendMessage
 UnityEngine.PlayerConnectionInternal::UnregisterInternal
+UnityEngine.PlayerPrefs::HasKey
 UnityEngine.PlayerPrefs::TrySetFloat
 UnityEngine.PlayerPrefs::TrySetInt
+UnityEngine.PlayerPrefs::TrySetSetString
 UnityEngine.PlayerPrefs::GetInt
 UnityEngine.PlayerPrefs::GetFloat
+UnityEngine.PlayerPrefs::GetString
 UnityEngine.PropertyNameUtils::PropertyNameFromString_Injected
 UnityEngine.QualitySettings::get_antiAliasing
 UnityEngine.QualitySettings::set_antiAliasing
@@ -965,6 +966,8 @@ UnityEngine.Shader::PropertyToID
 UnityEngine.Shader::TagToID
 UnityEngine.SkinnedMeshRenderer::GetBlendShapeWeight
 UnityEngine.SkinnedMeshRenderer::SetBlendShapeWeight
+UnityEngine.Skybox::set_material
+UnityEngine.Skybox::get_material
 UnityEngine.SortingLayer::GetLayerValueFromID
 UnityEngine.SphereCollider::get_radius
 UnityEngine.SphereCollider::get_center_Injected
@@ -1075,9 +1078,11 @@ UnityEngine.Texture2D::GetWritableImageData
 UnityEngine.Texture2D::GetRawImageDataSize
 UnityEngine.Texture2D::ApplyImpl
 UnityEngine.Texture2D::GetPixelBilinearImpl_Injected
+UnityEngine.Texture2D::GetPixelImpl_Injected
 UnityEngine.Texture2D::ReadPixelsImpl_Injected
 UnityEngine.Texture2D::SetAllPixels32
 UnityEngine.Texture2D::SetPixelImpl_Injected
+UnityEngine.Texture2D::SetPixelsImpl
 UnityEngine.Texture2D::get_whiteTexture
 UnityEngine.Texture2D::get_format
 UnityEngine.Texture2DArray::Internal_CreateImpl
@@ -1125,7 +1130,6 @@ UnityEngine.TrailRenderer::set_startWidth
 UnityEngine.TrailRenderer::set_time
 UnityEngine.Transform::IsChildOf
 UnityEngine.Transform::get_hasChanged
-UnityEngine.Transform::GetSiblingIndex
 UnityEngine.Transform::get_childCount
 UnityEngine.Transform::InverseTransformDirection_Injected
 UnityEngine.Transform::InverseTransformPoint_Injected
@@ -1211,7 +1215,10 @@ UnityEngine.XR.InputDevices::GetDevices_Internal
 UnityEngine.XR.InputDevices::GetDeviceCharacteristics
 UnityEngine.XR.InputTracking::GetDeviceIdAtXRNode
 UnityEngine.XR.InputTracking::GetDeviceIdsAtXRNode_Internal
+UnityEngine.XR.InputTracking::GetLocalPosition_Injected
+UnityEngine.XR.InputTracking::GetLocalRotation_Injected
 UnityEngine.XR.InputTracking::GetNodeStates_Internal
+UnityEngine.XR.XRDevice::SetTrackingSpaceType
 UnityEngine.XR.XRDevice::get_refreshRate
 UnityEngine.XR.XRDevice::DisableAutoXRCameraTracking
 UnityEngine.XR.XRDisplaySubsystem::Internal_TryBeginRecordingIfLateLatched

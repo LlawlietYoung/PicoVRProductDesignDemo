@@ -17,14 +17,17 @@ namespace PICOVRDEMO
 			{
 				if(Accounts.Match(IF_Account.text,IF_Password.text))
 				{
-					Tt_result.text = "登录成功";
-				}
+                    OnLogin();
+                }
 				else
 				{
 					Tt_result.text = "账户或密码错误";
 				}
 			});
-
+			IF_Account.onSubmit.AddListener(s =>
+			{
+				IF_Password.ActivateInputField();
+			});
         }
 		
 		protected override void OnOpen(IUIData uiData = null)
@@ -36,7 +39,7 @@ namespace PICOVRDEMO
 			IF_Account.text = "";
 			IF_Password.text = "";
 #endif
-
+            IF_Account.ActivateInputField();
             Btn_login.interactable = false;
 		}
 
@@ -48,10 +51,7 @@ namespace PICOVRDEMO
 			{
                 if (Accounts.Match(IF_Account.text, IF_Password.text))
                 {
-                    Tt_result.text = "登录成功";
-					CloseSelf();
-					//UIKit.OpenPanel<Panel_Design>();
-					GameEntity.Instance.RegitstTestHandle();
+					OnLogin();
                 }
                 else
                 {
@@ -72,5 +72,15 @@ namespace PICOVRDEMO
 		protected override void OnClose()
 		{
 		}
-	}
+
+		private void OnLogin()
+		{
+            Tt_result.text = "登录成功";
+
+            CloseSelf();
+            //UIKit.OpenPanel<Panel_Design>();
+            GameEntity.Instance.RegitstTestHandle();
+
+        }
+    }
 }

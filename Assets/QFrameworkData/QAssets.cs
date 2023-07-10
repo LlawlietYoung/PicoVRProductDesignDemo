@@ -11,55 +11,20 @@
 namespace QAssetBundle
 {
     
-    public class A_png
+    public class Languagedefineconfig_asset
     {
-        public const string BundleName = "a_png";
-        public const string A = "a";
+        public const string BundleName = "languagedefineconfig_asset";
+        public const string LANGUAGEDEFINECONFIG = "LanguageDefineConfig";
     }
-    public class Assetobj_1_prefab
+    public class Matview_rendertexture
     {
-        public const string BundleName = "assetobj 1_prefab";
-        public const string ASSETOBJ_1 = "AssetObj 1";
+        public const string BundleName = "matview_rendertexture";
+        public const string MATVIEW = "MatView";
     }
-    public class Assetobj_2_prefab
+    public class Msyh_asset
     {
-        public const string BundleName = "assetobj 2_prefab";
-        public const string ASSETOBJ_2 = "AssetObj 2";
-    }
-    public class Assetobj_3_prefab
-    {
-        public const string BundleName = "assetobj 3_prefab";
-        public const string ASSETOBJ_3 = "AssetObj 3";
-    }
-    public class Assetobj_prefab
-    {
-        public const string BundleName = "assetobj_prefab";
-        public const string ASSETOBJ = "AssetObj";
-    }
-    public class B_png
-    {
-        public const string BundleName = "b_png";
-        public const string B = "b";
-    }
-    public class C_png
-    {
-        public const string BundleName = "c_png";
-        public const string C = "c";
-    }
-    public class Imageprefaba_prefab
-    {
-        public const string BundleName = "imageprefaba_prefab";
-        public const string IMAGEPREFABA = "ImagePrefabA";
-    }
-    public class Imageprefabb_prefab
-    {
-        public const string BundleName = "imageprefabb_prefab";
-        public const string IMAGEPREFABB = "ImagePrefabB";
-    }
-    public class Imageprefabc_prefab
-    {
-        public const string BundleName = "imageprefabc_prefab";
-        public const string IMAGEPREFABC = "ImagePrefabC";
+        public const string BundleName = "msyh_asset";
+        public const string MSYH = "msyh";
     }
     public class Panel_design_prefab
     {
@@ -71,49 +36,14 @@ namespace QAssetBundle
         public const string BundleName = "panel_login_prefab";
         public const string PANEL_LOGIN = "Panel_Login";
     }
-    public class Sceneres_unity
+    public class Tg_image_prefab
     {
-        public const string BundleName = "sceneres_unity";
-        public const string SCENERES = "SceneRes";
+        public const string BundleName = "tg_image_prefab";
+        public const string TG_IMAGE = "tg_image";
     }
-    public class Spriteatlas_spriteatlas
+    public class Uihomepanel_prefab
     {
-        public const string BundleName = "spriteatlas_spriteatlas";
-        public const string SPRITEATLAS = "spriteatlas";
-    }
-    public class Textureexample1_png
-    {
-        public const string BundleName = "textureexample1_png";
-        public const string TEXTUREEXAMPLE1 = "TextureExample1";
-    }
-    public class Uibasicpanel_prefab
-    {
-        public const string BundleName = "uibasicpanel_prefab";
-        public const string UIBASICPANEL = "UIBasicPanel";
-    }
-    public class Uimultipanel_prefab
-    {
-        public const string BundleName = "uimultipanel_prefab";
-        public const string UIMULTIPANEL = "UIMultiPanel";
-    }
-    public class Uipanelwithimageprefab_prefab
-    {
-        public const string BundleName = "uipanelwithimageprefab_prefab";
-        public const string UIPANELWITHIMAGEPREFAB = "UIPanelWithImagePrefab";
-    }
-    public class Uistackpanel1_prefab
-    {
-        public const string BundleName = "uistackpanel1_prefab";
-        public const string UISTACKPANEL1 = "UIStackPanel1";
-    }
-    public class Uistackpanel2_prefab
-    {
-        public const string BundleName = "uistackpanel2_prefab";
-        public const string UISTACKPANEL2 = "UIStackPanel2";
-    }
-    public class Uitestpanel_prefab
-    {
-        public const string BundleName = "uitestpanel_prefab";
-        public const string UITESTPANEL = "UITestPanel";
+        public const string BundleName = "uihomepanel_prefab";
+        public const string UIHOMEPANEL = "UIHomePanel";
     }
 }

@@ -17,7 +17,7 @@ namespace PICOVRDEMO
 		[SerializeField] public UnityEngine.UI.Toggle Toggle_4;
 		[SerializeField] public BoxShaps BoxShaps;
 		[SerializeField] public BoxMats BoxMats;
-		[SerializeField] public Color Color;
+		[SerializeField] public ColorModule ColorModule;
 		[SerializeField] public Lights Lights;
 
 		public void Clear()
@@ -29,7 +29,7 @@ namespace PICOVRDEMO
 			Toggle_4 = null;
 			BoxShaps = null;
 			BoxMats = null;
-			Color = null;
+			ColorModule = null;
 			Lights = null;
 		}
 
