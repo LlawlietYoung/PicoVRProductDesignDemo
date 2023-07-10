@@ -24,10 +24,6 @@ namespace PICOVRDEMO
 					Tt_result.text = "ÕË»§»òÃÜÂë´íÎó";
 				}
 			});
-			IF_Account.onSubmit.AddListener(s =>
-			{
-				IF_Password.ActivateInputField();
-			});
         }
 		
 		protected override void OnOpen(IUIData uiData = null)
@@ -39,7 +35,6 @@ namespace PICOVRDEMO
 			IF_Account.text = "";
 			IF_Password.text = "";
 #endif
-            IF_Account.ActivateInputField();
             Btn_login.interactable = false;
 		}
 
@@ -76,10 +71,9 @@ namespace PICOVRDEMO
 		private void OnLogin()
 		{
             Tt_result.text = "µÇÂ¼³É¹¦";
-
+			GameEntity.Instance.login = true;
             CloseSelf();
             //UIKit.OpenPanel<Panel_Design>();
-            GameEntity.Instance.RegitstTestHandle();
 
         }
     }

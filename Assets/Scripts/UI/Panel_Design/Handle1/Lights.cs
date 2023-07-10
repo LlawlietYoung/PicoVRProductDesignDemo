@@ -7,6 +7,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using QFramework;
+using static QFramework.Example.InjectExample;
+using TMPro;
 
 namespace PICOVRDEMO
 {
@@ -36,6 +38,7 @@ namespace PICOVRDEMO
 					angle.x = a;
 					l.transform.eulerAngles = angle;
 				});
+				tt_angle.text = a.ToString("f0");
 			});
 			sl_power.onValueChanged.AddListener(p =>
 			{
@@ -43,7 +46,8 @@ namespace PICOVRDEMO
 				{
 					l.GetComponent<Light>().intensity = p;
 				});
-			});
+                tt_power.text = p.ToString("f1");
+            });
 			dd_type.value = 0;
 			sl_angle.value = 90;
 			sl_power.value = 1;

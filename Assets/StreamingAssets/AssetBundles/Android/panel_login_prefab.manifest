@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3554757527
+CRC: 3994091495
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0aca1641e83aa673c81d7b2087a20681
+    Hash: a9bf1202ac36ab4d0be78fedf19e06b2
   TypeTreeHash:
     serializedVersion: 2
-    Hash: c6edb4f510fb684be5b061572e01e0c4
+    Hash: b59c255897905cc5a9bf46554b318bbb
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -20,13 +20,13 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: d199490a83bb2b844b9695cbf13b01ef, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a5ed86bb98803f44b9781db51170b3fd, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
 - Class: 114
@@ -36,11 +36,11 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 706630edb31724946bf25288929585ec, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: a5ed86bb98803f44b9781db51170b3fd, type: 3}
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 2b588419570d9394a94ff4cef1addb7d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 706630edb31724946bf25288929585ec, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
@@ -68,8 +68,6 @@ SerializeReferenceClassIdentifiers:
   ClassName: UnityEngine.UI.ColorBlock
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.FontData
-- AssemblyName: UnityEngine.UI
-  ClassName: UnityEngine.UI.InputField/EndEditEvent
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.InputField/OnChangeEvent
 - AssemblyName: UnityEngine.UI

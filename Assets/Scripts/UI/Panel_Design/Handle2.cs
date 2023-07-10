@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using QFramework;
+using static QFramework.Example.InjectExample;
 
 namespace PICOVRDEMO
 {
@@ -48,6 +49,15 @@ namespace PICOVRDEMO
             }
 			toggles[0].isOn = true;
 		}
+
+		public override void Open()
+		{
+			base.Open();
+            toggles[0].isOn = true;
+            Show.sprite = sprites[0];
+			currentselect = 0;
+			GameEntity.Instance.boxesMats[GameEntity.Instance.currentmat].SetTexture("_MainTex", textures[0]);
+        }
 
 		protected override void OnBeforeDestroy()
 		{

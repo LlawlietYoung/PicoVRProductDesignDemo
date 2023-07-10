@@ -30,9 +30,11 @@ namespace PICOVRDEMO
 				{
 					if(b)
 					{
-						GameEntity.Instance.skyboxCamera.material = skyboxs[aa];
-						
-						envirmentView.sprite = sp_views[aa];
+                        //GameEntity.Instance.skyboxCamera.material = GameEntity.Instance.skyboxes[aa];
+                        RenderSettings.skybox = GameEntity.Instance.skyboxes[aa];
+						RenderSettings.customReflection = GameEntity.Instance.cubemaps[aa];
+						DynamicGI.UpdateEnvironment();
+                        envirmentView.sprite = sp_views[aa];
 					}
 				});
 			}

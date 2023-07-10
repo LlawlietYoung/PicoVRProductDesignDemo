@@ -26,7 +26,9 @@ namespace PICOVRDEMO
             Panel.onColorChange += color =>
 			{
 				//lights.ForEach(li=>li.color = color);
-				GameEntity.Instance.skyboxCamera.material.SetColor("_Tint", color);
+				//GameEntity.Instance.skyboxCamera.material.SetColor("_Tint", color);
+				RenderSettings.skybox.SetColor("_Tint", color);
+				DynamicGI.UpdateEnvironment();
 			};
 		}
 

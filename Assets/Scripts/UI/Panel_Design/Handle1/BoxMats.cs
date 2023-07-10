@@ -9,6 +9,7 @@ using UnityEngine.UI;
 using QFramework;
 //using PXR_Audio.Spatializer;
 using Color = UnityEngine.Color;
+using static QFramework.Example.InjectExample;
 
 namespace PICOVRDEMO
 {
@@ -86,8 +87,9 @@ namespace PICOVRDEMO
                 renderingMode = MaterialRendemodeSetting.BlendMode.Opaque,
                 metal = 1,
                 smooth = 0.755f,
-                emission = true,
-                emiisioncolor = new Color(173f / 255, 173f / 255, 173f / 255)
+                emission = false,
+                //emiisioncolor = new Color(173f / 255, 173f / 255, 173f / 255)
+                emiisioncolor = Color.black
             };
             matDatas = new MatData[] { mat1, mat2, mat3, mat4, mat5, mat6, mat7, mat8, mat9 };
             for (int i = 0; i < tg_matselectors.Length; i++)
@@ -99,7 +101,16 @@ namespace PICOVRDEMO
                     if (b)
                     {
                         ima_matview.sprite = sp_matsprites[a];
-                        SetMatData(GameEntity.Instance.mat, matDatas[a]);
+                        //SetMatData(GameEntity.Instance.mat, matDatas[a]);
+                        GameObject box = GameEntity.Instance.boxes[GameEntity.Instance.currentbox];
+                        GameEntity.Instance.currentmat = a;
+                        box.GetComponentsInChildren<Renderer>(true).ForEach(re =>
+                        {
+                            re.material = GameEntity.Instance.boxesMats[a];
+                        });
+                        sl_cc.value = GameEntity.Instance.boxesMats[a].GetFloat("_Glossiness");
+                        sl_fs.value = GameEntity.Instance.boxesMats[a].GetFloat("_Metallic");
+                        sl_tm.value = GameEntity.Instance.boxesMats[a].color.a;
                     }
                 });
             }
@@ -123,6 +134,7 @@ namespace PICOVRDEMO
                 mat.DisableKeyword("_EMISSION");
             }
             mat.SetColor("_EmissionColor", data.emiisioncolor);
+            DynamicGI.UpdateEnvironment();
         }
 
 
@@ -130,6 +142,14 @@ namespace PICOVRDEMO
         {
             base.OnShow();
             tg_matselectors[0].isOn = true;
+            ima_matview.sprite = sp_matsprites[0];
+            //SetMatData(GameEntity.Instance.mat, matDatas[a]);
+            GameObject box = GameEntity.Instance.boxes[GameEntity.Instance.currentbox];
+            GameEntity.Instance.currentmat = 0;
+            box.GetComponentsInChildren<Renderer>(true).ForEach(re =>
+            {
+                re.material = GameEntity.Instance.boxesMats[0];
+            });
         }
         protected override void OnBeforeDestroy()
 		{

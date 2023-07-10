@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3662740660
+CRC: 3428732472
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7fa28fbeb8518ed083fe742f2dcb0ef1
+    Hash: 64e5fd7d7bdbc5342aebfe547fbe3029
   TypeTreeHash:
     serializedVersion: 2
-    Hash: c92f7b27467cac68f8fffb0c54e86b07
+    Hash: f1f0d989612e6d433ff354c48af44980
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -32,13 +32,13 @@ SerializeReferenceClassIdentifiers:
   ClassName: TMPro.TMP_FontFeatureTable
 - AssemblyName: Unity.TextMeshPro
   ClassName: TMPro.TMP_FontWeightPair
-- AssemblyName: UnityEngine.TextCoreFontEngineModule
+- AssemblyName: UnityEngine.TextCoreModule
   ClassName: UnityEngine.TextCore.FaceInfo
-- AssemblyName: UnityEngine.TextCoreFontEngineModule
+- AssemblyName: UnityEngine.TextCoreModule
   ClassName: UnityEngine.TextCore.Glyph
-- AssemblyName: UnityEngine.TextCoreFontEngineModule
+- AssemblyName: UnityEngine.TextCoreModule
   ClassName: UnityEngine.TextCore.GlyphMetrics
-- AssemblyName: UnityEngine.TextCoreFontEngineModule
+- AssemblyName: UnityEngine.TextCoreModule
   ClassName: UnityEngine.TextCore.GlyphRect
 Assets:
 - "Assets/TextMesh Pro/Resources/unity \u5B57\u4F53/msyh.asset"

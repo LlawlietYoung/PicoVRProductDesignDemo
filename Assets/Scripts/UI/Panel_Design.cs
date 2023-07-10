@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
 using QFramework;
-using Tilia.Input.UnityInputManager;
 
 namespace PICOVRDEMO
 {

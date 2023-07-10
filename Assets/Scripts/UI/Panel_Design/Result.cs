@@ -31,6 +31,14 @@ namespace PICOVRDEMO
 		{
 			UIKit.CloseAllPanel();
 			UIKit.OpenPanel<Panel_Design>();
+			GameEntity.Instance.boxes.ForEach(box =>
+			{
+				box.Hide();
+			});
+			GameEntity.Instance.boxesMats.ForEach(mat =>
+			{
+				mat.SetTexture("_MainTex", null);
+			});
 		}
 		protected override void OnBeforeDestroy()
 		{

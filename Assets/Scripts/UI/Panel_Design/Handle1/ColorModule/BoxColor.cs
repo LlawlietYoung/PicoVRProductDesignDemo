@@ -21,7 +21,8 @@ namespace PICOVRDEMO
             RawImage.texture = GameEntity.Instance.boxviewrt;
             Panel.onColorChange += color =>
 			{
-				GameEntity.Instance.mat.color = color;
+				//GameEntity.Instance.mat.color = color;
+				GameEntity.Instance.boxesMats[GameEntity.Instance.currentmat].color = color;
 			};
 		}
 		protected override void OnBeforeDestroy()

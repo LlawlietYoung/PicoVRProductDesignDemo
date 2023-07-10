@@ -2,12 +2,9 @@ using PICOVRDEMO;
 using QFramework;
 using System.Collections;
 using System.Collections.Generic;
-using Tilia.Input.UnityInputManager;
-using Unity.XR.CoreUtils;
+
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.LowLevel;
-using UnityEngine.InputSystem.XR;
+
 using UnityEngine.XR;
 using CommonUsages = UnityEngine.XR.CommonUsages;
 using InputDevice = UnityEngine.XR.InputDevice;
@@ -47,16 +44,24 @@ namespace PICOVRDEMO
 
     public class GameEntity : MonoSingleton<GameEntity>
     {
+
+        public bool login = false;
         //public UnityInputManagerButtonAction leftxbutton;
         private InputDevice leftinputDevice, rightinputDevice;
         public GameObject[] boxes;
+        public int currentbox = 0;
         public GameObject[] lights;
         public GameObject dirlight, pointlight, spotlight;
 
         public Material mat;
+        public int currentmat = 0;
         public RenderTexture boxviewrt;
 
         public Skybox skyboxCamera;
+        public Material[] skyboxes;
+        public Cubemap[] cubemaps;
+
+        public Material[] boxesMats;
 
         [HideInInspector]
         public bool menuValue_Ldown;
@@ -208,7 +213,13 @@ namespace PICOVRDEMO
             function leftaAction = Getfunction(Inputstate.primaryL);
             if(leftaAction.pressed)
             {
+                if(login)
+                UIKit.OpenPanel<Panel_Design>();
+            }
+            if(Input.GetKeyDown(KeyCode.X))
+            {
                 Debug.Log("≤‚ ‘◊Û ÷±˙X");
+                if(login)
                 UIKit.OpenPanel<Panel_Design>();
             }
         }
