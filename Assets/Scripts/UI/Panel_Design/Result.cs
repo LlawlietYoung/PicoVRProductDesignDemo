@@ -25,13 +25,18 @@ namespace PICOVRDEMO
 
 		public void Save()
 		{
-			Remake();
+			if(GameEntity.Instance.CreatBox())
+			{
+
+			}
+			//Remake();
 		}
 		public void Remake()
 		{
 			UIKit.CloseAllPanel();
 			UIKit.OpenPanel<Panel_Design>();
-			GameEntity.Instance.boxes.ForEach(box =>
+
+            GameEntity.Instance.boxes.ForEach(box =>
 			{
 				box.Hide();
 			});

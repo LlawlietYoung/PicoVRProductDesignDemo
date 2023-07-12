@@ -63,6 +63,10 @@ namespace PICOVRDEMO
 
         public Material[] boxesMats;
 
+        public GameObject[] boxPrefabs;
+        public Transform[] boxesTransform;
+        public List<GameObject> boxesList = new List<GameObject>();
+
         [HideInInspector]
         public bool menuValue_Ldown;
         [HideInInspector]
@@ -228,6 +232,28 @@ namespace PICOVRDEMO
             function temp = new function();
             Dicfunction.TryGetValue(inputstate, out temp);
             return temp;
+        }
+
+        public bool CreatBox()
+        {
+            if (boxesList.Count >= 8) return false;
+            int a = Random.Range(0, 7);
+            while (boxesTransform[a].childCount != 0)
+            {
+                a = Random.Range(0, 7);
+            }
+            GameObject box = Instantiate(boxPrefabs[currentbox], boxesTransform[a]);
+            boxesList.Add(box);
+            Save();
+            return true;
+        }
+        public void Delete()
+        {
+
+        }
+        public void Save()
+        {
+
         }
     }
 }
